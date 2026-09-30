@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Régua do Voto — Eleições 2026 (São Paulo)
 
-## Getting Started
+Site em português para quem vota no estado de São Paulo em 4 de outubro de 2026.
+Mostra todos os candidatos a presidente, governador, senador, deputado federal e
+deputado estadual:
 
-First, run the development server:
+- em ordem **da direita para a esquerda**, por análise de propostas e estudos técnicos;
+- com o **nome em vermelho** quando há um motivo de alerta com fonte (voto em benefício
+  dos próprios políticos, voto ou ato por mais imposto, acusação ou condenação).
+
+A página `/como-funciona` explica as regras, as fontes e os limites.
+
+## Rodar
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3050
+npm run build && npm start   # versão estática, como vai ao ar
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dados
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Pasta | O que tem |
+|---|---|
+| `data/raw/tse-candidatos.json`, `tse-detalhes.json` | Lista oficial do TSE (DivulgaCand): número, nome, partido, situação do registro, se consta da urna |
+| `data/raw/camara-votos.json` | Votos dos deputados de SP nas votações nominais listadas em `scripts/votacoes-camara.ts` |
+| `data/partidos.json` | Nota de cada partido na régua (pesquisa com cientistas políticos, rodada de 2022) |
+| `data/research/` | Apuração com fontes: análise dos candidatos majoritários e alertas de deputados |
+| `src/data/` | Arquivos gerados que o site lê. Não editar à mão |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run data:camara   # atualiza os votos pela API de Dados Abertos da Câmara
+npm run data:build    # gera src/data a partir de data/
+```
 
-## Learn More
+O site do TSE recusa acesso automatizado, então a lista de candidatos foi copiada pelo
+navegador a partir da API pública do DivulgaCand.
 
-To learn more about Next.js, take a look at the following resources:
+## Testes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+scripts/check         # tipos, lint, testes unitários e build (também roda no pre-push)
+npm run e2e           # Playwright: todas as rotas, acessibilidade e capturas de tela
+git config core.hooksPath .githooks   # uma vez por clone
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Publicar
 
-## Deploy on Vercel
+O site é estático (`next build` gera a pasta `out/`). `npm run deploy` gera a versão para o
+GitHub Pages e publica no branch `gh-pages`; o CI faz o mesmo a cada push no `main`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Aviso
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Nome em vermelho não quer dizer culpado, e nome sem vermelho não quer dizer ficha limpa.
+Cada motivo traz a fonte e a situação do caso na data em que os dados foram gerados.

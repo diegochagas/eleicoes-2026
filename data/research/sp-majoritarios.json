@@ -1,0 +1,820 @@
+{
+ "governador": [
+  {
+   "numero": 10,
+   "nomeUrna": "TARCÍSIO",
+   "partido": "REPUBLICANOS",
+   "vice": "Felicio Ramuth (MDB)",
+   "score": 8.25,
+   "score_economia": 8.5,
+   "score_costumes": 8.0,
+   "justificativa": "Quer terminar de passar a Sabesp (empresa de água) para donos privados e entregar mais portos, aeroportos, hospitais e escolas para empresas cuidarem. Quer mais escolas cívico-militares e mais câmeras e reconhecimento facial para a polícia. O partido dele, o Republicanos, é classificado por cientistas políticos na direita (8,33 de 10).",
+   "propostas": [
+    {
+     "texto": "Desestatização completa da Sabesp e mais concessões de portos, aeroportos e parcerias privadas na saúde e na educação",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Ampliar as escolas cívico-militares e o ensino integral e técnico",
+     "fonte": "https://www.metropoles.com/sao-paulo/veja-as-propostas-dos-candidatos-ao-governo-de-sao-paulo-para-a-educacao"
+    },
+    {
+     "texto": "Ampliar em 30% o programa Muralha Paulista (câmeras e reconhecimento facial) e cobrar metas das polícias",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "R$ 500 bilhões em obras com dinheiro público e privado (programa SP Pra Toda Obra 4.0)",
+     "fonte": "https://www.dgabc.com.br/Noticia/4342719/tarcisio-e-haddad-tem-visoes-distintas-sobre-como-governar-sao-paulo"
+    },
+    {
+     "texto": "Ampliar a Tabela SUS Paulista, que paga mais aos hospitais filantrópicos",
+     "fonte": "https://www.dgabc.com.br/Noticia/4342719/tarcisio-e-haddad-tem-visoes-distintas-sobre-como-governar-sao-paulo"
+    }
+   ],
+   "motivos": [
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em janeiro de 2023, deixou passar o prazo sem vetar nem assinar a lei que aumentou em 50% o salário do governador (de R$ 23 mil para R$ 34,5 mil); com isso, a lei foi promulgada pela Alesp e o aumento passou a valer para ele.",
+     "status": "fato",
+     "fonte": "https://www.metropoles.com/sao-paulo/assembleia-promulga-lei-e-livra-tarcisio-de-aumentar-proprio-salario",
+     "fonte_nome": "Metrópoles"
+    },
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em maio de 2025, a Alesp aprovou novo aumento de 5% no salário do governador, do vice e dos secretários (o dele foi para R$ 36,3 mil); o projeto foi apresentado pela Mesa da Alesp, não por ele.",
+     "status": "fato",
+     "fonte": "https://www.dgabc.com.br/Noticia/4233345/alesp-aprova-reajuste-no-salario-de-tarcisio-e-aumenta-teto-do-funcionalismo",
+     "fonte_nome": "Diário do Grande ABC",
+     "fonte_extra": "https://www.cnnbrasil.com.br/politica/alesp-reajuste-salarios-votacao/"
+    },
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em novembro de 2023, sancionou a Lei 17.843, que cancelou as multas aplicadas em São Paulo na pandemia de Covid-19; um dos beneficiados foi o aliado Jair Bolsonaro, que devia cerca de R$ 1,1 milhão em multas.",
+     "status": "fato",
+     "fonte": "https://www.poder360.com.br/governo/tarcisio-sanciona-lei-que-anistia-multas-a-bolsonaro-na-pandemia/",
+     "fonte_nome": "Poder360"
+    },
+    {
+     "tipo": "imposto",
+     "texto": "Em janeiro de 2025, o ICMS (imposto estadual) de bares e restaurantes subiu de 3,2% para 4% por decreto assinado por ele; o regime especial do setor ia acabar, o que levaria o imposto a 12%, e o governo negociou a alíquota de 4%.",
+     "status": "fato",
+     "fonte": "https://jovempan.com.br/noticias/economia/governo-de-sao-paulo-decide-manter-regime-especial-para-alimentacao-fora-de-casa-e-define-aliquota-de-4.html",
+     "fonte_nome": "Jovem Pan",
+     "fonte_extra": "https://www.panrotas.com.br/mercado/economia-e-politica/2025/01/governo-de-sp-publica-decreto-que-fixa-icms-em-4-para-bares-e-restaurantes_213489.html"
+    }
+   ],
+   "vice_motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "O vice Felicio Ramuth e a esposa são investigados desde maio de 2023 pela Justiça de Andorra (Europa) por suspeita de lavagem de dinheiro em uma conta com cerca de US$ 1,6 milhão; ele diz que o dinheiro é legal e foi declarado. Em 24 de abril de 2026, o Ministério Público de São Paulo arquivou o pedido de investigação feito no Brasil; a apuração em Andorra seguia aberta, sem decisão, segundo as reportagens de fevereiro e abril de 2026.",
+     "status": "investigado",
+     "fonte": "https://www.metropoles.com/sao-paulo/mpsp-tarcisio-andorra",
+     "fonte_nome": "Metrópoles",
+     "fonte_extra": "https://www.infomoney.com.br/?p=3222941"
+    }
+   ],
+   "situacao_nota": null,
+   "notas": "Retirado pela regra de escopo (assunto sem relação com dinheiro público e sem denúncia ou punição): questionamento de 2022 sobre a mudança do título de eleitor para São José dos Campos, arquivado pelo Ministério Público Eleitoral e rejeitado pelo TRE-SP em junho de 2022 (https://www.poder360.com.br/justica/tre-sp-rejeita-acao-contra-transferencia-de-domicilio-de-tarcisio/). Não entrou em 'motivos' por falta de fonte aberta nesta sessão: (1) fala de Tarcísio em 27/10/2024 ligando o PCC a voto em Boulos — a Wikipédia cita o G1 dizendo que o TRE-SP absolveu Tarcísio e Nunes em 7/3/2025 (https://g1.globo.com/sp/sao-paulo/noticia/2025/03/07/tre-sp-absolve-tarcisio-e-nunes-em-processo-sobre-salve-do-pcc-para-voto-em-boulos-no-2-turno-de-2024.ghtml), mas não consegui abrir o G1; (2) novos pedágios 'free flow' nas concessões de rodovias: confirmei só o anúncio de 2023 (CNN), não um número verificado de pedágios novos; (3) não confirmei se o aumento de 5% de 2025 foi sancionado por ele ou promulgado pela Alesp. Em 2025 o STF (Moraes) arquivou pedido de investigação por obstrução de Justiça feito por deputado do PT — não incluído por ser só representação política arquivada de início. A PGR pediu ao STF em 2024 a derrubada da lei de anistia das multas; desfecho não confirmado. Valores da conta de Ramuth variam entre as fontes (US$ 1,4 mi bloqueados no InfoMoney; US$ 1,6 mi no Metrópoles)."
+  },
+  {
+   "numero": 13,
+   "nomeUrna": "FERNANDO HADDAD",
+   "partido": "PT",
+   "vice": "Márcio França (PSB)",
+   "score": 3.25,
+   "score_economia": 3.5,
+   "score_costumes": 3.0,
+   "justificativa": "Não quer vender mais empresas públicas, mas também não promete comprar a Sabesp de volta: quer o governo fiscalizando e multando as empresas que cuidam de trens, metrô e estradas. Quer câmeras nos uniformes dos policiais gravando o tempo todo e mais escolas em tempo integral. Como ministro da Fazenda, aumentou o imposto IOF em 2025; o PT é classificado na esquerda (2,68 de 10).",
+   "propostas": [
+    {
+     "texto": "Fiscalizar mais as concessões e privatizações, com multas por atraso e má qualidade, sem reestatizar",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Criar uma Agência Estadual Antifacção e gravar sem parar as câmeras corporais dos policiais",
+     "fonte": "https://www.dgabc.com.br/Noticia/4342719/tarcisio-e-haddad-tem-visoes-distintas-sobre-como-governar-sao-paulo"
+    },
+    {
+     "texto": "Delegacias de Defesa da Mulher abertas 24 horas",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "Ampliar o ensino em tempo integral e fazer um pacto de alfabetização com as 645 cidades",
+     "fonte": "https://www.dgabc.com.br/Noticia/4342719/tarcisio-e-haddad-tem-visoes-distintas-sobre-como-governar-sao-paulo"
+    },
+    {
+     "texto": "Universalizar o saneamento fiscalizando a qualidade do serviço concedido e protegendo mananciais",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-meio-ambiente"
+    }
+   ],
+   "motivos": [
+    {
+     "tipo": "imposto",
+     "texto": "Em maio de 2025, como ministro da Fazenda, anunciou decreto que aumentou o IOF (imposto sobre crédito para empresas, cartão no exterior e compra de moeda estrangeira); parte do aumento foi cancelada no mesmo dia, depois das críticas.",
+     "status": "fato",
+     "fonte": "https://www.infomoney.com.br/economia/iof-veja-o-que-mudou-e-o-que-segue-em-vigor-em-meio-a-pressao-do-congresso/",
+     "fonte_nome": "InfoMoney"
+    },
+    {
+     "tipo": "imposto",
+     "texto": "A 'taxa das blusinhas' (imposto de 20% sobre compras internacionais de até US$ 50) valeu de agosto de 2024 a maio de 2026; foi aprovada pelo Congresso e sancionada por Lula, e a equipe econômica chefiada por Haddad defendeu a cobrança. Em 2026 ele disse que os governadores estavam certos em cobrar.",
+     "status": "fato",
+     "fonte": "https://www.poder360.com.br/poder-economia/haddad-diz-que-eram-governadores-que-cobravam-taxa-das-blusinhas/",
+     "fonte_nome": "Poder360",
+     "fonte_extra": "https://www.agazeta.com.br/economia/taxa-das-blusinhas-comeca-a-valer-a-partir-de-1-de-agosto-diz-governo-0624"
+    },
+    {
+     "tipo": "imposto",
+     "texto": "Em 2013, quando era prefeito de São Paulo, sua gestão aprovou a Lei 15.889, que aumentou o IPTU em até 20% para casas e 35% para comércios; a Justiça suspendeu o aumento e, em novembro de 2014, o TJ-SP liberou a cobrança por 17 votos a 6.",
+     "status": "fato",
+     "fonte": "https://www.conjur.com.br/2014-nov-26/prefeitura-sao-paulo-aumentar-iptu-decide-tj-sp/",
+     "fonte_nome": "Consultor Jurídico"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado em 2019, na primeira instância da Justiça Eleitoral, a 4 anos e 6 meses por caixa dois (falsidade ideológica eleitoral) na campanha de 2012; em 27 de julho de 2021 o TRE-SP anulou a condenação e o absolveu por unanimidade (6 a 0), por falta de provas.",
+     "status": "absolvido",
+     "fonte": "https://www.agazeta.com.br/brasil/justica-eleitoral-absolve-haddad-da-acusacao-de-caixa-dois-em-eleicoes-0721",
+     "fonte_nome": "A Gazeta"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Em novembro de 2018 foi denunciado pelo Ministério Público de São Paulo por corrupção e lavagem de dinheiro (suposto pagamento de R$ 2,6 milhões da empreiteira UTC para dívidas de campanha); em 27 de fevereiro de 2019 o TJ-SP trancou (encerrou) a ação penal por 2 votos a 1.",
+     "status": "arquivado",
+     "fonte": "https://istoedinheiro.com.br/tribunal-inocenta-haddad-na-acao-de-r-26-milhoes-da-utc",
+     "fonte_nome": "IstoÉ Dinheiro"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Pelo mesmo caso da UTC, respondeu a uma ação de improbidade administrativa; ela foi rejeitada na primeira instância em dezembro de 2019 e o TJ-SP manteve a decisão em julho de 2020, por unanimidade.",
+     "status": "absolvido",
+     "fonte": "https://www.cartacapital.com.br/justica/tribunal-de-justica-mantem-absolvicao-de-haddad-por-improbidade-administrativa/",
+     "fonte_nome": "CartaCapital"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "O Ministério Público de São Paulo o processou por improbidade na obra da ciclovia Ceagesp–Ibirapuera (contratos de cerca de R$ 54,8 milhões); em abril de 2026 o STJ rejeitou os recursos do Ministério Público e concluiu que não houve improbidade. Em julho de 2026 a defesa pediu ao STF o encerramento de um procedimento que ainda estava aberto lá.",
+     "status": "absolvido",
+     "fonte": "https://www.correiodamanha.com.br/colunistas/paulo-cappelli/2026/07/amp/301562-haddad-aciona-moraes-para-encerrar-acao-de-improbidade-sobre-ciclovia.html",
+     "fonte_nome": "Correio da Manhã"
+    }
+   ],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "VICE (Márcio França): em janeiro de 2022 foi alvo de busca e apreensão da Polícia Civil na Operação Raio-X (suspeita de desvios na saúde por organizações sociais); ele nega e chamou a operação de política (https://www.congressoemfoco.com.br/noticia/30251/alvo-da-policia-por-desvios-na-saude-franca-fala-em-operacao-politica). NÃO incluí em vice_motivos porque não consegui confirmar a situação atual (denúncia, arquivamento ou anulação). Também não incluído por falta de fonte aberta: multa de R$ 176,5 mil do TSE (2019) à campanha de Haddad por impulsionar conteúdo contra Bolsonaro — página do TSE deu erro 403 e o desfecho do recurso não foi confirmado. A fonte do item da ciclovia é uma coluna de notícias (Paulo Cappelli); vale conferir no STJ. Não encontrei ato dele que se encaixe em 'benefício próprio'."
+  },
+  {
+   "numero": 16,
+   "nomeUrna": "VERA LÚCIA",
+   "partido": "PSTU",
+   "vice": "Fabio Bosco",
+   "score": 0.5,
+   "score_economia": 0.3,
+   "score_costumes": 0.7,
+   "justificativa": "Quer que o governo tome de volta a Sabesp, os trens, o metrô, o Porto de Santos e a energia elétrica, e acabar com todas as parcerias com empresas. Quer acabar com a Polícia Militar, juntando tudo numa polícia civil única, e deixar de tratar o uso de drogas como crime. O PSTU é o partido mais à esquerda na classificação dos cientistas políticos (0,51 de 10), na faixa 'bem à esquerda'.",
+   "propostas": [
+    {
+     "texto": "Reestatizar Sabesp, CPTM, Metrô, Porto de Santos e energia; acabar com todas as PPPs e organizações sociais; criar banco público estadual",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Extinguir a Polícia Militar e unificar as forças em uma polícia civil única; câmeras corporais obrigatórias",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "Descriminalizar o consumo de drogas e tratar como questão de saúde",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "Suspender o pagamento da dívida pública; mais imposto para grandes empresas e menos para pequenos empreendedores",
+     "fonte": "https://www.correiodamanha.com.br/nacional/sao-paulo/estado-de-sao-paulo/2026/07/302810-vera-lucia-defende-reestatizacoes-e-rejeita-aliancas-na-disputa-em-sp.html"
+    },
+    {
+     "texto": "Revogar as escolas cívico-militares e as PPPs na educação",
+     "fonte": "https://www.metropoles.com/sao-paulo/veja-as-propostas-dos-candidatos-ao-governo-de-sao-paulo-para-a-educacao"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nenhum processo, condenação ou voto em benefício próprio encontrado (nunca teve mandato). Reportagens citam outra pessoa como vice (Renata França); mantive o nome da lista oficial enviada. Vice não pesquisado a fundo."
+  },
+  {
+   "numero": 21,
+   "nomeUrna": "CARLOS MACHADO",
+   "partido": "PCB",
+   "vice": "Felipe Queiroz",
+   "score": 0.8,
+   "score_economia": 0.6,
+   "score_costumes": 1.0,
+   "justificativa": "Quer que o governo tome de volta a Sabesp, a energia, os trens e o metrô e que os próprios trabalhadores ajudem a mandar nessas empresas. Quer tirar o caráter militar da polícia, rever a lei de drogas e acabar com as escolas cívico-militares. O PCB é classificado como bem à esquerda (0,69 de 10).",
+   "propostas": [
+    {
+     "texto": "Reestatizar Sabesp, sistema de energia, CPTM e Metrô sob gerência dos trabalhadores",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Desmilitarizar a Polícia Militar, rever a Lei de Drogas e rejeitar a privatização de presídios",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "Acabar com as PPPs em escolas, devolver as escolas cívico-militares à gestão comum e ter no máximo 20 alunos por sala",
+     "fonte": "https://www.metropoles.com/sao-paulo/veja-as-propostas-dos-candidatos-ao-governo-de-sao-paulo-para-a-educacao"
+    },
+    {
+     "texto": "Planejamento ecológico: incentivo a energia renovável, reciclagem e agricultura familiar",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-meio-ambiente"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nenhum processo, condenação ou voto em benefício próprio encontrado (nunca teve mandato). Vice não pesquisado a fundo."
+  },
+  {
+   "numero": 29,
+   "nomeUrna": "IZADORA DIAS",
+   "partido": "PCO",
+   "vice": "Nivaldo Orlandi",
+   "score": 0.6,
+   "score_economia": 0.2,
+   "score_costumes": 1.0,
+   "justificativa": "Quer que o governo seja dono de todos os bancos (um banco só, estatal), do petróleo e dos minérios, e que a gasolina custe metade. Quer acabar com a Polícia Militar e criar 'comitês de autodefesa' dos trabalhadores. O PCO é classificado como bem à esquerda (0,55 de 10).",
+   "propostas": [
+    {
+     "texto": "Reestatizar empresas, nacionalizar petróleo e minerais e estatizar o sistema financeiro em um banco único",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Reduzir o preço dos combustíveis em 50%",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Dissolver a Polícia Militar e criar comitês de autodefesa de trabalhadores",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "Aumento emergencial de 50% nos salários, semana de 35 horas sem reduzir salário e proibição de demissões",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-izadora-dias-candidata-ao-governo-de-sao-paulo/"
+    },
+    {
+     "texto": "Piso de R$ 8,5 mil para professores com jornada de até 30 horas",
+     "fonte": "https://www.metropoles.com/sao-paulo/veja-as-propostas-dos-candidatos-ao-governo-de-sao-paulo-para-a-educacao"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": "Registro indeferido, com recurso. Motivo registrado na Justiça Eleitoral: indeferimento do DRAP do PCO (o documento que mostra que o partido cumpriu as regras para lançar candidatos). Não é um problema pessoal da candidata; a campanha disse que vai recorrer.",
+   "notas": "Fontes da situação: https://www.tribunapr.com.br/eleicoes/2026/candidatos/sp/governador/izadora-dias-pco-29/ e https://www.cnnbrasil.com.br/eleicoes/quem-e-izadora-dias-candidata-ao-governo-de-sao-paulo/. Não consegui confirmar em fonte independente por que o TRE-SP rejeitou o DRAP do PCO em São Paulo (em Minas Gerais o motivo foi conta partidária de 2015 irregular, segundo a Itatiaia). Nenhum processo pessoal encontrado."
+  },
+  {
+   "numero": 36,
+   "nomeUrna": "POLICIAL EDJANE",
+   "partido": "AGIR",
+   "vice": null,
+   "score": 7.55,
+   "score_economia": 7.55,
+   "score_costumes": 7.55,
+   "justificativa": "Não encontramos plano de governo nem propostas publicadas desta candidata. A nota usa só a classificação do partido dela, o Agir, que os cientistas políticos colocam na direita (7,55 de 10). A candidatura foi negada pela Justiça Eleitoral.",
+   "propostas": [],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": "Registro indeferido pelo TRE-SP em 18/9/2026; ela não concorre. Motivo registrado: desatendimento a requisito formal (Lei 9.504/97).",
+   "notas": "Fontes da situação: https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca e https://www.tribunapr.com.br/eleicoes/2026/candidatos/sp/governador/policial-edjane-agir-36/. BAIXA CONFIANÇA na nota: sem propostas localizadas, os dois eixos repetem a classificação do partido Agir na pesquisa de 2022 (7,55). Um resumo de busca citou 'renúncia do vice' como causa do indeferimento, mas não abri fonte que confirme. Nenhum processo encontrado."
+  },
+  {
+   "numero": 80,
+   "nomeUrna": "VIVIAN MENDES",
+   "partido": "UP",
+   "vice": "Cris Damasio",
+   "score": 0.75,
+   "score_economia": 0.5,
+   "score_costumes": 1.0,
+   "justificativa": "Quer que o governo tome de volta a Sabesp, a energia elétrica, os trens e o metrô, e acabar com pedágios concedidos e com as organizações sociais. Quer tirar o caráter militar da polícia e acabar com as escolas cívico-militares. A UP defende o socialismo e é classificada na esquerda (1,63 de 10); as propostas dela ficam ainda mais à esquerda que a média do partido.",
+   "propostas": [
+    {
+     "texto": "Reestatizar a Sabesp com gestão de trabalhadores e usuários, e também a energia (Enel e Emae), a CPTM e o Metrô; fim das concessões de estradas e das OSs",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Desmilitarizar a PM, unificar as polícias e acabar com os 'autos de resistência', com investigação das mortes causadas por policiais",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    },
+    {
+     "texto": "Fim das escolas cívico-militares e das PPPs na educação; concursos emergenciais para professores",
+     "fonte": "https://www.metropoles.com/sao-paulo/veja-as-propostas-dos-candidatos-ao-governo-de-sao-paulo-para-a-educacao"
+    },
+    {
+     "texto": "Trocar asfalto por piso que absorve água e investir em transporte de baixa emissão",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-meio-ambiente"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Fato NÃO incluído em 'motivos' por não ter a situação atual confirmada: em 6/12/2023 foi detida pela PM durante protesto na Alesp contra a privatização da Sabesp e solta no dia seguinte em audiência de custódia; o advogado disse que a acusação era de associação criminosa (https://www.brasildefato.com.br/2023/12/13/o-que-senti-foi-medo-militantes-presos-em-manifestacao-na-alesp-contra-venda-da-sabesp-falam-apos-soltura e perfil da CNN). Não localizei denúncia nem desfecho. Reportagens citam Marcelo Pereira como vice; mantive o nome da lista oficial enviada."
+  }
+ ],
+ "senador": [
+  {
+   "numero": 111,
+   "nomeUrna": "GUILHERME DERRITE",
+   "partido": "PP",
+   "vice": null,
+   "score": 8.25,
+   "score_economia": 7.5,
+   "score_costumes": 9.0,
+   "justificativa": "Ex-capitão da Rota (tropa de elite da PM), foi secretário de Segurança do governo Tarcísio, quando aconteceram as operações Escudo e Verão, as mais letais da polícia paulista. Foi relator da Lei Antifacção, que endurece as penas para o crime organizado, e foi vice-líder do governo Bolsonaro na Câmara. O PP é classificado na direita (8,15 de 10).",
+   "propostas": [
+    {
+     "texto": "Endurecer as penas contra facções criminosas (foi relator do PL Antifacção, hoje Lei Raul Jungmann)",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-guilherme-derrite-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Foco em segurança pública e combate à violência contra a mulher",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/reta-final-do-senado-em-sp-tem-candidatos-empatados-e-briga-na-direita/"
+    },
+    {
+     "texto": "Aliado do governador Tarcísio e apoiador de Flávio Bolsonaro para presidente",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-guilherme-derrite-candidato-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em fevereiro de 2021 assinou como coautor a PEC 3/2021 ('PEC da Imunidade', que dificulta a prisão de parlamentares) e votou 'sim' para ela seguir adiante na Câmara, em 24/2/2021. É a mesma PEC que a Câmara aprovou em setembro de 2025 com o apelido de 'PEC da Blindagem'.",
+     "status": "fato",
+     "fonte": "https://www.congressoemfoco.com.br/amp/noticia/30805/quase-200-deputados-assinam-autoria-de-pec-da-imunidade-veja-quem-sao",
+     "fonte_nome": "Congresso em Foco",
+     "fonte_extra": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270800-34/votos"
+    }
+   ],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Ponto a favor verificado: em dezembro de 2021 votou para manter o veto, ou seja, CONTRA o fundo eleitoral de R$ 5,7 bilhões (https://www.congressoemfoco.com.br/noticia/21172/como-cada-parlamentar-votou-no-aumento-do-fundo-eleitoral-para-r-57-bilhoes). Retirado pela regra de escopo (sem denúncia nem punição): quando era policial militar foi investigado em sete inquéritos sobre 16 mortes em ações policiais e nunca foi denunciado, segundo a IstoÉ (https://istoe.com.br/secretario-de-seguranca-publica-de-sao-paulo-guilherme-derrite-foi-investigado-por-16-homicidios-afirma-revista/). Não incluído por falta de status: representação do Condepe ao MP-SP por improbidade (falta de transparência nas operações Escudo e Verão, dez/2024) e pedido de impeachment na Alesp (dez/2024, negado pelo presidente da Casa). Poucas propostas detalhadas localizadas para o Senado; eixo econômico baseado na classificação do PP (8,15) e na atuação como vice-líder do governo Bolsonaro."
+  },
+  {
+   "numero": 144,
+   "nomeUrna": "GUTO SCHIAVETTO",
+   "partido": "MISSÃO",
+   "vice": null,
+   "score": 7.75,
+   "score_economia": 8.5,
+   "score_costumes": 7.0,
+   "justificativa": "É porta-voz do MBL em Limeira e defende que o governo seja menor e a economia mais livre, com menos Estado, além de combate à corrupção. Critica ministros do STF, Lula e também Flávio Bolsonaro. O partido Missão é novo e não aparece na classificação dos cientistas políticos.",
+   "propostas": [
+    {
+     "texto": "Liberalismo econômico e redução do tamanho do Estado",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-guto-schiavetto-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Combate à corrupção",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-guto-schiavetto-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Críticas aos ministros do STF",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-guto-schiavetto-candidato-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "BAIXA CONFIANÇA na nota: só uma fonte (perfil da CNN) e nenhuma proposta detalhada de costumes/segurança localizada; o partido Missão não está na pesquisa de 2022 com cientistas políticos. Nunca teve mandato; nenhum processo encontrado."
+  },
+  {
+   "numero": 160,
+   "nomeUrna": "WELLER GONÇALVES",
+   "partido": "PSTU",
+   "vice": null,
+   "score": 0.5,
+   "score_economia": 0.3,
+   "score_costumes": 0.7,
+   "justificativa": "Metalúrgico e presidente do sindicato de São José dos Campos, quer que o governo seja dono de energia, comunicações, recursos naturais e tecnologia. Quer desfazer as reformas trabalhista e da Previdência e acabar com a escala 6x1. O PSTU é o partido mais à esquerda na classificação dos cientistas políticos (0,51 de 10), na faixa 'bem à esquerda'.",
+   "propostas": [
+    {
+     "texto": "Estatizar setores estratégicos (energia, comunicações, defesa, recursos naturais, tecnologia)",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-weller-goncalves-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Revogar as reformas trabalhista e da Previdência",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-weller-goncalves-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Greve geral pelo fim da escala 6x1",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-weller-goncalves-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Acabar com privilégios e altos salários de políticos",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-weller-goncalves-candidato-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nunca teve mandato; nenhum processo, condenação ou voto em benefício próprio encontrado."
+  },
+  {
+   "numero": 161,
+   "nomeUrna": "DRA ELIANA FERREIRA",
+   "partido": "PSTU",
+   "vice": null,
+   "score": 0.5,
+   "score_economia": 0.3,
+   "score_costumes": 0.7,
+   "justificativa": "Advogada de São Bernardo do Campo, coordena um movimento de professoras e defende a escola pública e os direitos de trabalhadores e servidores. Concorre pelo PSTU, que quer estatizar grandes empresas e é o partido mais à esquerda na classificação dos cientistas políticos (0,51 de 10), na faixa 'bem à esquerda'.",
+   "propostas": [
+    {
+     "texto": "Defesa da educação pública e das professoras",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-dra-eliana-ferreira-candidata-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Defesa dos direitos de trabalhadores e servidores públicos",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-dra-eliana-ferreira-candidata-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Programa do PSTU: reestatizar empresas privatizadas e acabar com PPPs",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nunca teve mandato; nenhum processo, condenação ou voto em benefício próprio encontrado. Poucas propostas próprias localizadas; a nota segue o programa e a classificação do PSTU."
+  },
+  {
+   "numero": 180,
+   "nomeUrna": "MARINA SILVA",
+   "partido": "REDE",
+   "vice": null,
+   "score": 3.75,
+   "score_economia": 4.0,
+   "score_costumes": 3.5,
+   "justificativa": "Foi ministra do Meio Ambiente de Lula duas vezes (2003–2008 e 2023–2026) e coordenou a COP30, a conferência do clima em Belém. Defende regras fortes de proteção da natureza e que o governo aja antes das tragédias do clima. O partido dela, a Rede, é classificado na centro-esquerda (3,69 de 10) e ela concorre na chapa do PT.",
+   "propostas": [
+    {
+     "texto": "Prevenção a desastres do clima: 'o Estado não pode chegar apenas depois das tragédias'",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/reta-final-do-senado-em-sp-tem-candidatos-empatados-e-briga-na-direita/"
+    },
+    {
+     "texto": "Pauta socioambiental e de combate às mudanças climáticas",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-marina-silva-candidata-ao-senado-por-sao-paulo/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nenhum item verificado para 'motivos'. Não incluído: em 2016, a imprensa noticiou que o empreiteiro Léo Pinheiro (OAS) citou, em negociação de delação, pedido de caixa dois para a campanha dela de 2010; ela e os coordenadores negaram, e não localizei inquérito, denúncia ou decisão — por isso ficou fora. É deputada federal eleita em 2022, mas ficou licenciada como ministra, sem votos nominais relevantes (não aparece nas votações da PEC da Blindagem nem do aumento de deputados). Poucas propostas detalhadas localizadas; posições sobre aborto e drogas não foram verificadas nesta sessão."
+  },
+  {
+   "numero": 200,
+   "nomeUrna": "GERALDO RUFINO",
+   "partido": "PODE",
+   "vice": null,
+   "score": 6.25,
+   "score_economia": 7.0,
+   "score_costumes": 5.5,
+   "justificativa": "Empresário que começou catando latinhas e fundou a JR Diesel, diz que vai 'empreender na política' e é próximo de Romeu Zema e do grupo de Tarcísio. Fala em usar dinheiro público contra a fome e ajudar moradores de rua, e em unir 'gay, não gay, esquerda, direita'. O Podemos é classificado na direita (7,44 de 10).",
+   "propostas": [
+    {
+     "texto": "'Empreender na política' e dar credibilidade a ela",
+     "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/02/podemos-lanca-candidato-ao-senado-em-sp-colado-em-tarcisio.html"
+    },
+    {
+     "texto": "Dinheiro público para combater a fome e a pobreza e atender pessoas em situação de rua",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-geraldo-rufino-candidato-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "BAIXA CONFIANÇA na nota (poucas propostas concretas). Fato NÃO incluído em 'motivos' por não ter a situação atual confirmada: em 12/12/2023 a 7ª Vara Cível de Osasco afastou Rufino da gestão da JR Diesel (em recuperação judicial desde 2016) e mandou apurar suspeita de fraude, após gestor judicial apontar cerca de R$ 1,8 milhão em pagamentos a familiares e empresas ligadas sem justificativa (https://www.metropoles.com/negocios/justica-geraldo-rufino-fraudes). A defesa contesta, e o STJ, em dezembro de 2023, tornou sem efeito decisões desse juízo que partiam da falência (https://www.lex.com.br/ministro-reconhece-descumprimento-de-decisao-do-stj-e-anula-atos-do-juizo-da-recuperacao-da-jr-diesel/) — não sei se o afastamento foi alcançado nem como o caso está hoje. Nunca teve mandato."
+  },
+  {
+   "numero": 211,
+   "nomeUrna": "PETTER MAAHS",
+   "partido": "PCB",
+   "vice": null,
+   "score": 0.8,
+   "score_economia": 0.6,
+   "score_costumes": 1.0,
+   "justificativa": "Diretor de escola pública em Cubatão, quer acabar com o Senado e ter um só parlamento, com conselhos populares de trabalhadores. Defende escola pública gratuita e sem religião para todos. O PCB é classificado como bem à esquerda (0,69 de 10).",
+   "propostas": [
+    {
+     "texto": "Acabar com o Senado e adotar um parlamento de uma só casa, com conselhos populares",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-petter-maahs-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Escola pública gratuita, laica, universal e de qualidade, com inclusão de crianças com deficiência",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-petter-maahs-candidato-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Programa do PCB: reestatizar Sabesp, energia, trens e metrô",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Primeira candidatura; nenhum processo encontrado."
+  },
+  {
+   "numero": 222,
+   "nomeUrna": "ANDRÉ DO PRADO",
+   "partido": "PL",
+   "vice": null,
+   "score": 7.75,
+   "score_economia": 7.0,
+   "score_costumes": 8.5,
+   "justificativa": "Presidente da Alesp, defende perdão total (anistia) para os condenados do 8 de janeiro, baixar a maioridade penal para 16 anos e tratar facções como terroristas. É contra cobrar imposto sobre lucros e dividendos e quer cortar gastos do governo em vez de aumentar impostos, mas apoia o fim da escala 6x1. O PL é classificado como bem à direita (8,80 de 10).",
+   "propostas": [
+    {
+     "texto": "Anistia 'ampla, geral e irrestrita' para os envolvidos no 8 de janeiro",
+     "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf"
+    },
+    {
+     "texto": "Impeachment de ministros do STF, limite para decisões individuais e mandato de 15 anos para ministros",
+     "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf"
+    },
+    {
+     "texto": "Reduzir a maioridade penal para 16 anos e classificar facções como terroristas",
+     "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf"
+    },
+    {
+     "texto": "Contra taxar lucros e dividendos; cortar gastos em vez de subir impostos; autonomia do Banco Central",
+     "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf"
+    },
+    {
+     "texto": "A favor do fim da escala 6x1, desde que se defina quem paga o custo",
+     "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf"
+    }
+   ],
+   "motivos": [
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em 29 de outubro de 2024, a Mesa da Alesp presidida por ele promulgou a Emenda Constitucional 54, que passou a permitir a reeleição dos membros da Mesa; em 15 de março de 2025 ele foi reeleito presidente da Alesp com 88 votos.",
+     "status": "fato",
+     "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/emenda.constitucional/2024/emenda.constitucional-54-29.10.2024.html",
+     "fonte_nome": "Alesp",
+     "fonte_extra": "https://www.al.sp.gov.br/noticia/?id=490783"
+    },
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em maio de 2025, a Alesp aprovou projeto apresentado pela Mesa Diretora (presidida por ele) que aumentou em 5% os salários do governador, do vice e dos secretários; o custo estimado é de R$ 230 milhões por ano, porque o salário do governador é o teto dos servidores.",
+     "status": "fato",
+     "fonte": "https://www.dgabc.com.br/Noticia/4233345/alesp-aprova-reajuste-no-salario-de-tarcisio-e-aumenta-teto-do-funcionalismo",
+     "fonte_nome": "Diário do Grande ABC",
+     "fonte_extra": "https://www.cnnbrasil.com.br/politica/alesp-reajuste-salarios-votacao/"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Entre 2013 e 2016, Renato Bolsonaro (irmão de Jair Bolsonaro) foi assessor do gabinete dele na Alesp com salário de cerca de R$ 17 mil; uma reportagem de TV o acusou de ser 'funcionário fantasma' e ele foi exonerado em abril de 2016. O Ministério Público arquivou o caso em novembro de 2017; André do Prado nega irregularidade.",
+     "status": "arquivado",
+     "fonte": "https://exame.com/brasil/com-apoio-do-pt-tarcisio-aposta-andre-do-prado-para-presidir-a-alesp/",
+     "fonte_nome": "Exame",
+     "fonte_extra": "https://exame.com/brasil/funcionario-fantasma-irmao-de-jair-bolsonaro-e-exonerado/"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Quando era prefeito de Guararema, o Tribunal de Contas do Estado julgou irregular o contrato de transporte de alunos com a cooperativa Cooper Ativa e aplicou a ele multa de 100 UFESPs; a decisão foi confirmada em recurso (acórdão de 2010) e, em 12 de julho de 2017, o tribunal não aceitou a ação dele para anular a decisão.",
+     "status": "contas irregulares",
+     "fonte": "https://www.tce.sp.gov.br/sites/default/files/atas/2017_07_12_pleno_21so.pdf",
+     "fonte_nome": "Tribunal de Contas do Estado de SP"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Em junho de 2007, o Tribunal de Contas do Estado julgou irregulares a licitação e o contrato de R$ 1,13 milhão para aluguel de veículos assinado por ele como prefeito de Guararema e aplicou multa de 300 UFESPs; em setembro de 2008, no recurso, o tribunal retirou a multa e parte das falhas apontadas.",
+     "status": "contas irregulares",
+     "fonte": "https://www.tce.sp.gov.br/sites/default/files/atas/2008_09_03_pleno_24so_1.pdf",
+     "fonte_nome": "Tribunal de Contas do Estado de SP",
+     "fonte_extra": "https://www.tce.sp.gov.br/sites/default/files/atas/2007_06_12_segunda_15so_1.pdf"
+    }
+   ],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Não incluídos por falta de confirmação: (1) como ele votou no aumento de 37% do salário dos deputados estaduais (21/12/2022, 49 a 10) e no aumento de 50% do governador (29/11/2022, 56 a 6) — não achei lista nominal; ele não está entre os 6 contrários citados pelo Poder360; (2) condenação por improbidade em primeira instância (contratos de publicidade de Guararema) depois anulada em recurso — citada pela Wikipédia com base na Folha de 14/3/2025, que não consegui abrir; (3) TCE-SP manteve em 2014 irregularidade em aditivos de contrato de publicidade de Guararema, mas a notícia do TCE não cita o nome do prefeito; (4) liminar eleitoral de set/2026 suspendendo propaganda com imagem de Tarcísio (não é condenação). ATENÇÃO: a seção 'Controvérsias' da Wikipédia dele foi editada em 28/9/2026; usei-a só como pista e conferi tudo nas atas do TCE, na Alesp e na Exame. Os itens do TCE são decisões administrativas de tribunal de contas, não condenações criminais (tipo 'corrupcao', status 'contas irregulares'). No recurso de 2008, o texto da ata fala em 'provimento parcial', retirando a multa e as falhas formais."
+  },
+  {
+   "numero": 232,
+   "nomeUrna": "SONINHA FRANCINE",
+   "partido": "CIDADANIA",
+   "vice": null,
+   "score": 4.5,
+   "score_economia": 6.0,
+   "score_costumes": 3.0,
+   "justificativa": "Ex-vereadora que começou no PT e depois trabalhou nas prefeituras de Kassab, Doria e Nunes; diz ser uma terceira via contra a briga entre os dois lados. Sempre defendeu debater a descriminalização da maconha e o uso medicinal da cannabis. O Cidadania é classificado na centro-direita (6,17 de 10) e está federado ao PSDB, que apoia Tarcísio.",
+   "propostas": [
+    {
+     "texto": "Candidatura de 'terceira via', contra a polarização e baseada em propostas",
+     "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-cidadania-sp-lanca-soninha-ao-senado-e-oficializa-apoio-a-tarcisio/"
+    },
+    {
+     "texto": "Defesa do debate sobre a descriminalização da maconha e do uso do canabidiol no tratamento de dependentes",
+     "fonte": "https://pt.wikipedia.org/wiki/Soninha_Francine"
+    },
+    {
+     "texto": "Pautas de direitos humanos e assistência social (foi secretária dessas áreas na capital)",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-soninha-francine-candidata-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "BAIXA CONFIANÇA no eixo econômico (sem propostas econômicas localizadas; usei a trajetória e a classificação do partido — Cidadania 6,17, federado ao PSDB 6,76 —, por isso 6,0). A posição sobre maconha vem da Wikipédia (fonte secundária). Não confirmado e não incluído: como ela votou, em dezembro de 2020, no aumento de 46% do salário do prefeito de São Paulo (34 a 17) — a Exame registra que ela defendeu a proposta, mas não traz a lista de votos (https://exame.com/brasil/camara-de-sp-aprova-em-definitivo-aumento-de-46-no-salario-do-prefeito/). Um resumo de busca citou exoneração em 2021 após despacho sobre verba para motociata de Bolsonaro; não abri a fonte. Nenhum processo encontrado."
+  },
+  {
+   "numero": 290,
+   "nomeUrna": "EDNELSON CESARETTI",
+   "partido": "PCO",
+   "vice": null,
+   "score": 0.6,
+   "score_economia": 0.2,
+   "score_costumes": 1.0,
+   "justificativa": "Professor de História, concorre pelo PCO, que quer estatizar os bancos e grandes empresas, aumentar os salários em 50% de uma vez e reduzir a semana de trabalho para 35 horas. O partido também quer acabar com a Polícia Militar. O PCO é classificado como bem à esquerda (0,55 de 10).",
+   "propostas": [
+    {
+     "texto": "Programa do PCO: aumento emergencial de 50% nos salários, semana de 35 horas e proibição de demissões",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-izadora-dias-candidata-ao-governo-de-sao-paulo/"
+    },
+    {
+     "texto": "Programa do PCO: estatizar o sistema financeiro em um banco único e reestatizar empresas",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Programa do PCO: dissolver a Polícia Militar",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": "Registro indeferido, com recurso. Motivo registrado: indeferimento do DRAP do PCO (o documento que mostra que o partido cumpriu as regras para lançar candidatos), não um problema pessoal do candidato.",
+   "notas": "Fonte da situação: https://www.tribunapr.com.br/eleicoes/2026/candidatos/sp/senador/ednelson-cesaretti-pco-290/. Sem propostas próprias localizadas (o perfil da CNN não traz); usei o programa do PCO apresentado pela candidata a governadora. Nenhum processo encontrado."
+  },
+  {
+   "numero": 300,
+   "nomeUrna": "SALLES",
+   "partido": "NOVO",
+   "vice": null,
+   "score": 8.75,
+   "score_economia": 9.0,
+   "score_costumes": 8.5,
+   "justificativa": "Como ministro do Meio Ambiente de Bolsonaro, defendeu 'ir passando a boiada' (afrouxar regras ambientais), e o conselho que ele presidia derrubou a proteção de manguezais e restingas — o STF devolveu a proteção. Fundou o movimento Endireita Brasil e está no Novo, partido que defende Estado pequeno e é classificado como bem à direita (8,67 de 10).",
+   "propostas": [
+    {
+     "texto": "Pautas liberais na economia e conservadoras nos costumes; desregulamentação ambiental",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-ricardo-salles-candidato-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "É réu desde agosto de 2023, acusado pelo Ministério Público Federal de liderar esquema para facilitar a exportação ilegal de madeira da Amazônia quando era ministro; em agosto de 2025 o processo foi para o STF, que marcou interrogatório para dezembro de 2025. Ainda não há julgamento; ele nega e chama a acusação de absurda.",
+     "status": "réu",
+     "fonte": "https://www.nsctotal.com.br/?p=7638148",
+     "fonte_nome": "NSC Total",
+     "fonte_extra": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/salles-vira-reu-por-suspeita-de-liderar-organizacao-que-desviava-madeira/"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Em 2018 foi condenado em primeira instância por improbidade administrativa, acusado de alterar mapas do plano de manejo da Várzea do Tietê para favorecer mineradoras quando era secretário estadual do Meio Ambiente; em 4 de março de 2021 o TJ-SP reverteu a condenação e o absolveu por 4 votos a 1.",
+     "status": "absolvido",
+     "fonte": "https://www.poder360.com.br/governo/tj-sp-absolve-ricardo-salles-de-condenacao-por-improbidade-administrativa/",
+     "fonte_nome": "Poder360"
+    },
+    {
+     "tipo": "justica",
+     "texto": "Em agosto de 2026, a Justiça Eleitoral de São Paulo o multou em R$ 10 mil por propaganda antecipada irregular: pagou para impulsionar vídeo contra o adversário André do Prado com imagens manipuladas sem aviso.",
+     "status": "multado",
+     "fonte": "https://www.congressoemfoco.com.br/noticia/121133/tre-sp-condena-ricardo-salles-em-r-10-mil-por-propaganda-antecipada",
+     "fonte_nome": "Congresso em Foco"
+    }
+   ],
+   "vice_motivos": [],
+   "situacao_nota": "Anunciou em 28/9/2026 que desistiu da disputa para apoiar Guilherme Derrite e André do Prado. No TSE, o registro continuava 'deferido' e o nome seguia na urna em 30/9/2026.",
+   "notas": "Desistência: anúncio noticiado pelo SBT News (https://sbtnews.sbt.com.br/noticia/eleicoes/ricardo-salles-desiste-do-senado-e-apoia-derrite-e-prado) e pelo Metrópoles (https://www.metropoles.com/sao-paulo/como-desistencia-de-ricardo-salles-impacta-disputa-ao-senado-em-sao-paulo), que cita cientista político dizendo que não há tempo de tirar o nome da urna e que os votos não seriam validados; as reportagens não confirmam renúncia formal. Votações nominais da Câmara ficam por conta do build do site (não repetidas aqui). Não confirmei se houve recurso contra a multa eleitoral. O perfil da CNN cita inquérito no STF (Operação Handroanthus) 'encerrado' após a saída do ministério, sem detalhes — não incluído. Tebet afirmou que a campanha dele recebeu R$ 4 milhões de fundo público antes da desistência (SBT News); não verifiquei na prestação de contas."
+  },
+  {
+   "numero": 360,
+   "nomeUrna": "WILLIAM TEIXEIRA",
+   "partido": "AGIR",
+   "vice": null,
+   "score": 7.03,
+   "score_economia": 6.5,
+   "score_costumes": 7.55,
+   "justificativa": "Eletricista, propõe acabar com o IPVA e não cobrar Imposto de Renda de quem ganha até R$ 50 mil por mês — ou seja, cortar bastante imposto. Também quer energia solar em bairros populares e em programas de moradia. O Agir é classificado na direita (7,55 de 10).",
+   "propostas": [
+    {
+     "texto": "Acabar com o IPVA",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-william-teixeira-candidato-ao-senado-por-sao-paulo/"
+    },
+    {
+     "texto": "Isenção de Imposto de Renda para quem ganha até R$ 50 mil por mês",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-william-teixeira-candidato-ao-senado-por-sao-paulo/"
+    },
+    {
+     "texto": "Energia solar em bairros populares e programas habitacionais",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-william-teixeira-candidato-ao-senado-por-sao-paulo/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "BAIXA CONFIANÇA na nota: nenhuma proposta de costumes/segurança localizada, então esse eixo repete a classificação do partido (7,55); já foi candidato pelo PCB (2010) e pelo PT (2012), o que pode indicar posição mais ao centro. Nunca teve mandato; nenhum processo encontrado."
+  },
+  {
+   "numero": 400,
+   "nomeUrna": "SIMONE TEBET",
+   "partido": "PSB",
+   "vice": null,
+   "score": 5.25,
+   "score_economia": 6.0,
+   "score_costumes": 4.5,
+   "justificativa": "Como senadora, votou a favor da reforma trabalhista (2017) e da reforma da Previdência (2019), que são pautas de direita na economia, e votou para derrubar o decreto que facilitava o porte de armas (2019). Depois foi ministra do Planejamento de Lula, e hoje defende o fim da escala 6x1 e cortar benefícios fiscais de empresas. Por isso fica no centro.",
+   "propostas": [
+    {
+     "texto": "Fim da escala 6x1 sem reduzir salário, com transição e apoio a pequenos negócios",
+     "fonte": "https://www.band.com.br/politica/eleicoes/2026/simone-tebet-pre-candidata-ao-senado-por-sp-e-sabatina-pela-bandnews-tv"
+    },
+    {
+     "texto": "Cortar benefícios fiscais desnecessários (cerca de R$ 600 bilhões por ano) e melhorar a qualidade do gasto público",
+     "fonte": "https://www.band.com.br/politica/eleicoes/2026/simone-tebet-pre-candidata-ao-senado-por-sp-e-sabatina-pela-bandnews-tv"
+    },
+    {
+     "texto": "Reforma do Judiciário e combate à corrupção",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/reta-final-do-senado-em-sp-tem-candidatos-empatados-e-briga-na-direita/"
+    },
+    {
+     "texto": "Votou a favor da reforma trabalhista (11/7/2017) e da reforma da Previdência (22/10/2019)",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/plenario/lista/votacao/20191022"
+    }
+   ],
+   "motivos": [
+    {
+     "tipo": "beneficio_proprio",
+     "texto": "Em 17 de outubro de 2017, como senadora, votou para derrubar a decisão do STF que afastava o senador Aécio Neves do mandato; o Senado derrubou a decisão por 44 votos a 26 e ele voltou ao cargo.",
+     "status": "fato",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/plenario/lista/votacao/20171017",
+     "fonte_nome": "Senado Federal (dados abertos)"
+    }
+   ],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Retirado pela regra de escopo: dois inquéritos no STF arquivados até 2016, de assunto não informado pela fonte (https://congressoemfoco.com.br/noticias/os-senadores-da-ccj-sob-investigacao-no-supremo). Fato NÃO incluído em 'motivos' por não ter o desfecho confirmado: em fevereiro de 2016 o TRF-3 bloqueou R$ 51,8 mil em bens dela em ação de improbidade do Ministério Público Federal sobre a obra do balneário de Três Lagoas (2006–2008), quando era prefeita; a primeira instância tinha negado o bloqueio por não ver prejuízo, e ela diz que a obra foi concluída corretamente (https://correiodoestado.com.br/politica/suspeita-de-desvio-para-financiar-campanha-resulta-em-bloqueio-de-bens/271618/). Votos conferidos nos dados abertos do Senado: PLC 38/2017 (trabalhista) 'Sim'; PEC 6/2019 (Previdência) 'Sim'; PDL 233/2019 (que sustou o decreto das armas) 'Sim'; OFS 70/2017 (caso Aécio) 'Não' = contra manter as medidas do STF. O voto no teto de gastos (2016) não foi conferido na API. Incluir o voto do caso Aécio como 'benefício próprio' (proteção a parlamentar) é uma decisão de critério — avalie. Voto dela no fundo eleitoral de R$ 5,7 bi (dez/2021) não localizado. Eixo de costumes com pouca informação (aborto e drogas não verificados)."
+  },
+  {
+   "numero": 800,
+   "nomeUrna": "MARCIO ALVES",
+   "partido": "UP",
+   "vice": null,
+   "score": 0.75,
+   "score_economia": 0.5,
+   "score_costumes": 1.0,
+   "justificativa": "Eletricista, concorre pela UP, partido classificado na esquerda (1,63 de 10), que defende o socialismo e quer que o governo tome de volta a Sabesp, a energia, os trens e o metrô. O partido também quer tirar o caráter militar da polícia. Não localizamos propostas só dele; a nota segue o programa da UP.",
+   "propostas": [
+    {
+     "texto": "Programa da UP: reestatizar Sabesp, energia, CPTM e Metrô; fim das concessões de estradas e das OSs",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-privatizacoes"
+    },
+    {
+     "texto": "Programa da UP: desmilitarizar a PM e unificar as polícias",
+     "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nunca teve mandato; nenhum processo encontrado. A UP tem média 1,63 na pesquisa de 2022; a nota (0,75) vem do programa do partido, que é mais radical que essa média (reestatizações amplas, desmilitarização da PM). O perfil da CNN não traz propostas próprias."
+  },
+  {
+   "numero": 808,
+   "nomeUrna": "MAÍRA DE SOUZA",
+   "partido": "UP",
+   "vice": null,
+   "score": 0.75,
+   "score_economia": 0.5,
+   "score_costumes": 1.0,
+   "justificativa": "Professora da rede municipal de Praia Grande, quer semana de trabalho de 4 dias e 30 horas sem reduzir salário e que o governo volte a ser dono dos serviços essenciais. É contra a militarização das escolas e quer acabar com o vestibular. A UP defende o socialismo e é classificada na esquerda (1,63 de 10).",
+   "propostas": [
+    {
+     "texto": "Escala 4x3 com jornada de 30 horas semanais sem redução de salário",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-maira-de-souza-candidata-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Reestatizar os serviços essenciais",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-maira-de-souza-candidata-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Contra a militarização das escolas; revogar a reforma do ensino médio e acabar com o vestibular",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-maira-de-souza-candidata-ao-senado-por-sp/"
+    },
+    {
+     "texto": "Menos alunos por sala, mais professores contratados e salários maiores",
+     "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-maira-de-souza-candidata-ao-senado-por-sp/"
+    }
+   ],
+   "motivos": [],
+   "vice_motivos": [],
+   "situacao_nota": null,
+   "notas": "Nunca teve mandato; nenhum processo encontrado. A UP tem média 1,63 na pesquisa de 2022; a nota (0,75) vem do programa do partido, que é mais radical que essa média (reestatizações amplas, desmilitarização da PM)."
+  }
+ ]
+}

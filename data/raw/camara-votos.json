@@ -1,0 +1,1148 @@
+{
+ "fonte": "https://dadosabertos.camara.leg.br/api/v2",
+ "uf": "SP",
+ "placar": {
+  "salario-2022": {
+   "Sim": 295,
+   "Abstenção": 3,
+   "Não": 102,
+   "Artigo 17": 1
+  },
+  "ficha-limpa-2023": {
+   "Não": 55,
+   "Sim": 345,
+   "Abstenção": 1,
+   "Artigo 17": 1
+  },
+  "anistia-partidos-2024": {
+   "Sim": 344,
+   "Não": 89,
+   "Abstenção": 4,
+   "Artigo 17": 1
+  },
+  "mais-deputados-2025": {
+   "Sim": 270,
+   "Não": 207,
+   "Abstenção": 1
+  },
+  "blindagem-2025": {
+   "Sim": 353,
+   "Não": 134,
+   "Abstenção": 1
+  },
+  "offshores-2023": {
+   "Sim": 323,
+   "Não": 119,
+   "Abstenção": 1,
+   "Artigo 17": 1
+  },
+  "iof-2025": {
+   "Sim": 383,
+   "Não": 98,
+   "Artigo 17": 1
+  },
+  "mp-1303-2025": {
+   "Sim": 251,
+   "Não": 193,
+   "Artigo 17": 1
+  },
+  "plp-128-2025": {
+   "Sim": 310,
+   "Não": 85,
+   "Obstrução": 36,
+   "Abstenção": 1,
+   "Artigo 17": 1
+  }
+ },
+ "deputados": {
+  "66828": {
+   "nome": "Fausto Pinato",
+   "nomeCivil": "FAUSTO RUY PINATO",
+   "partido": "PP"
+  },
+  "73433": {
+   "nome": "Arlindo Chinaglia",
+   "nomeCivil": "ARLINDO CHIGNALIA JUNIOR",
+   "partido": "PT"
+  },
+  "73441": {
+   "nome": "Celso Russomanno",
+   "nomeCivil": "CELSO UBIRAJARA RUSSOMANNO",
+   "partido": "REPUBLICANOS"
+  },
+  "73531": {
+   "nome": "Ivan Valente",
+   "nomeCivil": "IVAN VALENTE",
+   "partido": "PSOL"
+  },
+  "73604": {
+   "nome": "Rui Falcão",
+   "nomeCivil": "RUI GOETHE DA COSTA FALCÃO",
+   "partido": "PT"
+  },
+  "74262": {
+   "nome": "Carlos Sampaio",
+   "nomeCivil": "CARLOS HENRIQUE FOCESI SAMPAIO",
+   "partido": "PSD"
+  },
+  "74270": {
+   "nome": "Gilberto Nascimento",
+   "nomeCivil": "GILBERTO NASCIMENTO SILVA",
+   "partido": "PSD"
+  },
+  "74273": {
+   "nome": "Jefferson Campos",
+   "nomeCivil": "JEFFERSON ALVES DE CAMPOS",
+   "partido": "PL"
+  },
+  "74283": {
+   "nome": "Vicentinho",
+   "nomeCivil": "VICENTE PAULO DA SILVA",
+   "partido": "PT"
+  },
+  "74696": {
+   "nome": "Alberto Mourão",
+   "nomeCivil": "ALBERTO PEREIRA MOURÃO",
+   "partido": "MDB"
+  },
+  "74784": {
+   "nome": "Luiza Erundina",
+   "nomeCivil": "LUIZA ERUNDINA DE SOUSA",
+   "partido": "PSOL"
+  },
+  "92346": {
+   "nome": "Eduardo Bolsonaro",
+   "nomeCivil": "EDUARDO NANTES BOLSONARO",
+   "partido": "PL"
+  },
+  "141391": {
+   "nome": "Arnaldo Jardim",
+   "nomeCivil": "ARNALDO CALIL PEREIRA JARDIM",
+   "partido": "CIDADANIA"
+  },
+  "141398": {
+   "nome": "Carlos Zarattini",
+   "nomeCivil": "CARLOS ALBERTO ROLIM ZARATTINI",
+   "partido": "PT"
+  },
+  "141456": {
+   "nome": "Jilmar Tatto",
+   "nomeCivil": "JILMAR AUGUSTINHO TATTO",
+   "partido": "PT"
+  },
+  "141488": {
+   "nome": "Paulo Teixeira",
+   "nomeCivil": "LUIZ PAULO TEIXEIRA FERREIRA",
+   "partido": "PT"
+  },
+  "141518": {
+   "nome": "Paulinho da Força",
+   "nomeCivil": "PAULO PEREIRA DA SILVA",
+   "partido": "SOLIDARIEDADE"
+  },
+  "141553": {
+   "nome": "Vanderlei Macris",
+   "nomeCivil": "VANDERLEI MACRIS",
+   "partido": "PSDB"
+  },
+  "141555": {
+   "nome": "Vinicius Carvalho",
+   "nomeCivil": "VINICIUS RAPOZO DE CARVALHO",
+   "partido": "REPUBLICANOS"
+  },
+  "152610": {
+   "nome": "Roberto Alves",
+   "nomeCivil": "BENEDITO ROBERTO ALVES FERREIRA",
+   "partido": "REPUBLICANOS"
+  },
+  "154178": {
+   "nome": "Milton Vieira",
+   "nomeCivil": "MILTON VIEIRA PINTO",
+   "partido": "REPUBLICANOS"
+  },
+  "160532": {
+   "nome": "Eli Corrêa Filho",
+   "nomeCivil": "ADRIANO ELI CORRÊA",
+   "partido": "UNIÃO"
+  },
+  "160545": {
+   "nome": "Alexandre Leite",
+   "nomeCivil": "ALEXANDRE LEITE DA SILVA",
+   "partido": "UNIÃO"
+  },
+  "160548": {
+   "nome": "Jonas Donizette",
+   "nomeCivil": "JONAS DONIZETTE FERREIRA",
+   "partido": "PSB"
+  },
+  "160558": {
+   "nome": "Paulo Freire Costa",
+   "nomeCivil": "PAULO ROBERTO FREIRE DA COSTA",
+   "partido": "PL"
+  },
+  "160561": {
+   "nome": "Missionário José Olimpio",
+   "nomeCivil": "JOSÉ OLIMPIO SILVEIRA MORAES",
+   "partido": "PL"
+  },
+  "160601": {
+   "nome": "Pr. Marco Feliciano",
+   "nomeCivil": "MARCO ANTÔNIO FELICIANO",
+   "partido": "PL"
+  },
+  "160653": {
+   "nome": "Roberto de Lucena",
+   "nomeCivil": "ROBERTO ALVES DE LUCENA",
+   "partido": "REPUBLICANOS"
+  },
+  "160976": {
+   "nome": "Tiririca",
+   "nomeCivil": "FRANCISCO EVERARDO TIRIRICA OLIVEIRA SILVA",
+   "partido": "PSD"
+  },
+  "162067": {
+   "nome": "Kiko Celeguim",
+   "nomeCivil": "FRANCISCO DANIEL CELEGUIM DE MORAIS",
+   "partido": "PT"
+  },
+  "171139": {
+   "nome": "Loreny",
+   "nomeCivil": "LORENY MAYARA CAETANO ROBERTO",
+   "partido": "SOLIDARIEDADE"
+  },
+  "175765": {
+   "nome": "Ribamar Silva",
+   "nomeCivil": "RIBAMAR ANTONIO DA SILVA",
+   "partido": "PSD"
+  },
+  "178829": {
+   "nome": "Capitão Augusto",
+   "nomeCivil": "JOSE AUGUSTO ROSA",
+   "partido": "PL"
+  },
+  "178972": {
+   "nome": "Alex Manente",
+   "nomeCivil": "ALEX SPINELLI MANENTE",
+   "partido": "CIDADANIA"
+  },
+  "178975": {
+   "nome": "Baleia Rossi",
+   "nomeCivil": "LUIZ FELIPE BALEIA TENUTO ROSSI",
+   "partido": "MDB"
+  },
+  "178977": {
+   "nome": "Eduardo Cury",
+   "nomeCivil": "EDUARDO PEDROSA CURY",
+   "partido": "PSDB"
+  },
+  "178981": {
+   "nome": "Herculano Passos",
+   "nomeCivil": "HERCULANO CASTILHO PASSOS JUNIOR",
+   "partido": "REPUBLICANOS"
+  },
+  "178983": {
+   "nome": "Marcio Alvino",
+   "nomeCivil": "MARCIO LUIZ ALVINO DE SOUZA",
+   "partido": "PL"
+  },
+  "178985": {
+   "nome": "Miguel Lombardi",
+   "nomeCivil": "MIGUEL LOMBARDI",
+   "partido": "PL"
+  },
+  "178986": {
+   "nome": "Nilto Tatto",
+   "nomeCivil": "NILTO IGNACIO TATTO",
+   "partido": "PT"
+  },
+  "178987": {
+   "nome": "Orlando Silva",
+   "nomeCivil": "ORLANDO SILVA DE JESUS JUNIOR",
+   "partido": "PCdoB"
+  },
+  "178989": {
+   "nome": "Renata Abreu",
+   "nomeCivil": "RENATA HELLMEISTER DE ABREU MELO",
+   "partido": "PODE"
+  },
+  "178990": {
+   "nome": "Samuel Moreira",
+   "nomeCivil": "SAMUEL MOREIRA DA SILVA JUNIOR",
+   "partido": "PSDB"
+  },
+  "178992": {
+   "nome": "Vitor Lippi",
+   "nomeCivil": "VITOR LIPPI",
+   "partido": "PSDB"
+  },
+  "204484": {
+   "nome": "General Peternelli",
+   "nomeCivil": "ROBERTO SEBASTIÃO PETERNELLI JUNIOR",
+   "partido": "UNIÃO"
+  },
+  "204485": {
+   "nome": "Luiz Carlos Motta",
+   "nomeCivil": "LUIZ CARLOS MOTTA",
+   "partido": "PL"
+  },
+  "204501": {
+   "nome": "Alencar Santana",
+   "nomeCivil": "ALENCAR SANTANA BRAGA",
+   "partido": "PT"
+  },
+  "204502": {
+   "nome": "Bozzella",
+   "nomeCivil": "NICOLINO BOZZELLA JUNIOR",
+   "partido": "UNIÃO"
+  },
+  "204503": {
+   "nome": "Alexandre Padilha",
+   "nomeCivil": "ALEXANDRE ROCHA SANTOS PADILHA",
+   "partido": "PT"
+  },
+  "204504": {
+   "nome": "Cezinha de Madureira",
+   "nomeCivil": "ANTONIO CEZAR CORREIA FREIRE",
+   "partido": "PSD"
+  },
+  "204506": {
+   "nome": "Marcos Pereira",
+   "nomeCivil": "MARCOS ANTONIO PEREIRA",
+   "partido": "REPUBLICANOS"
+  },
+  "204507": {
+   "nome": "Carla Zambelli",
+   "nomeCivil": "CARLA ZAMBELLI SALGADO DE OLIVEIRA",
+   "partido": "PL"
+  },
+  "204511": {
+   "nome": "David Soares",
+   "nomeCivil": "DAVID BEZERRA RIBEIRO SOARES",
+   "partido": "UNIÃO"
+  },
+  "204513": {
+   "nome": "Guiga Peixoto",
+   "nomeCivil": "JOSÉ GUILHERME NEGRÃO PEIXOTO",
+   "partido": "PSC"
+  },
+  "204514": {
+   "nome": "Coronel Tadeu",
+   "nomeCivil": "MARCIO TADEU ANHAIA DE LEMOS",
+   "partido": "PL"
+  },
+  "204516": {
+   "nome": "Alexis Fonteyne",
+   "nomeCivil": "Alexis Joseph Steverlynck Fonteyne",
+   "partido": "NOVO"
+  },
+  "204521": {
+   "nome": "Abou Anni",
+   "nomeCivil": "PAULO SERGIO ABOU ANNI",
+   "partido": "UNIÃO"
+  },
+  "204522": {
+   "nome": "Marco Bertaiolli",
+   "nomeCivil": "MARCO AURELIO BERTAIOLLI",
+   "partido": "PSD"
+  },
+  "204525": {
+   "nome": "Rosana Valle",
+   "nomeCivil": "ROSANA DE OLIVEIRA VALLE",
+   "partido": "PL"
+  },
+  "204526": {
+   "nome": "Luiz Philippe de Orleans e Bragança",
+   "nomeCivil": "LUIZ PHILIPPE DE ORLEANS BRAGANÇA",
+   "partido": "PL"
+  },
+  "204528": {
+   "nome": "Adriana Ventura",
+   "nomeCivil": "ADRIANA MIGUEL VENTURA",
+   "partido": "NOVO"
+  },
+  "204529": {
+   "nome": "Policial Katia Sastre",
+   "nomeCivil": "KATIA DA SILVA SASTRE",
+   "partido": "PL"
+  },
+  "204530": {
+   "nome": "Rodrigo Agostinho",
+   "nomeCivil": "RODRIGO ANTONIO DE AGOSTINHO MENDONÇA",
+   "partido": "PSB"
+  },
+  "204531": {
+   "nome": "Guilherme Derrite",
+   "nomeCivil": "GUILHERME MURARO DERRITE",
+   "partido": "PP"
+  },
+  "204532": {
+   "nome": "Vinicius Poit",
+   "nomeCivil": "VINICIUS LAZZER POIT",
+   "partido": "NOVO"
+  },
+  "204534": {
+   "nome": "Tabata Amaral",
+   "nomeCivil": "TABATA CLAUDIA AMARAL DE PONTES",
+   "partido": "PSB"
+  },
+  "204535": {
+   "nome": "Sâmia Bomfim",
+   "nomeCivil": "SAMIA DE SOUZA BOMFIM",
+   "partido": "PSOL"
+  },
+  "204536": {
+   "nome": "Kim Kataguiri",
+   "nomeCivil": "KIM PATROCA KATAGUIRI",
+   "partido": "UNIÃO"
+  },
+  "204537": {
+   "nome": "Enrico Misasi",
+   "nomeCivil": "ENRICO VAN BLARCUM DE GRAAFF MISASI",
+   "partido": "MDB"
+  },
+  "204540": {
+   "nome": "Maria Rosas",
+   "nomeCivil": "MARIA DO PARTO MENDES ROSAS",
+   "partido": "REPUBLICANOS"
+  },
+  "204544": {
+   "nome": "Alexandre Frota",
+   "nomeCivil": "ALEXANDRE FROTA DE ANDRADE",
+   "partido": "PROS"
+  },
+  "204546": {
+   "nome": "Joice Hasselmann",
+   "nomeCivil": "JOICE CRISTINA HASSELMANN",
+   "partido": "PSDB"
+  },
+  "213274": {
+   "nome": "Ricardo Silva",
+   "nomeCivil": "RICARDO AUGUSTO MACHADO DA SILVA",
+   "partido": "PSD"
+  },
+  "218086": {
+   "nome": "Ely Santos",
+   "nomeCivil": "ELIANE DE SOUSA ALVES",
+   "partido": "REPUBLICANOS"
+  },
+  "220633": {
+   "nome": "Ricardo Salles",
+   "nomeCivil": "RICARDO DE AQUINO SALLES",
+   "partido": "NOVO"
+  },
+  "220634": {
+   "nome": "Marcelo Lima",
+   "nomeCivil": "MARCELO DE LIMA FERNANDES",
+   "partido": "PSB"
+  },
+  "220635": {
+   "nome": "Bruno Ganem",
+   "nomeCivil": "BRUNO AREVALO GANEM",
+   "partido": "PODE"
+  },
+  "220638": {
+   "nome": "Antonio Carlos Rodrigues",
+   "nomeCivil": "ANTONIO CARLOS RODRIGUES",
+   "partido": "PL"
+  },
+  "220639": {
+   "nome": "Guilherme Boulos",
+   "nomeCivil": "GUILHERME CASTRO BOULOS",
+   "partido": "PSOL"
+  },
+  "220640": {
+   "nome": "Juliana Cardoso",
+   "nomeCivil": "JULIANA CARDOSO",
+   "partido": "PT"
+  },
+  "220641": {
+   "nome": "Rodrigo Gambale",
+   "nomeCivil": "RODRIGO GAMBALE VIEIRA",
+   "partido": "PODE"
+  },
+  "220642": {
+   "nome": "Delegado Bruno Lima",
+   "nomeCivil": "BRUNO MARCELLO DE OLIVEIRA LIMA",
+   "partido": "PP"
+  },
+  "220644": {
+   "nome": "Rosangela Moro",
+   "nomeCivil": "ROSANGELA MARIA WOLFF DE QUADROS MORO",
+   "partido": "UNIÃO"
+  },
+  "220645": {
+   "nome": "Erika Hilton",
+   "nomeCivil": "ERIKA SANTOS SILVA",
+   "partido": "PSOL"
+  },
+  "220646": {
+   "nome": "Felipe Becari",
+   "nomeCivil": "FELIPE BECARI COMENALE",
+   "partido": "UNIÃO"
+  },
+  "220647": {
+   "nome": "Mauricio Neves",
+   "nomeCivil": "MANOEL MAURICIO SILVA NEVES",
+   "partido": "PP"
+  },
+  "220648": {
+   "nome": "Marangoni",
+   "nomeCivil": "FERNANDO JOSE DE SOUZA MARANGONI",
+   "partido": "UNIÃO"
+  },
+  "220649": {
+   "nome": "Delegado da Cunha",
+   "nomeCivil": "CARLOS ALBERTO DA CUNHA",
+   "partido": "PP"
+  },
+  "220650": {
+   "nome": "Paulo Alexandre Barbosa",
+   "nomeCivil": "PAULO ALEXANDRE PEREIRA BARBOSA",
+   "partido": "PSDB"
+  },
+  "220651": {
+   "nome": "Simone Marquetto",
+   "nomeCivil": "SIMONE APARECIDA MARQUETO CURRALADAS",
+   "partido": "MDB"
+  },
+  "220652": {
+   "nome": "Delegado Palumbo",
+   "nomeCivil": "MARIO PALUMBO JUNIOR",
+   "partido": "MDB"
+  },
+  "220653": {
+   "nome": "Fábio Teruel",
+   "nomeCivil": "Fábio Eduardo de Oliveira Teruel",
+   "partido": "MDB"
+  },
+  "220654": {
+   "nome": "Delegado Paulo Bilynskyj",
+   "nomeCivil": "PAULO FRANCISCO MUNIZ BILYNSKYJ",
+   "partido": "PL"
+  },
+  "220655": {
+   "nome": "Mario Frias",
+   "nomeCivil": "MARIO LUIS FRIAS",
+   "partido": "PL"
+  },
+  "221148": {
+   "nome": "Alfredinho",
+   "nomeCivil": "ALFREDO ALVES CAVALCANTE",
+   "partido": "PT"
+  },
+  "221328": {
+   "nome": "Adilson Barroso",
+   "nomeCivil": "ADILSON BARROSO OLIVEIRA",
+   "partido": "PL"
+  },
+  "221338": {
+   "nome": "Professora Luciene Cavalcante",
+   "nomeCivil": "LUCIENE CAVALCANTE DA SILVA",
+   "partido": "PSOL"
+  },
+  "222142": {
+   "nome": "Coronel Telhada",
+   "nomeCivil": "PAULO ADRIANO LOPES LUCINDA TELHADA",
+   "partido": "PP"
+  },
+  "226837": {
+   "nome": "Saulo Pedroso",
+   "nomeCivil": "SAULO PEDROSO DE SOUZA",
+   "partido": "PSD"
+  },
+  "227433": {
+   "nome": "Douglas Viegas",
+   "nomeCivil": "DOUGLAS DE PAULO VIEGAS",
+   "partido": "UNIÃO"
+  },
+  "228941": {
+   "nome": "Daniel José",
+   "nomeCivil": "DANIEL JOSÉ DA SILVA OLIVEIRA",
+   "partido": "PODE"
+  },
+  "229259": {
+   "nome": "Pedro Tourinho",
+   "nomeCivil": "PEDRO TOURINHO DE SIQUEIRA",
+   "partido": "PT"
+  },
+  "230957": {
+   "nome": "João Cury",
+   "nomeCivil": "João Cury Neto",
+   "partido": "MDB"
+  },
+  "234310": {
+   "nome": "Ricardo Galvão",
+   "nomeCivil": "RICARDO MAGNUS OSÓRIO GALVÃO",
+   "partido": "REDE"
+  }
+ },
+ "votos": {
+  "salario-2022": {
+   "66828": "Sim",
+   "73433": "Sim",
+   "73441": "Sim",
+   "73531": "Não",
+   "73604": "Sim",
+   "74262": "Sim",
+   "74273": "Não",
+   "74283": "Sim",
+   "74784": "Não",
+   "92346": "Não",
+   "141398": "Sim",
+   "141488": "Sim",
+   "141518": "Sim",
+   "141553": "Sim",
+   "152610": "Sim",
+   "154178": "Sim",
+   "160532": "Não",
+   "160558": "Sim",
+   "160601": "Sim",
+   "160653": "Sim",
+   "178977": "Abstenção",
+   "178981": "Não",
+   "178983": "Não",
+   "178985": "Sim",
+   "178986": "Sim",
+   "178987": "Não",
+   "178989": "Sim",
+   "178990": "Não",
+   "178992": "Sim",
+   "204484": "Não",
+   "204485": "Sim",
+   "204501": "Sim",
+   "204502": "Não",
+   "204503": "Sim",
+   "204504": "Sim",
+   "204507": "Não",
+   "204511": "Sim",
+   "204513": "Sim",
+   "204514": "Não",
+   "204516": "Não",
+   "204521": "Sim",
+   "204522": "Sim",
+   "204525": "Sim",
+   "204526": "Não",
+   "204528": "Não",
+   "204529": "Sim",
+   "204530": "Não",
+   "204532": "Não",
+   "204534": "Não",
+   "204535": "Não",
+   "204536": "Não",
+   "204537": "Não",
+   "204540": "Sim",
+   "204544": "Sim",
+   "204546": "Não"
+  },
+  "ficha-limpa-2023": {
+   "66828": "Sim",
+   "73433": "Sim",
+   "73604": "Sim",
+   "74262": "Não",
+   "74273": "Sim",
+   "74283": "Sim",
+   "74696": "Sim",
+   "74784": "Não",
+   "141391": "Sim",
+   "141398": "Sim",
+   "141555": "Sim",
+   "160545": "Sim",
+   "160548": "Sim",
+   "160558": "Sim",
+   "160601": "Sim",
+   "160976": "Sim",
+   "162067": "Sim",
+   "178972": "Sim",
+   "178975": "Sim",
+   "178983": "Sim",
+   "178985": "Sim",
+   "178986": "Sim",
+   "178989": "Sim",
+   "178992": "Sim",
+   "204504": "Sim",
+   "204506": "Sim",
+   "204507": "Sim",
+   "204511": "Não",
+   "204522": "Sim",
+   "204525": "Não",
+   "204528": "Não",
+   "204534": "Não",
+   "204535": "Não",
+   "204540": "Sim",
+   "213274": "Sim",
+   "218086": "Sim",
+   "220633": "Sim",
+   "220634": "Sim",
+   "220635": "Sim",
+   "220638": "Sim",
+   "220639": "Não",
+   "220640": "Sim",
+   "220641": "Sim",
+   "220644": "Sim",
+   "220645": "Não",
+   "220646": "Sim",
+   "220650": "Sim",
+   "220651": "Sim",
+   "220653": "Sim",
+   "220654": "Não",
+   "220655": "Sim",
+   "221148": "Sim",
+   "221328": "Sim",
+   "221338": "Não",
+   "222142": "Sim"
+  },
+  "anistia-partidos-2024": {
+   "73433": "Sim",
+   "73441": "Sim",
+   "73531": "Não",
+   "74262": "Não",
+   "74270": "Sim",
+   "74273": "Não",
+   "74283": "Sim",
+   "92346": "Sim",
+   "141391": "Sim",
+   "141456": "Sim",
+   "160545": "Sim",
+   "160548": "Sim",
+   "160601": "Sim",
+   "160976": "Sim",
+   "162067": "Sim",
+   "171139": "Sim",
+   "178829": "Sim",
+   "178972": "Não",
+   "178975": "Sim",
+   "178983": "Sim",
+   "178985": "Sim",
+   "178986": "Sim",
+   "178987": "Sim",
+   "178992": "Sim",
+   "204485": "Sim",
+   "204501": "Sim",
+   "204504": "Sim",
+   "204507": "Não",
+   "204525": "Não",
+   "204526": "Não",
+   "204528": "Não",
+   "204534": "Não",
+   "204535": "Não",
+   "204536": "Não",
+   "204540": "Sim",
+   "218086": "Sim",
+   "220633": "Não",
+   "220635": "Sim",
+   "220638": "Sim",
+   "220639": "Não",
+   "220640": "Sim",
+   "220641": "Sim",
+   "220644": "Não",
+   "220647": "Sim",
+   "220649": "Sim",
+   "220650": "Não",
+   "220651": "Sim",
+   "220652": "Não",
+   "220653": "Sim",
+   "220654": "Não",
+   "221148": "Sim",
+   "221328": "Sim",
+   "221338": "Não",
+   "222142": "Sim",
+   "226837": "Sim",
+   "227433": "Não",
+   "228941": "Sim",
+   "229259": "Sim"
+  },
+  "mais-deputados-2025": {
+   "66828": "Sim",
+   "73433": "Sim",
+   "73441": "Não",
+   "73531": "Não",
+   "73604": "Não",
+   "74262": "Não",
+   "74273": "Não",
+   "74283": "Não",
+   "74784": "Não",
+   "141391": "Não",
+   "141398": "Não",
+   "141456": "Não",
+   "141518": "Sim",
+   "141555": "Não",
+   "160548": "Não",
+   "160561": "Não",
+   "160601": "Não",
+   "160976": "Sim",
+   "162067": "Não",
+   "175765": "Sim",
+   "178829": "Não",
+   "178972": "Não",
+   "178975": "Não",
+   "178983": "Não",
+   "178985": "Não",
+   "178986": "Não",
+   "178989": "Não",
+   "178992": "Não",
+   "204485": "Não",
+   "204501": "Sim",
+   "204504": "Sim",
+   "204506": "Não",
+   "204507": "Não",
+   "204511": "Sim",
+   "204525": "Não",
+   "204526": "Não",
+   "204528": "Não",
+   "204534": "Não",
+   "204535": "Não",
+   "204536": "Não",
+   "204540": "Sim",
+   "218086": "Sim",
+   "220633": "Não",
+   "220635": "Não",
+   "220638": "Sim",
+   "220639": "Não",
+   "220640": "Não",
+   "220641": "Não",
+   "220642": "Não",
+   "220644": "Não",
+   "220645": "Não",
+   "220646": "Não",
+   "220647": "Sim",
+   "220649": "Não",
+   "220650": "Não",
+   "220651": "Não",
+   "220652": "Não",
+   "220653": "Não",
+   "220654": "Não",
+   "220655": "Não",
+   "221148": "Sim",
+   "221328": "Não",
+   "221338": "Não",
+   "226837": "Não",
+   "227433": "Não",
+   "230957": "Sim"
+  },
+  "blindagem-2025": {
+   "66828": "Sim",
+   "73433": "Não",
+   "73441": "Sim",
+   "73531": "Não",
+   "73604": "Não",
+   "74262": "Não",
+   "74270": "Sim",
+   "74273": "Sim",
+   "74283": "Não",
+   "74784": "Não",
+   "141391": "Sim",
+   "141398": "Não",
+   "141456": "Sim",
+   "141518": "Sim",
+   "141555": "Sim",
+   "160548": "Sim",
+   "160558": "Sim",
+   "160561": "Sim",
+   "160601": "Sim",
+   "160976": "Sim",
+   "162067": "Sim",
+   "175765": "Não",
+   "178972": "Sim",
+   "178975": "Não",
+   "178983": "Sim",
+   "178985": "Sim",
+   "178986": "Não",
+   "178987": "Não",
+   "178989": "Sim",
+   "178992": "Não",
+   "204485": "Sim",
+   "204501": "Não",
+   "204504": "Sim",
+   "204506": "Sim",
+   "204511": "Sim",
+   "204525": "Sim",
+   "204526": "Sim",
+   "204528": "Não",
+   "204534": "Não",
+   "204535": "Não",
+   "204536": "Não",
+   "204540": "Sim",
+   "218086": "Sim",
+   "220635": "Sim",
+   "220638": "Sim",
+   "220639": "Não",
+   "220640": "Não",
+   "220641": "Sim",
+   "220642": "Não",
+   "220644": "Não",
+   "220645": "Não",
+   "220646": "Sim",
+   "220647": "Sim",
+   "220648": "Sim",
+   "220649": "Sim",
+   "220650": "Não",
+   "220651": "Sim",
+   "220652": "Não",
+   "220653": "Sim",
+   "220654": "Sim",
+   "220655": "Sim",
+   "221148": "Sim",
+   "221328": "Sim",
+   "221338": "Não",
+   "226837": "Não",
+   "227433": "Não",
+   "230957": "Sim"
+  },
+  "offshores-2023": {
+   "66828": "Sim",
+   "73433": "Sim",
+   "73531": "Sim",
+   "73604": "Sim",
+   "74273": "Não",
+   "74283": "Sim",
+   "74784": "Sim",
+   "141391": "Sim",
+   "141398": "Sim",
+   "141456": "Sim",
+   "141555": "Sim",
+   "160548": "Sim",
+   "160558": "Não",
+   "160601": "Não",
+   "160976": "Sim",
+   "162067": "Sim",
+   "178829": "Não",
+   "178983": "Não",
+   "178985": "Não",
+   "178986": "Sim",
+   "178987": "Sim",
+   "178989": "Sim",
+   "178992": "Sim",
+   "204485": "Não",
+   "204501": "Sim",
+   "204504": "Sim",
+   "204506": "Sim",
+   "204507": "Não",
+   "204511": "Sim",
+   "204525": "Não",
+   "204526": "Não",
+   "204528": "Não",
+   "204534": "Sim",
+   "204536": "Não",
+   "204540": "Sim",
+   "213274": "Sim",
+   "218086": "Sim",
+   "220633": "Não",
+   "220634": "Sim",
+   "220635": "Sim",
+   "220638": "Não",
+   "220639": "Sim",
+   "220640": "Sim",
+   "220641": "Sim",
+   "220644": "Não",
+   "220645": "Sim",
+   "220646": "Sim",
+   "220647": "Sim",
+   "220648": "Sim",
+   "220650": "Sim",
+   "220651": "Sim",
+   "220652": "Não",
+   "220653": "Não",
+   "220654": "Não",
+   "220655": "Não",
+   "221148": "Sim",
+   "221328": "Não",
+   "221338": "Sim",
+   "222142": "Não",
+   "226837": "Sim"
+  },
+  "iof-2025": {
+   "66828": "Sim",
+   "73433": "Não",
+   "73441": "Sim",
+   "73531": "Não",
+   "73604": "Sim",
+   "74262": "Sim",
+   "74270": "Sim",
+   "74273": "Sim",
+   "74283": "Não",
+   "74784": "Não",
+   "141391": "Sim",
+   "141398": "Não",
+   "141456": "Não",
+   "141518": "Sim",
+   "141555": "Sim",
+   "160548": "Sim",
+   "160558": "Sim",
+   "160561": "Sim",
+   "160601": "Sim",
+   "160976": "Sim",
+   "162067": "Não",
+   "175765": "Sim",
+   "178829": "Sim",
+   "178972": "Sim",
+   "178975": "Sim",
+   "178983": "Sim",
+   "178985": "Sim",
+   "178986": "Não",
+   "178987": "Não",
+   "178989": "Sim",
+   "178992": "Sim",
+   "204485": "Sim",
+   "204501": "Não",
+   "204504": "Sim",
+   "204511": "Sim",
+   "204514": "Sim",
+   "204525": "Sim",
+   "204526": "Sim",
+   "204528": "Sim",
+   "204535": "Não",
+   "204536": "Sim",
+   "204540": "Sim",
+   "218086": "Sim",
+   "220633": "Sim",
+   "220635": "Sim",
+   "220638": "Sim",
+   "220639": "Não",
+   "220640": "Não",
+   "220641": "Sim",
+   "220642": "Sim",
+   "220644": "Sim",
+   "220645": "Não",
+   "220646": "Sim",
+   "220647": "Sim",
+   "220648": "Sim",
+   "220649": "Sim",
+   "220650": "Sim",
+   "220651": "Sim",
+   "220652": "Sim",
+   "220653": "Sim",
+   "220654": "Sim",
+   "220655": "Sim",
+   "221148": "Não",
+   "221328": "Sim",
+   "221338": "Não",
+   "226837": "Sim",
+   "227433": "Sim",
+   "230957": "Sim"
+  },
+  "mp-1303-2025": {
+   "73433": "Não",
+   "73531": "Não",
+   "73604": "Não",
+   "74262": "Sim",
+   "74270": "Sim",
+   "74273": "Sim",
+   "74283": "Não",
+   "74784": "Não",
+   "141391": "Sim",
+   "141398": "Não",
+   "141456": "Não",
+   "141518": "Sim",
+   "160548": "Não",
+   "160558": "Sim",
+   "160976": "Sim",
+   "162067": "Não",
+   "175765": "Sim",
+   "178829": "Sim",
+   "178983": "Sim",
+   "178985": "Sim",
+   "178986": "Não",
+   "178987": "Não",
+   "178989": "Não",
+   "178992": "Sim",
+   "204485": "Sim",
+   "204501": "Não",
+   "204504": "Sim",
+   "204506": "Sim",
+   "204511": "Sim",
+   "204525": "Sim",
+   "204526": "Sim",
+   "204528": "Sim",
+   "204534": "Não",
+   "204535": "Não",
+   "204536": "Sim",
+   "204540": "Sim",
+   "218086": "Sim",
+   "220633": "Sim",
+   "220635": "Sim",
+   "220638": "Não",
+   "220640": "Não",
+   "220641": "Não",
+   "220642": "Sim",
+   "220644": "Sim",
+   "220645": "Não",
+   "220647": "Sim",
+   "220648": "Sim",
+   "220649": "Sim",
+   "220650": "Sim",
+   "220651": "Sim",
+   "220652": "Sim",
+   "220653": "Não",
+   "220654": "Sim",
+   "220655": "Sim",
+   "221148": "Não",
+   "221328": "Sim",
+   "221338": "Não",
+   "226837": "Sim",
+   "227433": "Sim"
+  },
+  "plp-128-2025": {
+   "66828": "Não",
+   "73433": "Sim",
+   "73441": "Sim",
+   "73531": "Sim",
+   "73604": "Sim",
+   "74262": "Não",
+   "74270": "Sim",
+   "74273": "Obstrução",
+   "74283": "Sim",
+   "74784": "Sim",
+   "141391": "Não",
+   "141398": "Sim",
+   "141456": "Sim",
+   "160548": "Sim",
+   "160558": "Obstrução",
+   "160601": "Obstrução",
+   "160976": "Sim",
+   "175765": "Sim",
+   "178972": "Sim",
+   "178975": "Sim",
+   "178983": "Não",
+   "178986": "Sim",
+   "178987": "Sim",
+   "178989": "Sim",
+   "178992": "Não",
+   "204485": "Sim",
+   "204501": "Sim",
+   "204504": "Sim",
+   "204506": "Sim",
+   "204525": "Obstrução",
+   "204526": "Obstrução",
+   "204528": "Não",
+   "204531": "Não",
+   "204534": "Sim",
+   "204535": "Sim",
+   "204536": "Não",
+   "204540": "Sim",
+   "218086": "Sim",
+   "220635": "Sim",
+   "220638": "Sim",
+   "220640": "Sim",
+   "220641": "Sim",
+   "220642": "Sim",
+   "220644": "Não",
+   "220645": "Sim",
+   "220646": "Sim",
+   "220648": "Sim",
+   "220649": "Sim",
+   "220650": "Sim",
+   "220651": "Não",
+   "220652": "Não",
+   "220653": "Sim",
+   "220654": "Não",
+   "220655": "Obstrução",
+   "221148": "Sim",
+   "221328": "Obstrução",
+   "221338": "Sim",
+   "226837": "Sim",
+   "227433": "Sim",
+   "230957": "Sim",
+   "234310": "Sim"
+  }
+ }
+}

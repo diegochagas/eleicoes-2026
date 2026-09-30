@@ -1,0 +1,743 @@
+{
+ "candidatos": [
+  {
+   "id": 250002536394,
+   "numero": 22077,
+   "nomeUrna": "DANILO MORGADO",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi preso em 17/09/2026 na Operação Vectura Corrupta, da Polícia Civil e do Ministério Público de São Paulo, que investiga a infiltração do PCC no transporte público da capital. A decisão judicial cita indícios de ligação dele com a organização e de financiamento da sua campanha a prefeito de Praia Grande em 2024 por integrantes dela. Em 23/09/2026 o STJ não aceitou o pedido de habeas corpus, sem analisar se a prisão é legal. A defesa diz que a prisão é ilegal.",
+     "status": "preso",
+     "fonte": "https://metropoles.com/sao-paulo/stj-habeas-corpus-danilo-morgado",
+     "fonte_nome": "Metrópoles",
+     "data_fonte": "2026-09-23",
+     "fontes_extra": [
+      "https://sbtnews.sbt.com.br/noticia/brasil/danilo-morgado-e-preso-em-operacao-relacionada-ao-pcc-em-sp"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 250002536410,
+   "numero": 22500,
+   "nomeUrna": "LUCAS BOVE",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "É réu na Justiça de São Paulo por violência doméstica contra a ex-mulher, a influenciadora Cíntia Chagas. Em setembro de 2025 a Polícia Civil o indiciou por violência psicológica e perseguição. Ele nega as acusações. A informação mais recente encontrada é de maio de 2026; não foi encontrada notícia de julgamento.",
+     "status": "réu",
+     "fonte": "https://www.metropoles.com/sao-paulo/alesp-pedidos-cassacao-bove",
+     "fonte_nome": "Metrópoles",
+     "data_fonte": "2026-05-14",
+     "fontes_extra": [
+      "https://www.congressoemfoco.com.br/noticia/112518/deputado-lucas-bove-e-indiciado-por-violencia-contra-cintia-chagas"
+     ]
+    },
+    {
+     "tipo": "justica",
+     "texto": "O Conselho de Ética da ALESP arquivou, em agosto de 2025, o pedido de cassação do mandato ligado ao caso da ex-mulher. Em maio de 2026, rejeitou por 5 votos a 2 uma suspensão de 30 dias proposta por ofensas a deputadas em sessões da Casa; ficou pendente a análise de uma punição mais leve, cujo resultado não foi encontrado.",
+     "status": "arquivado",
+     "fonte": "https://www.metropoles.com/sao-paulo/alesp-pedidos-cassacao-bove",
+     "fonte_nome": "Metrópoles",
+     "data_fonte": "2026-05-14",
+     "fontes_extra": [
+      "https://www.congressoemfoco.com.br/noticia/112518/deputado-lucas-bove-e-indiciado-por-violencia-contra-cintia-chagas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 250002533776,
+   "numero": 11777,
+   "nomeUrna": "DELEGADO OLIM",
+   "partido": "PP",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi citado na delação do empresário Vinicius Gritzbach, que relatou cobrança de propina por policiais civis. A investigação contra ele foi arquivada pelo Ministério Público de São Paulo em 2025: a Procuradoria-Geral de Justiça concluiu que não havia provas de corrupção.",
+     "status": "arquivado",
+     "fonte": "https://g1.globo.com/sp/sao-paulo/noticia/2025/04/03/mp-arquiva-investigacao-contra-deputado-delegados-e-advogado-delatados-por-gritzbach-suspeitos-de-cobrar-r-5-milhoes-em-propina.ghtml",
+     "fonte_nome": "G1",
+     "data_fonte": "2025-04-03"
+    }
+   ]
+  },
+  {
+   "id": 250002534178,
+   "numero": 25000,
+   "nomeUrna": "ATILA JACOMUSSI",
+   "partido": "PRD",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "É réu em ação penal da Operação Prato Feito (2018), que apurou fraude em licitação de uniformes escolares e corrupção quando ele era prefeito de Mauá. Foi preso duas vezes em 2018 e denunciado pelo Ministério Público Federal em 2019. Em março de 2026 o TRE-SP negou o pedido para suspender a ação, que continua sem julgamento. Ele nega as acusações.",
+     "status": "réu",
+     "fonte": "https://www.dgabc.com.br/Noticia/4290173/justica-mantem-atila-sob-mira-de-acao-da-operacao-prato-feito",
+     "fonte_nome": "Diário do Grande ABC",
+     "data_fonte": "2026-03-15",
+     "fontes_extra": [
+      "https://g1.globo.com/sp/sao-paulo/noticia/2019/01/30/mpf-denuncia-prefeito-de-maua-e-outras-nove-pessoas-por-fraude-em-licitacao-e-corrupcao.ghtml"
+     ]
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "As contas dos quatro anos em que foi prefeito de Mauá (2017 a 2020) tiveram parecer contrário do Tribunal de Contas do Estado e foram rejeitadas pela Câmara Municipal. Em abril de 2026 o Tribunal de Justiça negou o pedido dele para anular a rejeição. Mesmo assim, o TRE-SP aprovou o registro da candidatura em 10/09/2026, por 5 votos a 0.",
+     "status": "contas irregulares",
+     "fonte": "https://www.dgabc.com.br/Noticia/4294933/justica-mantem-rejeicao-as-contas-de-atila-e-volpi-que-negam-implicacoes-eleitorais",
+     "fonte_nome": "Diário do Grande ABC",
+     "data_fonte": "2026-04-16",
+     "fontes_extra": [
+      "https://www.dgabc.com.br/Noticia/4346249/atila-tem-registro-de-candidatura-deferido-pelo-tre-sp"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 250002540915,
+   "numero": 55088,
+   "nomeUrna": "CLOVIS VOLPI",
+   "partido": "PSD",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi cassado do cargo de prefeito de Ribeirão Pires em setembro de 2022: o TSE confirmou, por unanimidade, que ele estava inelegível pela Lei da Ficha Limpa na eleição de 2020, por ter as contas de 2012 rejeitadas pelo Tribunal de Contas do Estado.",
+     "status": "cassado",
+     "fonte": "https://www.dgabc.com.br/Noticia/3884962/tse-aprova-cassacao-do-prefeito-clovis-volpi-em-ribeirao-pires",
+     "fonte_nome": "Diário do Grande ABC",
+     "data_fonte": "2022-09-13"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado em 1ª instância por improbidade administrativa em 2020 (gastos e contratações no fim do mandato de 2012). Em agosto de 2023 o Tribunal de Justiça de São Paulo reformou a sentença e o absolveu.",
+     "status": "absolvido",
+     "fonte": "https://www.dgabc.com.br/Noticia/4028918/justica-reve-condenacao-e-absolve-volpi-em-processo-que-resultou-em-cassacao",
+     "fonte_nome": "Diário do Grande ABC",
+     "data_fonte": "2023-08-16"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Em decisão noticiada em abril de 2026, o STF negou recurso dele e manteve a rejeição das contas de 2012 da Prefeitura de Ribeirão Pires. A defesa diz que isso não o impede de concorrer. No TSE, o registro da candidatura de 2026 aparece como \"deferido com recurso\" (aprovado, mas ainda contestado).",
+     "status": "contas irregulares",
+     "fonte": "https://www.dgabc.com.br/Noticia/4294933/justica-mantem-rejeicao-as-contas-de-atila-e-volpi-que-negam-implicacoes-eleitorais",
+     "fonte_nome": "Diário do Grande ABC",
+     "data_fonte": "2026-04-16"
+    }
+   ]
+  },
+  {
+   "id": 250002540887,
+   "numero": 55456,
+   "nomeUrna": "DIRCEU DALBEN",
+   "partido": "PSD",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Tem três condenações por improbidade administrativa da época em que foi prefeito de Sumaré (contratações de construtoras consideradas irregulares). Por causa delas o TRE-SP barrou sua candidatura em 2022, mas o TSE liberou o registro em dezembro de 2022: entendeu que os processos ainda estavam em andamento e que as condenações não o tornavam inelegível. Não foi encontrada informação sobre o desfecho dos processos.",
+     "status": "condenado",
+     "fonte": "https://www.gazetasp.com.br/cotidiano/justica-aprova-registro-de-dalben-e-fara-recontagem-para-considera-lo/",
+     "fonte_nome": "Gazeta de S.Paulo",
+     "data_fonte": "2022-12-08"
+    }
+   ]
+  },
+  {
+   "id": 250002540875,
+   "numero": 55125,
+   "nomeUrna": "MAURO BRAGATO",
+   "partido": "PSD",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Perdeu o mandato de deputado em julho de 2016 por causa de uma condenação definitiva por improbidade administrativa (compra de leite com preço acima do mercado quando era prefeito de Presidente Prudente, em 1999 e 2000). Depois, a 2ª Turma do STJ aceitou ação rescisória, anulou a condenação e julgou improcedente a ação de improbidade.",
+     "status": "anulado",
+     "fonte": "https://www.sedep.com.br/?p=102162",
+     "fonte_nome": "STJ (notícia reproduzida pelo portal SEDEP)",
+     "data_fonte": null,
+     "fontes_extra": [
+      "http://g1.globo.com/sp/presidente-prudente-regiao/noticia/2016/07/alesp-acata-determinacao-da-justica-e-cassa-deputado-mauro-bragato.html"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 250002540880,
+   "numero": 55555,
+   "nomeUrna": "ROGERIO NOGUEIRA",
+   "partido": "PSD",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "É réu desde abril de 2023 em ação penal no Tribunal de Justiça de São Paulo por peculato, lavagem de dinheiro e organização criminosa. O Ministério Público o acusa de comandar um esquema de \"rachadinha\" (devolução de parte do salário de assessores) no gabinete. Ele nega. Não foi encontrada notícia de julgamento até setembro de 2026.",
+     "status": "réu",
+     "fonte": "https://g1.globo.com/sp/sao-paulo/sp2/noticia/2023/04/28/justica-de-sp-aceita-denuncia-contra-deputado-rogerio-nogueira-do-psdb-por-esquema-de-rachadinha.ghtml",
+     "fonte_nome": "G1",
+     "data_fonte": "2023-04-28"
+    }
+   ]
+  },
+  {
+   "id": 250002536846,
+   "numero": 13700,
+   "nomeUrna": "DONATO",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi investigado pelo Ministério Público de São Paulo por suspeita de improbidade e enriquecimento ilícito depois de ser citado no caso da \"Máfia do ISS\" (2013), quando era vereador. O inquérito foi arquivado em julho de 2016: o promotor afirmou que não encontrou irregularidades nas contas dele. Não chegou a ser investigado na esfera criminal.",
+     "status": "arquivado",
+     "fonte": "https://www.metropoles.com/brasil/politica-brasil/mpe-arquiva-acao-contra-vereador-do-pt-na-mafia-do-iss",
+     "fonte_nome": "Metrópoles (Estadão Conteúdo)",
+     "data_fonte": "2016-07-07",
+     "fontes_extra": [
+      "https://istoedinheiro.com.br/mpe-arquiva-acao-contra-vereador-do-pt-na-mafia-do-iss"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 250002536826,
+   "numero": 13011,
+   "nomeUrna": "MAURICI",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Teve contas rejeitadas pelo Tribunal de Contas da União quando era diretor da Ceagesp e, por isso, a Justiça Eleitoral o considerou inelegível na eleição de 2018. Em março de 2020, a 2ª Turma do STF manteve a decisão que afastou a inelegibilidade e o reconheceu como deputado eleito.",
+     "status": "anulado",
+     "fonte": "https://noticias.stf.jus.br/postsnoticias/segunda-turma-rejeita-recursos-contra-decisao-que-afastou-inelegibilidade-de-ex-diretor-da-ceagesp/",
+     "fonte_nome": "STF",
+     "data_fonte": "2020-03"
+    }
+   ]
+  }
+ ],
+ "alesp_atuais": [
+  {
+   "id": 250002536429,
+   "numero": 22007,
+   "nomeUrna": "DANILO BALAS",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536367,
+   "numero": 22777,
+   "nomeUrna": "ALEX MADUREIRA",
+   "partido": "PL"
+  },
+  {
+   "id": 250002548910,
+   "numero": 45045,
+   "nomeUrna": "ANA CAROLINA SERRA",
+   "partido": "PSDB"
+  },
+  {
+   "id": 250002536245,
+   "numero": 13121,
+   "nomeUrna": "ANA PERUGINI",
+   "partido": "PT"
+  },
+  {
+   "id": 250002540584,
+   "numero": 55455,
+   "nomeUrna": "ANALICE FERNANDES",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002534207,
+   "numero": 15777,
+   "nomeUrna": "PR ANDRE BUENO",
+   "partido": "MDB"
+  },
+  {
+   "id": 250002534178,
+   "numero": 25000,
+   "nomeUrna": "ATILA JACOMUSSI",
+   "partido": "PRD"
+  },
+  {
+   "id": 250002540580,
+   "numero": 55855,
+   "nomeUrna": "BARROS MUNHOZ",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002536861,
+   "numero": 13456,
+   "nomeUrna": "BETH SAHAO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002541870,
+   "numero": 10010,
+   "nomeUrna": "BRUNA FURLAN",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002536419,
+   "numero": 22100,
+   "nomeUrna": "BRUNO ZAMBELLI",
+   "partido": "PL"
+  },
+  {
+   "id": 250002539294,
+   "numero": 40640,
+   "nomeUrna": "CAIO FRANÇA",
+   "partido": "PSB"
+  },
+  {
+   "id": 250002533757,
+   "numero": 11190,
+   "nomeUrna": "TELHADINHA - CAPITÃO TELHADA",
+   "partido": "PP"
+  },
+  {
+   "id": 250002540562,
+   "numero": 55155,
+   "nomeUrna": "CARLA MORANDO",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002539947,
+   "numero": 50789,
+   "nomeUrna": "CARLOS GIANNAZI",
+   "partido": "PSOL"
+  },
+  {
+   "id": 250002545203,
+   "numero": 20101,
+   "nomeUrna": "CLARICE GANEM",
+   "partido": "PODE"
+  },
+  {
+   "id": 250002536407,
+   "numero": 22138,
+   "nomeUrna": "CONTE LOPES",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536358,
+   "numero": 22322,
+   "nomeUrna": "DANI ALONSO",
+   "partido": "PL"
+  },
+  {
+   "id": 250002533756,
+   "numero": 44111,
+   "nomeUrna": "DANIEL SOARES",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002536366,
+   "numero": 22888,
+   "nomeUrna": "DELEGADA GRACIELA",
+   "partido": "PL"
+  },
+  {
+   "id": 250002533776,
+   "numero": 11777,
+   "nomeUrna": "DELEGADO OLIM",
+   "partido": "PP"
+  },
+  {
+   "id": 250002540887,
+   "numero": 55456,
+   "nomeUrna": "DIRCEU DALBEN",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002536846,
+   "numero": 13700,
+   "nomeUrna": "DONATO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002533947,
+   "numero": 15150,
+   "nomeUrna": "DR. EDUARDO NOBREGA",
+   "partido": "MDB"
+  },
+  {
+   "id": 250002536239,
+   "numero": 13800,
+   "nomeUrna": "JORGE DO CARMO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002548862,
+   "numero": 45777,
+   "nomeUrna": "DRA. DAMARIS MOURA",
+   "partido": "PSDB"
+  },
+  {
+   "id": 250002538904,
+   "numero": 50110,
+   "nomeUrna": "EDIANE MARIA",
+   "partido": "PSOL"
+  },
+  {
+   "id": 250002541885,
+   "numero": 10456,
+   "nomeUrna": "EDNA MACEDO",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002533735,
+   "numero": 44001,
+   "nomeUrna": "EDSON GIRIBONI",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002536851,
+   "numero": 13133,
+   "nomeUrna": "EDUARDO SUPLICY",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536831,
+   "numero": 13131,
+   "nomeUrna": "EMÍDIO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536268,
+   "numero": 13114,
+   "nomeUrna": "ENIO TATTO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536380,
+   "numero": 22051,
+   "nomeUrna": "FABIANA BOLSONARO",
+   "partido": "PL"
+  },
+  {
+   "id": 250002533759,
+   "numero": 44007,
+   "nomeUrna": "FELIPE FRANCO",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002545207,
+   "numero": 20520,
+   "nomeUrna": "FABIO FARIA DE SÁ",
+   "partido": "PODE"
+  },
+  {
+   "id": 250002541902,
+   "numero": 10123,
+   "nomeUrna": "GILMACI SANTOS",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002534232,
+   "numero": 15300,
+   "nomeUrna": "ITAMAR BORGES",
+   "partido": "MDB"
+  },
+  {
+   "id": 250002534242,
+   "numero": 15000,
+   "nomeUrna": "CARUSO",
+   "partido": "MDB"
+  },
+  {
+   "id": 250002541847,
+   "numero": 10000,
+   "nomeUrna": "JORGE WILSON XERIFE CONSUMIDOR",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002536264,
+   "numero": 65035,
+   "nomeUrna": "LECI BRANDÃO",
+   "partido": "PCDOB"
+  },
+  {
+   "id": 250002536404,
+   "numero": 22522,
+   "nomeUrna": "LETICIA AGUIAR",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536410,
+   "numero": 22500,
+   "nomeUrna": "LUCAS BOVE",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536263,
+   "numero": 13310,
+   "nomeUrna": "MARCOLINO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536270,
+   "numero": 13134,
+   "nomeUrna": "LUIZ FERNANDO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002534220,
+   "numero": 15123,
+   "nomeUrna": "LÉO OLIVEIRA",
+   "partido": "MDB"
+  },
+  {
+   "id": 250002536424,
+   "numero": 22700,
+   "nomeUrna": "MARCELO AGUIAR",
+   "partido": "PL"
+  },
+  {
+   "id": 250002540903,
+   "numero": 55678,
+   "nomeUrna": "MÁRCIO NAKASHIMA",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002536406,
+   "numero": 22222,
+   "nomeUrna": "MARCOS DAMASIO",
+   "partido": "PL"
+  },
+  {
+   "id": 250002540901,
+   "numero": 55010,
+   "nomeUrna": "MARIA LÚCIA AMARY",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002540878,
+   "numero": 55400,
+   "nomeUrna": "MARTA COSTA",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002536826,
+   "numero": 13011,
+   "nomeUrna": "MAURICI",
+   "partido": "PT"
+  },
+  {
+   "id": 250002540875,
+   "numero": 55125,
+   "nomeUrna": "MAURO BRAGATO",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002538918,
+   "numero": 50900,
+   "nomeUrna": "MONICA DAS PRETAS",
+   "partido": "PSOL"
+  },
+  {
+   "id": 250002536397,
+   "numero": 22223,
+   "nomeUrna": "OSEIAS DE MADUREIRA",
+   "partido": "PL"
+  },
+  {
+   "id": 250002539952,
+   "numero": 50000,
+   "nomeUrna": "PAULA DA BANCADA FEMINISTA",
+   "partido": "PSOL"
+  },
+  {
+   "id": 250002541851,
+   "numero": 10699,
+   "nomeUrna": "PAULO CORREA JR",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002536273,
+   "numero": 13613,
+   "nomeUrna": "PAULO FIORILO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536393,
+   "numero": 22422,
+   "nomeUrna": "PAULO MANSUR",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536260,
+   "numero": 13123,
+   "nomeUrna": "PROFESSORA BEBEL",
+   "partido": "PT"
+  },
+  {
+   "id": 250002533748,
+   "numero": 44123,
+   "nomeUrna": "CAMILA GODOI",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002533750,
+   "numero": 44000,
+   "nomeUrna": "RAFA ZIMBALDI",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002533758,
+   "numero": 44077,
+   "nomeUrna": "RAFAEL SARAIVA",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002545142,
+   "numero": 20100,
+   "nomeUrna": "RICARDO FRANÇA",
+   "partido": "PODE"
+  },
+  {
+   "id": 250002536389,
+   "numero": 22123,
+   "nomeUrna": "RICARDO MADALENA",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536352,
+   "numero": 22411,
+   "nomeUrna": "RODRIGO MORAES",
+   "partido": "PL"
+  },
+  {
+   "id": 250002540880,
+   "numero": 55555,
+   "nomeUrna": "ROGERIO NOGUEIRA",
+   "partido": "PSD"
+  },
+  {
+   "id": 250002541846,
+   "numero": 10111,
+   "nomeUrna": "RUI ALVES",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002536836,
+   "numero": 13789,
+   "nomeUrna": "RÔMULO",
+   "partido": "PT"
+  },
+  {
+   "id": 250002541873,
+   "numero": 10321,
+   "nomeUrna": "SEBASTIÃO SANTOS",
+   "partido": "REPUBLICANOS"
+  },
+  {
+   "id": 250002533798,
+   "numero": 44044,
+   "nomeUrna": "SOLANGE FREITAS",
+   "partido": "UNIÃO"
+  },
+  {
+   "id": 250002536395,
+   "numero": 22444,
+   "nomeUrna": "TENENTE COIMBRA",
+   "partido": "PL"
+  },
+  {
+   "id": 250002536240,
+   "numero": 13110,
+   "nomeUrna": "BARBA",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536814,
+   "numero": 13016,
+   "nomeUrna": "THAINARA FARIA",
+   "partido": "PT"
+  },
+  {
+   "id": 250002536423,
+   "numero": 22343,
+   "nomeUrna": "THIAGO AURICCHIO",
+   "partido": "PL"
+  },
+  {
+   "id": 250002539298,
+   "numero": 40211,
+   "nomeUrna": "VALDOMIRO LOPES",
+   "partido": "PSB"
+  },
+  {
+   "id": 250002536392,
+   "numero": 22922,
+   "nomeUrna": "VALERIA BOLSONARO",
+   "partido": "PL"
+  },
+  {
+   "id": 250002545221,
+   "numero": 20555,
+   "nomeUrna": "VITÃO DO CACHORRÃO",
+   "partido": "PODE"
+  }
+ ],
+ "verificados_sem_achados": [
+  "DANILO BALAS",
+  "PR ANDRE BUENO",
+  "BRUNO ZAMBELLI",
+  "CLARICE GANEM",
+  "DRA. DAMARIS MOURA",
+  "PAULO CORREA JR",
+  "RAFA ZIMBALDI",
+  "TENENTE COIMBRA",
+  "VALERIA BOLSONARO",
+  "ALEX MADUREIRA",
+  "CAIO FRANÇA",
+  "CONTE LOPES",
+  "ITAMAR BORGES",
+  "ENIO TATTO",
+  "MÁRCIO NAKASHIMA",
+  "PAULO FIORILO",
+  "RAFAEL SARAIVA",
+  "BARBA",
+  "VITÃO DO CACHORRÃO",
+  "ANA CAROLINA SERRA",
+  "TELHADINHA - CAPITÃO TELHADA",
+  "DANI ALONSO",
+  "CARUSO",
+  "MARCOLINO",
+  "MARCOS DAMASIO",
+  "MONICA DAS PRETAS",
+  "PAULO MANSUR",
+  "RICARDO FRANÇA",
+  "RÔMULO",
+  "THAINARA FARIA",
+  "ANA PERUGINI",
+  "BETH SAHAO",
+  "DANIEL SOARES",
+  "DR. EDUARDO NOBREGA",
+  "EDSON GIRIBONI",
+  "FELIPE FRANCO",
+  "JORGE WILSON XERIFE CONSUMIDOR",
+  "LUIZ FERNANDO",
+  "MARIA LÚCIA AMARY",
+  "OSEIAS DE MADUREIRA",
+  "PROFESSORA BEBEL",
+  "RICARDO MADALENA",
+  "SEBASTIÃO SANTOS",
+  "THIAGO AURICCHIO",
+  "ANALICE FERNANDES",
+  "BRUNA FURLAN",
+  "CARLOS GIANNAZI",
+  "RODRIGO MORAES",
+  "DELEGADA GRACIELA",
+  "JORGE DO CARMO",
+  "FABIO FARIA DE SÁ",
+  "EDUARDO SUPLICY",
+  "LECI BRANDÃO",
+  "LÉO OLIVEIRA",
+  "MARTA COSTA",
+  "PAULA DA BANCADA FEMINISTA",
+  "CAMILA GODOI",
+  "SOLANGE FREITAS",
+  "EDIANE MARIA",
+  "GILMACI SANTOS"
+ ]
+}

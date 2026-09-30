@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Builds the static site for GitHub Pages and publishes it to the gh-pages branch.
+# The base path is the repository name, taken from the origin remote.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+repo="$(basename "$(git remote get-url origin)" .git)"
+sha="$(git rev-parse --short HEAD)"
+
+BASE_PATH="/$repo" npx next build
+
+# Commit the contents of out/ without touching the working tree or the real index.
+index="$(mktemp -u)"
+GIT_INDEX_FILE="$index" git --work-tree=out add -A
+tree="$(GIT_INDEX_FILE="$index" git write-tree)"
+rm -f "$index"
+commit="$(git commit-tree "$tree" -m "Publica $sha")"
+
+# gh-pages only holds generated files, so it is replaced on every deploy.
+git push --force origin "$commit:refs/heads/gh-pages"
+echo "Publicado: gh-pages ← $sha"

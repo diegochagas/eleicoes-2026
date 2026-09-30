@@ -1,0 +1,688 @@
+[
+ {
+  "numero": 30,
+  "nomeUrna": "ZEMA",
+  "partido": "NOVO",
+  "vice": "Eduardo Girão (NOVO)",
+  "score": 8.65,
+  "score_economia": 9.3,
+  "score_costumes": 8.0,
+  "justificativa": "Quer vender todas as empresas do governo, cortar impostos e criar um contrato de trabalho mais livre que a CLT. Na segurança, quer tratar facções como terroristas e baixar a maioridade penal para 16 anos ou menos. Por isso fica bem à direita, principalmente na economia.",
+  "propostas": [
+   {
+    "texto": "Privatizar todas as empresas estatais",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf"
+   },
+   {
+    "texto": "Criar um regime de trabalho alternativo à CLT, em que o combinado vale mais que a lei",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf"
+   },
+   {
+    "texto": "Reduzir a maioridade penal para 16 anos ou menos e classificar facções como terroristas",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf"
+   },
+   {
+    "texto": "Garantir porte de arma em toda a propriedade rural",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf"
+   },
+   {
+    "texto": "Tirar o Brasil do BRICS e dar prêmio de R$ 5 mil a quem sair do Bolsa Família",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/planos-de-candidatos-a-presidencia-tem-de-7-a-200-paginas/"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em maio de 2023, como governador de Minas Gerais, sancionou lei que aumentou o próprio salário em quase 300% (de R$ 10,5 mil para R$ 37,5 mil, chegando a cerca de R$ 41 mil em 2025), além dos salários do vice e dos secretários; em dezembro de 2023 o STF rejeitou uma ação contra o aumento sem analisar o mérito.",
+    "status": "fato",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300",
+    "fonte_nome": "SBT News"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Em 2023 enviou à Assembleia de Minas projeto, aprovado em setembro daquele ano, que aumentou em 2 pontos percentuais o ICMS de produtos considerados supérfluos (como bebidas alcoólicas, cigarros, refrigerantes e smartphones), com validade até o fim de 2026.",
+    "status": "fato",
+    "fonte": "https://tribunademinas.com.br/noticias/politica/28-09-2023/aumento-do-icms-sobre-produtos-superfluos-e-aprovado-na-almg.html?amp=1",
+    "fonte_nome": "Tribuna de Minas"
+   },
+   {
+    "tipo": "justica",
+    "texto": "Em maio de 2026 a Procuradoria-Geral da República denunciou Zema ao STJ por calúnia contra o ministro Gilmar Mendes, do STF, por causa de vídeos satíricos publicados quando era governador; não há condenação e ele diz que fez críticas e que não vai recuar.",
+    "status": "denunciado",
+    "fonte": "https://diariodocomercio.com.br/legislacao/pgr-denuncia-zema-acusacao-calunia-gilmar/",
+    "fonte_nome": "Diário do Comércio"
+   }
+  ],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "A denúncia da PGR por calúnia (maio de 2026) entrou em 'motivos' pela regra de escopo (acusação formal); não foi conferido se o STJ já decidiu receber ou rejeitar a denúncia. Inquérito civil do MP-MG sobre queda de gastos com chuvas e inquéritos antigos arquivados apareceram só em resumo de busca e não foram conferidos. Vice Eduardo Girão — votos nominais conferidos diretamente nos dados abertos do Senado: PLP 177/2023 (mais deputados, 25/06/2025) — NÃO; PLP 192/2023 (Ficha Limpa, 02/09/2025) — NÃO; PEC 9/2023 (anistia de partidos, 14/08/2024) — NÃO nos dois turnos; PLP 128/2025 (17/12/2025) — NÃO; PL 4173/2023 e PDL 471/2022 não tiveram votação nominal no Senado. Também votou NÃO à LDO que elevava o fundo eleitoral em 2021 (Diário do Nordeste). Nenhuma acusação encontrada; nada a listar. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): NOVO 8,13 → 8,67."
+ },
+ {
+  "numero": 22,
+  "nomeUrna": "FLAVIO BOLSONARO",
+  "partido": "PL",
+  "vice": "Alfredo Gaspar (PL)",
+  "score": 8.6,
+  "score_economia": 7.8,
+  "score_costumes": 9.4,
+  "justificativa": "Promete cortar pelo menos dez ministérios, reduzir impostos e vender ou fechar estatais que dão prejuízo, mas mantém o Bolsa Família. Na segurança é o mais duro: maioridade penal aos 14 anos em crimes graves, castração química para estupradores e presídios no modelo de El Salvador. Fica bem à direita, principalmente nos costumes.",
+  "propostas": [
+   {
+    "texto": "Reduzir a maioridade penal (14 anos em crimes graves, 16 nos demais) e declarar facções como narcoterroristas",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/planos-de-candidatos-a-presidencia-tem-de-7-a-200-paginas/"
+   },
+   {
+    "texto": "Criar 500 mil vagas em presídios e construir cinco presídios de segurança máxima no modelo de El Salvador",
+    "fonte": "https://www.moneytimes.com.br/flavio-bolsonaro-promete-criar-500-mil-vagas-em-presidios-em-4-anos-e-zerar-deficit-carcerario-gaep/"
+   },
+   {
+    "texto": "Cortar pelo menos dez ministérios e criar contrato de trabalho especial para jovens, desempregados e maiores de 50 anos",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-repete-ideias-do-pai-em-plano-de-governo"
+   },
+   {
+    "texto": "Privatizar ou fechar estatais que dão prejuízo (a campanha citou o Banco do Brasil; a Caixa ficaria pública) e aprovar PEC para reduzir gastos",
+    "fonte": "https://investidor10.com.br/noticias/campanha-de-flavio-levanta-possibilidade-de-privatizacao-do-banco-do-brasil-bbas3-122624/"
+   },
+   {
+    "texto": "Acabar com a reeleição e limitar decisões individuais de ministros do STF",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-repete-ideias-do-pai-em-plano-de-governo"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "corrupcao",
+    "texto": "Desde julho de 2026 é investigado pela Polícia Federal em inquérito no STF, autorizado pelo ministro André Mendonça, que apura suspeitas de corrupção, lavagem de dinheiro e evasão de divisas nos repasses do ex-banqueiro Daniel Vorcaro (Banco Master) para o filme 'Dark Horse', sobre Jair Bolsonaro; o inquérito seguia aberto em setembro de 2026 e ele nega irregularidades.",
+    "status": "investigado",
+    "fonte": "https://www.diariodepernambuco.com.br/politica/2026/09/11723630-flavio-bolsonaro-e-alvo-de-inquerito-da-pf-no-stf-no-caso-dark-horse.html",
+    "fonte_nome": "Diario de Pernambuco"
+   },
+   {
+    "tipo": "corrupcao",
+    "texto": "Em 2020 foi denunciado pelo Ministério Público do Rio no caso das 'rachadinhas' (suspeita de desvio de parte dos salários de assessores quando era deputado estadual); o STJ anulou parte das provas e, em maio de 2022, o Tribunal de Justiça do Rio rejeitou a denúncia. O MP informou que a investigação pode ser refeita.",
+    "status": "arquivado",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/11846/justica-arquiva-denuncia-contra-flavio-bolsonaro-por-rachadinhas",
+    "fonte_nome": "Congresso em Foco"
+   },
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em 2 de setembro de 2025, como senador, votou SIM ao projeto que mudou a Lei da Ficha Limpa (PLP 192/2023), alterando as regras e os prazos de inelegibilidade e, na prática, encurtando em vários casos o tempo em que políticos condenados ficam proibidos de se candidatar; o projeto foi aprovado por 50 votos a 24 e virou a Lei Complementar 219/2025, sancionada com veto parcial.",
+    "status": "fato",
+    "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/160067",
+    "fonte_nome": "Senado Federal"
+   },
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em 14 de agosto de 2024, como senador, votou SIM nos dois turnos à PEC 9/2023 (conhecida como PEC da Anistia), que criou um programa para os partidos parcelarem dívidas sem juros e multas e permitiu usar o fundo partidário para pagar punições eleitorais; a proposta virou a Emenda Constitucional 133.",
+    "status": "fato",
+    "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/164727",
+    "fonte_nome": "Senado Federal"
+   },
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em 2019, como senador, votou pela derrubada de um veto presidencial ligado ao fundo eleitoral, o que abria espaço para aumentar o dinheiro público de campanhas; depois disse que votou assim por desatenção e que era contra o aumento.",
+    "status": "fato",
+    "fonte": "https://congressoemfoco.com.br/legislativo/flavio-diz-que-votou-para-aumentar-o-fundao-por-desatencao",
+    "fonte_nome": "Congresso em Foco"
+   }
+  ],
+  "vice_motivos": [
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em 6 de maio de 2025, como deputado federal, votou SIM ao projeto que aumenta o número de deputados federais de 513 para 531 (PLP 177/2023), aprovado na Câmara por 270 votos a 207.",
+    "status": "fato",
+    "fonte": "https://www.camara.leg.br/propostas-legislativas/2383019",
+    "fonte_nome": "Câmara dos Deputados"
+   }
+  ],
+  "situacao_nota": null,
+  "notas": "O PDF do plano registrado tem mais de 10 MB e não pôde ser lido nesta sessão; as propostas vêm da cobertura da imprensa sobre o plano (Poder360, SBT News, Money Times, Investidor10). Posições sobre aborto e armas não foram confirmadas no texto do plano. Votos nominais conferidos diretamente nos dados abertos do Senado (legis.senado.leg.br/dadosabertos/plenario/lista/votacao/AAAAMMDD): PLP 177/2023, mais deputados, 25/06/2025 — NÃO; PLP 192/2023, Ficha Limpa, 02/09/2025 — SIM (listado); PEC 9/2023, anistia de multas de partidos, 14/08/2024 — SIM nos dois turnos (listado); PLP 128/2025, 17/12/2025 — presente sem registrar voto no texto principal (P-NRV) e NÃO no destaque do art. 7º (não listado). Não houve votação nominal no Senado do PL 4173/2023 (offshores, nov/2023) nem do PDL 471/2022 (salários, dez/2022), por isso nada foi listado. A PEC da Blindagem não chegou a ser votada no plenário do Senado. Deixados de fora de 'motivos': inquérito no STF por suposta calúnia contra Lula (aberto em abril de 2026; é sobre fala, não corrupção) e ação eleitoral (Aije) sobre 'collabs' no Instagram, ainda sem julgamento. VICE Alfredo Gaspar — deixado de fora de 'vice_motivos' pela regra de escopo (não é caso de dinheiro público e não há denúncia nem inquérito formal): em abril de 2026 a PF pediu ao STF abertura de inquérito por suposto estupro de vulnerável; a PGR pediu diligências preliminares, autorizadas pelo ministro Gilmar Mendes; em 06/08/2026 não havia inquérito formalmente aberto; ele nega e divulgou vídeo em que a suposta vítima também nega (https://sbtnews.sbt.com.br/noticia/politica/gaspar-pf-fara-novas-diligencias-sobre-acusacao-de-estupro). Situação posterior a agosto não foi conferida. Votos de Gaspar conferidos na API da Câmara (deputado id 220576): PLP 177/2023 (mais deputados, 06/05/2025) — SIM (listado em vice_motivos); PLP 192/2023 (Ficha Limpa) — NÃO; PEC 9/2023 (anistia de partidos, 1º turno) — NÃO; PEC 3/2021 'Blindagem' (16/09/2025) — sem voto registrado nos dois turnos; PL 4173/2023 (offshores) — NÃO; PDL 214/2025 (derrubada do aumento do IOF) — SIM, ou seja, contra o aumento; requerimento de retirada da MPV 1303 — SIM; PLP 128/2025 — NÃO. Em 2022 ele não era deputado. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PL 7,78 → 8,80 (na rodada de 2022 o PL aparece à direita do NOVO; aqui a ordem entre Flávio e Zema segue os planos e é quase um empate)."
+ },
+ {
+  "numero": 14,
+  "nomeUrna": "RENAN SANTOS",
+  "partido": "MISSÃO",
+  "vice": "Coronel Medina (MISSÃO)",
+  "score": 8.25,
+  "score_economia": 7.7,
+  "score_costumes": 8.8,
+  "justificativa": "Quer um corte grande de gastos, trocar o Bolsa Família por frentes de trabalho e juntar municípios pequenos. Na segurança, quer tratar membros de facção como inimigos do Estado, com menos direitos. Não defende vender tudo o que é do governo, por isso fica na direita, um pouco abaixo de Zema na economia.",
+  "propostas": [
+   {
+    "texto": "Ajuste fiscal de cerca de R$ 250 bilhões por ano, desligando aposentadorias e benefícios do aumento do salário mínimo",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Renan_Missao_2026.pdf"
+   },
+   {
+    "texto": "Substituir o Bolsa Família por frentes de trabalho remuneradas",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Renan_Missao_2026.pdf"
+   },
+   {
+    "texto": "Aplicar o 'Direito Penal do Inimigo' contra facções, com estado de defesa em áreas dominadas",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Renan_Missao_2026.pdf"
+   },
+   {
+    "texto": "Reduzir o número de municípios de 5.570 para cerca de 1.656",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/planos-de-candidatos-a-presidencia-tem-de-7-a-200-paginas/"
+   },
+   {
+    "texto": "Acabar com as favelas em dez anos",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/planos-de-candidatos-a-presidencia-tem-de-7-a-200-paginas/"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "corrupcao",
+    "texto": "Em 2020 foi denunciado pelo Ministério Público de São Paulo por tráfico de influência (acusação de ajudar na contratação de um empresário em fundação ligada ao governo paulista em troca de doações); a denúncia foi rejeitada em primeira instância e o Tribunal de Justiça de SP confirmou a rejeição em novembro de 2021, por falta de indícios suficientes.",
+    "status": "arquivado",
+    "fonte": "https://oantagonista.com.br/brasil/tj-sp-rejeita-denuncia-contra-renan-do-mbl-por-trafico-de-influencia/",
+    "fonte_nome": "O Antagonista"
+   }
+  ],
+  "vice_motivos": [],
+  "situacao_nota": "Registro deferido. Em 30/08/2026 o ministro Dias Toffoli (TSE) suspendeu a campanha digital, os repasses do fundo eleitoral e a participação em debates porque 16 perfis de redes sociais foram informados ao tribunal com atraso; a suspensão foi revogada em 01/09/2026, depois que a campanha prestou as informações (https://www.cnnbrasil.com.br/eleicoes/renan-santos-ainda-e-candidato-apos-toffoli-suspender-campanha-entenda/).",
+  "notas": "IMPORTANTE — deixado de fora por falta de confirmação da situação atual: desde 2020 o MP-SP investiga Renan e familiares por suspeita de lavagem de dinheiro e sonegação (Operação Juno Moneta); em 2022 a Justiça autorizou ampliar a quebra de sigilo (https://www.metropoles.com/brasil/entenda-por-que-promotoria-investiga-lavagem-de-dinheiro-no-mbl) e perfil da Gazeta do Povo de novembro de 2025 ainda citava a investigação e dívidas de empresas da família. Não foi possível confirmar se houve denúncia ou arquivamento; ele nega e diz não ter pendências. Também fora: acusação de agressão sexual de 2021, da qual foi absolvido por falta de provas segundo a Exame (https://exame.com/brasil/quem-sao-os-13-candidatos-a-presidencia-nas-eleicoes-2026/) — não se encaixa nos critérios. Vice Aroldo Medina (tenente-coronel da reserva da Brigada Militar do RS): nada encontrado. O partido Missão foi criado em 2025 e não consta no survey de especialistas de Bolognesi et al. (rodadas 2018 e 2022)."
+ },
+ {
+  "numero": 28,
+  "nomeUrna": "PABLO MARÇAL",
+  "partido": "PRTB",
+  "vice": "Leonardo Avalanche (PRTB), na chapa original",
+  "score": 7.5,
+  "score_economia": 7.0,
+  "score_costumes": 8.0,
+  "justificativa": "Não está mais na disputa: o TSE negou o registro porque ele está inelegível. Não foi encontrado plano de governo dele para 2026, então a nota é uma estimativa feita pela posição do partido: o PRTB recebeu 7,49 (direita) na pesquisa com especialistas de 2022.",
+  "propostas": [],
+  "motivos": [
+   {
+    "tipo": "justica",
+    "texto": "Foi condenado pela Justiça Eleitoral por uso indevido das redes sociais na campanha a prefeito de São Paulo em 2024 (um concurso que dava prêmios a quem espalhasse vídeos dele); em 5 de agosto de 2026 o TRE-SP manteve por 7 votos a 0 a inelegibilidade por oito anos. Ainda cabia recurso ao TSE.",
+    "status": "condenado",
+    "fonte": "https://www.dgabc.com.br/Noticia/4339570/tre-sp-rejeita-recurso-e-mantem-inelegibilidade-de-marcal-por-8-anos",
+    "fonte_nome": "Diário do Grande ABC"
+   },
+   {
+    "tipo": "justica",
+    "texto": "Em 2010 foi condenado pela Justiça Federal de Goiás a 4 anos e 5 meses de prisão por furto qualificado, por participar de um grupo que desviava dinheiro de contas bancárias pela internet em 2005; o recurso só foi julgado em 2018 e a pena foi extinta por prescrição, sem que ele a cumprisse.",
+    "status": "prescrito",
+    "fonte": "https://www.dgabc.com.br/Noticia/4163742/qual-a-participacao-de-marcal-em-furto-a-banco-e-por-que-o-caso-prescreveu-entenda",
+    "fonte_nome": "Diário do Grande ABC"
+   }
+  ],
+  "vice_motivos": [],
+  "situacao_nota": "Registro indeferido. Em 11/09/2026 o TSE negou o registro porque Marçal está inelegível até 2032, por condenação ligada à campanha de 2024 a prefeito de São Paulo. Ele renunciou à candidatura e o PRTB indicou Leonardo Avalanche como substituto em 14/09/2026 (https://sbtnews.sbt.com.br/noticia/politica/prtb-lanca-avalanche-a-presidencia-apos-tse-recusar-marcal-1).",
+  "notas": "Nota ideológica de baixa confiança: igual à de Avalanche, baseada na classificação do PRTB (survey de Bolognesi et al.: 7,45 em 2018 e 7,49 em 2022) e não em plano de governo. Marçal teve três condenações eleitorais à inelegibilidade em 2025 (fevereiro, abril e julho, segundo o Poder360); uma delas foi revertida pelo TRE-SP em 25/08/2026 e as demais aguardavam o TSE — o detalhamento exato de quais seguem válidas não ficou totalmente claro nas fontes abertas. O caso do laudo falso contra Guilherme Boulos (2024) não foi conferido e ficou de fora. O item sobre o indeferimento pelo TSE foi retirado de 'motivos' a pedido da coordenação (o build acrescenta o item oficial); fonte conferida para esse fato: https://www.congressoemfoco.com.br/conteudo/122192/tse-tem-maioria-para-barrar-candidatura-de-pablo-marcal-a-presidencia."
+ },
+ {
+  "numero": 28,
+  "nomeUrna": "LEONARDO AVALANCHE",
+  "partido": "PRTB",
+  "vice": "Silvia (Silvia Helena da Silva Pereira, PRTB)",
+  "score": 7.5,
+  "score_economia": 7.0,
+  "score_costumes": 8.0,
+  "justificativa": "Entrou no lugar de Pablo Marçal e quase não apresentou propostas. Fala em reduzir impostos e promete um celular de última geração para quem fizer um curso de empreendedorismo. A nota é uma estimativa feita pela posição do partido: o PRTB recebeu 7,49 (direita) na pesquisa com especialistas de 2022.",
+  "propostas": [
+   {
+    "texto": "'iPhone para Todo Brasileiro': celular e internet grátis por 12 meses para quem concluir curso de empreendedorismo",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/prtb-oficializa-leonardo-avalanche-como-candidato-a-presidencia/"
+   },
+   {
+    "texto": "Redução de impostos (sem detalhes publicados)",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/prtb-oficializa-leonardo-avalanche-como-candidato-a-presidencia/"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "justica",
+    "texto": "É réu na Justiça Eleitoral de São Paulo por violência política e associação criminosa, entre outros crimes, acusado de fraudar a eleição interna do PRTB em 2024 e de ameaçar uma dirigente do partido; o Ministério Público apresentou a denúncia em janeiro de 2026 e a Justiça a aceitou em abril de 2026. Ele nega todas as acusações.",
+    "status": "réu",
+    "fonte": "https://m.imirante.com/noticias/brasil/2026/07/15/ipolitica-pre-candidato-a-presidencia-pelo-prtb-e-reu-por-violencia-politica-e-associacao-criminosa",
+    "fonte_nome": "Imirante"
+   }
+  ],
+  "vice_motivos": [],
+  "situacao_nota": "Registro pendente de julgamento no TSE. É o substituto de Pablo Marçal, indicado pelo PRTB em 14/09/2026 (https://sbtnews.sbt.com.br/noticia/politica/prtb-lanca-avalanche-a-presidencia-apos-tse-recusar-marcal-1).",
+  "notas": "Nota ideológica de baixa confiança: não foi localizado plano de governo registrado; usada a classificação do PRTB (survey de Bolognesi et al.: 7,45 em 2018 e 7,49 em 2022) e as poucas propostas divulgadas. O SBT News lista a acusação completa do MP Eleitoral: associação criminosa, inserção de dados falsos em sistema da Justiça Eleitoral, violência política de gênero, ameaça e constrangimento ilegal. Reportagens de 2024 sobre suposta ligação com o PCC (áudio revelado pela Folha, que ele nega) e inquérito da PF apareceram só em resumos de busca e ficaram de fora. A vice Silvia Pereira não foi pesquisada (orçamento de buscas esgotado)."
+ },
+ {
+  "numero": 55,
+  "nomeUrna": "RONALDO CAIADO",
+  "partido": "PSD",
+  "vice": "Gilberto Kassab (PSD)",
+  "score": 6.6,
+  "score_economia": 6.2,
+  "score_costumes": 7.0,
+  "justificativa": "Quer controlar os gastos do governo sem criar impostos e passar mais obras e serviços para empresas, mas mantém a Petrobras estatal. Na segurança é duro: lei que trata facções como terrorismo e maioridade penal aos 16 anos. Fica na centro-direita.",
+  "propostas": [
+   {
+    "texto": "Lei do Terrorismo Doméstico para facções e milícias, com penas mais altas e presídios de segurança máxima",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf"
+   },
+   {
+    "texto": "Aprovar a redução da maioridade penal para 16 anos",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf"
+   },
+   {
+    "texto": "Fazer as despesas obrigatórias crescerem menos que a economia, sem aumento permanente de impostos",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf"
+   },
+   {
+    "texto": "Ampliar concessões e parcerias público-privadas; Petrobras continua estatal, sem controle artificial de preços",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf"
+   },
+   {
+    "texto": "Propor o fim da reeleição para cargos do Executivo",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "justica",
+    "texto": "Em dezembro de 2024 foi condenado em primeira instância por abuso de poder político, por usar o Palácio das Esmeraldas (sede do governo de Goiás) em eventos da campanha de Sandro Mabel a prefeito de Goiânia, e declarado inelegível por oito anos; em abril de 2025 o TRE-GO derrubou a inelegibilidade por unanimidade, mas manteve a condenação por conduta vedada, com multa de R$ 60 mil. Cabia recurso ao TSE.",
+    "status": "multado",
+    "fonte": "https://brasil61.com/n/pre-candidato-a-presidencia-ronaldo-caiado-tem-inelegibilidade-afastada-pela-justica-eleitoral-de-goias-bras2513786",
+    "fonte_nome": "Brasil 61"
+   },
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Ao deixar o governo de Goiás, em 31 de março de 2026, tinha pelo menos dez parentes em cargos comissionados no estado; a equipe dele afirma que as nomeações foram analisadas pela Procuradoria do Estado e são legais.",
+    "status": "fato",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes/caiado-deixa-governo-de-goias-com-ao-menos-10-parentes-em-cargos/",
+    "fonte_nome": "Poder360"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Em 2022, como governador, criou a contribuição ao Fundeinfra (a 'taxa do agro'), de até 1,65% sobre a venda de produtos agropecuários e minerais em Goiás; em fevereiro de 2026 anunciou o fim da cobrança.",
+    "status": "fato",
+    "fonte": "https://www.cnnbrasil.com.br/agro/governo-de-goias-propoe-revogar-taxa-do-agro-destinada-ao-fundeinfra/",
+    "fonte_nome": "CNN Brasil"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Em dezembro de 2023 sancionou a Lei 22.460, que aumentou a alíquota geral do ICMS em Goiás de 17% para 19% a partir de abril de 2024.",
+    "status": "fato",
+    "fonte": "https://www.substituicaotributaria.com/SST/substituicao-tributaria/noticia/13/12/2023/goias-majora-aliquota-geral-do-icms",
+    "fonte_nome": "Portal Substituição Tributária (reproduz a Lei estadual 22.460/2023)"
+   }
+  ],
+  "vice_motivos": [
+   {
+    "tipo": "corrupcao",
+    "texto": "Foi réu na Justiça Eleitoral de São Paulo por corrupção passiva, caixa dois e associação criminosa, acusado de receber dinheiro da JBS quando era ministro; o TRE-SP encerrou a ação por falta de provas, decisão definitiva desde novembro de 2023. Em 2025 o ministro Alexandre de Moraes levou o inquérito de volta ao STF e a defesa pediu o arquivamento.",
+    "status": "arquivado",
+    "fonte": "https://www.folhape.com.br/politica/defesa-de-kassab-pede-a-moraes-que-arquive-acao-de-propina-da-jef/401893/",
+    "fonte_nome": "Folha de Pernambuco"
+   },
+   {
+    "tipo": "corrupcao",
+    "texto": "Em março de 2024 o STF arquivou, por 6 votos a 4, dois inquéritos que apuravam supostos pagamentos de mais de R$ 20 milhões da Odebrecht a Kassab entre 2008 e 2014; a maioria entendeu que não havia provas além das delações.",
+    "status": "arquivado",
+    "fonte": "https://www.poder360.com.br/justica/stf-arquiva-2-inqueritos-contra-kassab-por-doacoes-da-odebrecht/",
+    "fonte_nome": "Poder360"
+   }
+  ],
+  "situacao_nota": null,
+  "notas": "A fonte do item do ICMS é um portal tributário especializado, não um grande jornal; convém trocar pelo texto oficial da lei antes de publicar. Não foi possível confirmar se houve julgamento do recurso no TSE no caso do Palácio das Esmeraldas. Votos antigos de Caiado como deputado e senador (1991–2018) não foram levantados. Vice Kassab: ação de improbidade sobre o contrato da inspeção veicular (Controlar) — virou réu em 2019 e o STJ manteve a ação em 2021, mas o desfecho não foi confirmado, por isso ficou de fora; segundo resumo de busca, a PGR defendeu em maio de 2025 manter o arquivamento do caso JBS (não conferido em fonte aberta). Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PSD 7,09 → 6,94."
+ },
+ {
+  "numero": 35,
+  "nomeUrna": "VETERINÁRIO WILSON GRASSI",
+  "partido": "DEMOCRATA",
+  "vice": "Suêd Haidar (DEMOCRATA)",
+  "score": 6.3,
+  "score_economia": 6.8,
+  "score_costumes": 5.8,
+  "justificativa": "A ideia principal é trocar nove impostos federais por um só, cobrado em cada movimentação no banco, e acabar com o imposto que a empresa paga sobre a folha de salários. Na segurança, quer perguntar ao povo em plebiscito se o Brasil deve ter presídios como os de El Salvador e controlar mais as armas legais. Fica na centro-direita.",
+  "propostas": [
+   {
+    "texto": "Imposto Único Federal sobre movimentações financeiras, no lugar de nove tributos federais",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf"
+   },
+   {
+    "texto": "Acabar com a contribuição patronal sobre a folha de pagamento",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf"
+   },
+   {
+    "texto": "Plebiscito sobre presídios de segurança máxima no modelo de El Salvador",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf"
+   },
+   {
+    "texto": "Controle rigoroso de armas e munições legais, com marcação e auditoria de estoque",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf"
+   },
+   {
+    "texto": "Cadastro nacional de quem maltrata animais e atendimento veterinário público para famílias pobres",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf"
+   }
+  ],
+  "motivos": [],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "Segundo a Jovem Pan (https://jovempan.com.br/?p=278345), em 31/08/2026 o ministro Dias Toffoli suspendeu a campanha digital de Grassi por falta de registro dos endereços de site e redes sociais; não foi possível conferir se a suspensão foi revogada (como ocorreu com Renan Santos), por isso ficou fora de 'situacao_nota'. Nenhum processo, condenação ou investigação encontrado sobre Grassi. A vice Suêd Haidar (presidente do Democrata, ex-PMB) teve apenas uma busca, sem resultados relevantes; a pesquisa sobre ela ficou incompleta porque o orçamento de buscas da sessão acabou. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PMB (atual Democrata) 6,90 → 7,29."
+ },
+ {
+  "numero": 27,
+  "nomeUrna": "CLARIANA BARAO",
+  "partido": "DC",
+  "vice": "Fabiana Torquato (DC)",
+  "score": 6.15,
+  "score_economia": 6.3,
+  "score_costumes": 6.0,
+  "justificativa": "O plano é curto e genérico. Na economia, fala em menos burocracia, parcerias com empresas e revisão de gastos. Na segurança, em vigiar fronteiras com drones e proteger mulheres e crianças. Não trata de aborto, armas ou drogas, por isso fica na centro-direita, perto do centro.",
+  "propostas": [
+   {
+    "texto": "Rede nacional de proteção a mulheres e crianças contra a violência",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf"
+   },
+   {
+    "texto": "Simplificar regras e facilitar a abertura de empresas",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf"
+   },
+   {
+    "texto": "Concessões e parcerias público-privadas para estradas, ferrovias e portos",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf"
+   },
+   {
+    "texto": "Revisão de gastos e subsídios, com responsabilidade fiscal",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf"
+   },
+   {
+    "texto": "Fronteiras monitoradas por sensores, radares e drones",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf"
+   }
+  ],
+  "motivos": [],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "Nenhum processo, condenação ou investigação encontrado sobre a candidata (advogada, primeira eleição) nem sobre a vice. Nota de confiança média-baixa: o plano de 15 páginas não traz metas nem posições sobre temas de costumes. O partido aparece bem mais à direita na survey de especialistas de Bolognesi et al. (DC 8,11 em 2018 e 8,21 em 2022) do que o texto do plano sugere; a nota segue o plano."
+ },
+ {
+  "numero": 70,
+  "nomeUrna": "ESCRITOR AUGUSTO CURY",
+  "partido": "AVANTE",
+  "vice": "Júlio Delgado (AVANTE)",
+  "score": 5.75,
+  "score_economia": 6.0,
+  "score_costumes": 5.5,
+  "justificativa": "Mistura ideias dos dois lados: quer contas públicas equilibradas e menos impostos, mas também um banco público para pequenos empreendedores e proteção social. Propõe aulas de gestão da emoção nas escolas e mudar o sistema de governo. Fica na centro-direita, perto do centro.",
+  "propostas": [
+   {
+    "texto": "Déficit público perto de zero e controle rigoroso de gastos",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf"
+   },
+   {
+    "texto": "Carga de impostos menor ao fim da transição da reforma tributária",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf"
+   },
+   {
+    "texto": "Criar o Banco do Empreendedor e 10 mil Escolas de Empreendedorismo",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf"
+   },
+   {
+    "texto": "Adotar o semipresidencialismo e reduzir o STF a nove ministros com mandato de oito anos",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf"
+   },
+   {
+    "texto": "Ensinar 'gestão da emoção' nas escolas públicas e criar o Ministério da Segurança",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf"
+   }
+  ],
+  "motivos": [],
+  "vice_motivos": [
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em 20 de dezembro de 2022, como deputado federal, votou SIM ao pedido de urgência para votar o projeto que aumentou os salários de deputados, senadores, presidente, vice-presidente e ministros (PDL 471/2022); a urgência foi aprovada por 295 votos a 102.",
+    "status": "fato",
+    "fonte": "https://www.camara.leg.br/propostas-legislativas/2344790",
+    "fonte_nome": "Câmara dos Deputados"
+   }
+  ],
+  "situacao_nota": null,
+  "notas": "Nenhum processo, condenação ou investigação encontrado sobre Cury (primeira eleição). Vice Júlio Delgado — deixado de fora por falta de confirmação do desfecho: em 2015 o STF abriu inquérito após o dono da UTC dizer em delação que repassou R$ 150 mil; em maio de 2016 a PGR pediu o arquivamento por falta de indícios (https://tribunademinas.com.br/noticias/politica/14-05-2016/janot-pede-arquivamento-de-inquerito-contra-deputado-julio-delgado.html?amp=1), mas a decisão final do STF não foi conferida; em setembro de 2016 o MPF propôs ação de improbidade pelo mesmo caso e o resultado também não foi localizado. Voto de Delgado conferido na API da Câmara (deputado id 73586, votação 2344790-8); ele deixou a Câmara em janeiro de 2023, então as demais votações da lista (2023–2025) não se aplicam. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): Avante 6,32 → 6,47."
+ },
+ {
+  "numero": 13,
+  "nomeUrna": "LULA",
+  "partido": "PT",
+  "vice": "Geraldo Alckmin (PSB)",
+  "score": 2.75,
+  "score_economia": 2.5,
+  "score_costumes": 3.0,
+  "justificativa": "Quer um Estado forte, com a Petrobras investindo mais, imposto maior para os muito ricos e o fim da escala 6x1 com jornada de 40 horas. Mantém a regra que limita os gastos e o controle de armas. O plano não fala em liberar aborto nem drogas. Por isso fica na esquerda.",
+  "propostas": [
+   {
+    "texto": "Fim da escala 6x1 e jornada de 40 horas semanais, sem redução de salário",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf"
+   },
+   {
+    "texto": "Manter o arcabouço fiscal e cobrar mais imposto dos super-ricos ('justiça tributária')",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf"
+   },
+   {
+    "texto": "Petrobras de volta à distribuição de combustíveis e com mais refino",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf"
+   },
+   {
+    "texto": "Manter o controle de armas e munições, com mais rastreamento",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf"
+   },
+   {
+    "texto": "Criar o Ministério da Segurança Pública depois de aprovada a PEC da Segurança",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "corrupcao",
+    "texto": "Foi condenado na Lava Jato por corrupção passiva e lavagem de dinheiro (casos do tríplex do Guarujá e do sítio de Atibaia) e chegou a ser preso em 2018; em 15 de abril de 2021 o STF anulou as condenações por 8 votos a 3, por entender que a Justiça Federal de Curitiba não tinha competência para julgar os casos.",
+    "status": "anulado",
+    "fonte": "https://www.poder360.com.br/justica/stf-confirma-anulacao-das-decisoes-da-justica-de-curitiba/",
+    "fonte_nome": "Poder360"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Em 2024 sancionou a lei que criou o imposto de importação de 20% sobre compras internacionais de até US$ 50 (a 'taxa das blusinhas'), cobrado a partir de agosto de 2024; ele diz que foi contra e cedeu por pressão da Câmara. O imposto foi extinto por medida provisória do governo em maio de 2026, e a lei que o encerrou foi sancionada em 10 de setembro de 2026.",
+    "status": "fato",
+    "fonte": "https://www.gazetadopovo.com.br/republica/lula-sanciona-isencao-taxa-das-blusinhas-forcado-lira-2024",
+    "fonte_nome": "Gazeta do Povo"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Em maio de 2025 editou decreto que aumentou o IOF sobre operações de crédito, câmbio e seguros; o Congresso derrubou o decreto em junho e, em 16 de julho de 2025, o ministro Alexandre de Moraes (STF) restabeleceu a maior parte do aumento.",
+    "status": "fato",
+    "fonte": "https://movimentoeconomico.com.br/economia/justica/2025/07/16/alexandre-de-moraes-decide-validar-decreto-do-iof/",
+    "fonte_nome": "Movimento Econômico"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Em março de 2023 o governo voltou a cobrar os impostos federais PIS/Cofins sobre a gasolina (R$ 0,47 por litro) e o etanol (R$ 0,02 por litro), que estavam zerados, e criou imposto de 9,2% sobre a exportação de petróleo bruto.",
+    "status": "fato",
+    "fonte": "https://www.poder360.com.br/economia/gasolina-sera-reonerada-em-r-047-a-partir-de-4a-feira/",
+    "fonte_nome": "Poder360"
+   },
+   {
+    "tipo": "beneficio_proprio",
+    "texto": "Em janeiro de 2026 sancionou o Orçamento mantendo o fundo eleitoral em R$ 4,9 bilhões (o governo tinha proposto R$ 1 bilhão e o Congresso aumentou); no mesmo ato vetou o reajuste do fundo partidário.",
+    "status": "fato",
+    "fonte": "https://agorarn.com.br/ultimas/lula-sanciona-orcamento-de-2026-com-cortes-em-programas-e-veto-ao-fundo-partidario/",
+    "fonte_nome": "Agora RN"
+   }
+  ],
+  "vice_motivos": [
+   {
+    "tipo": "corrupcao",
+    "texto": "Em 2020 virou réu na Justiça Eleitoral de São Paulo por corrupção passiva, lavagem de dinheiro e caixa dois, acusado de receber até R$ 11,3 milhões da Odebrecht nas campanhas de 2010 e 2014; em dezembro de 2022 o ministro Ricardo Lewandowski (STF) mandou encerrar a ação por considerar nulas as provas vindas do acordo da Odebrecht.",
+    "status": "arquivado",
+    "fonte": "https://www.poder360.com.br/justica/lewandoswki-encerra-acao-contra-alckmin-na-justica-eleitoral/",
+    "fonte_nome": "Poder360"
+   },
+   {
+    "tipo": "imposto",
+    "texto": "Como governador de São Paulo, sancionou em novembro de 2015 lei que aumentou o ICMS do cigarro de 26% para 30% e, entre 2016 e 2017, voltou a cobrar ICMS de 11% sobre a carne no varejo, que estava isenta desde 2009.",
+    "status": "fato",
+    "fonte": "https://aosfatos.org/noticias/geraldo-alckmin-nega-aumento-de-impostos-em-sua-gestao-mas-nao-e-verdade/",
+    "fonte_nome": "Aos Fatos"
+   }
+  ],
+  "situacao_nota": null,
+  "notas": "No texto do plano de 2026 as palavras 'aborto' e 'drogas' não aparecem. A fonte do item do fundo eleitoral é um portal regional (Agora RN); vale trocar por agência nacional antes de publicar. Em 2025 Lula vetou o aumento do número de deputados de 513 para 531 — é o contrário de um motivo e não foi listado. A reforma tributária do consumo e o imposto mínimo sobre altas rendas não foram contados como 'imposto sobre a população' porque a classificação é discutível; o dono do site pode decidir incluir. Outras ações penais antigas contra Lula (por exemplo, Zelotes) e investigações sobre o filho dele no caso INSS (que não são contra o candidato) não foram conferidas e ficaram de fora. Não conferido: em 29/09/2025 foi sancionada com veto parcial a Lei Complementar 219/2025 (mudanças na Ficha Limpa, PLP 192/2023), segundo a página do Senado; o alcance dos vetos de Lula não foi verificado, por isso não foi listado como motivo. Multas eleitorais por propaganda não foram listadas para nenhum candidato. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PT 2,97 → 2,68; PSB 4,05 → 3,59."
+ },
+ {
+  "numero": 29,
+  "nomeUrna": "RUI COSTA PIMENTA",
+  "partido": "PCO",
+  "vice": "Antônio Carlos (PCO)",
+  "score": 0.8,
+  "score_economia": 0.1,
+  "score_costumes": 1.5,
+  "justificativa": "Na economia é o mais radical: quer um banco estatal único, cancelar a dívida pública, desfazer todas as privatizações e salário mínimo de R$ 7.500. Nos costumes, quer acabar com a Polícia Militar, mas defende que trabalhadores possam se armar para se defender. Fica bem à esquerda.",
+  "propostas": [
+   {
+    "texto": "Salário mínimo de R$ 7.500, com aumento automático a cada 3% de alta do custo de vida",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_PCO_Rui_Costa_Pimenta2026.pdf"
+   },
+   {
+    "texto": "Jornada de 35 horas semanais e proibição de demissões",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_PCO_Rui_Costa_Pimenta2026.pdf"
+   },
+   {
+    "texto": "Cancelar todas as privatizações e criar um banco estatal único",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_PCO_Rui_Costa_Pimenta2026.pdf"
+   },
+   {
+    "texto": "Dissolver a Polícia Militar e garantir o direito de autodefesa armada dos trabalhadores",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_PCO_Rui_Costa_Pimenta2026.pdf"
+   },
+   {
+    "texto": "Cancelar as dívidas interna e externa e a concessão da Rede Globo",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_PCO_Rui_Costa_Pimenta2026.pdf"
+   }
+  ],
+  "motivos": [
+   {
+    "tipo": "corrupcao",
+    "texto": "Em 11 de agosto de 2026 foi alvo da Operação Causa Própria, da Polícia Federal, que investiga suspeita de desvio de dinheiro do fundo partidário e do fundo eleitoral do PCO (apropriação indébita eleitoral, falsidade ideológica eleitoral e lavagem de dinheiro); houve buscas em seis endereços e bloqueio de contas dele e do partido. O PCO diz que é perseguição política.",
+    "status": "investigado",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/pf-mira-presidente-do-pco-por-suspeita-de-desvio-de-dinheiro",
+    "fonte_nome": "SBT News"
+   },
+   {
+    "tipo": "justica",
+    "texto": "Em agosto de 2006 o TSE negou por unanimidade o registro de sua candidatura a presidente porque ele não prestou contas da campanha de 2002.",
+    "status": "indeferido",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/92852/pco-vai-recorrer-da-decisao-do-tse",
+    "fonte_nome": "Congresso em Foco"
+   }
+  ],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "Deixado de fora de 'motivos' pela regra de escopo (assunto sem relação com dinheiro público só entra com denúncia ou condenação): em 2022 o PCO foi incluído no inquérito das fake news do STF e teve as redes bloqueadas por ataques ao tribunal — é caso de fala, não de corrupção. A situação da Operação Causa Própria depois de agosto de 2026 não foi conferida. O vice Antônio Carlos não é citado nas reportagens abertas sobre a operação; não foi pesquisado separadamente. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PCO 0,61 → 0,55."
+ },
+ {
+  "numero": 80,
+  "nomeUrna": "SAMARA",
+  "partido": "UP",
+  "vice": "Raquel Brício (UP)",
+  "score": 0.55,
+  "score_economia": 0.6,
+  "score_costumes": 0.5,
+  "justificativa": "Quer dobrar o salário mínimo, jornada de 30 horas por semana e passar bancos e grandes empresas para o controle do Estado. Defende legalizar o aborto e tirar o caráter militar das polícias. Fica bem à esquerda.",
+  "propostas": [
+   {
+    "texto": "Aumento de 100% no salário mínimo",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/planos-de-candidatos-a-presidencia-tem-de-7-a-200-paginas/"
+   },
+   {
+    "texto": "Jornada de 30 horas semanais e fim da escala 6x1",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf"
+   },
+   {
+    "texto": "Nacionalizar os bancos e reestatizar Eletrobras, Petrobras e Vale",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf"
+   },
+   {
+    "texto": "Descriminalizar e legalizar o aborto",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf"
+   },
+   {
+    "texto": "Desmilitarizar as polícias e acabar com a 'guerra às drogas'",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf"
+   }
+  ],
+  "motivos": [],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "Nenhum processo, condenação ou investigação encontrado sobre Samara Martins (dentista do SUS; nunca exerceu mandato) nas fontes abertas (Exame, Wikipédia). A vice Raquel Brício não foi pesquisada separadamente (orçamento de buscas esgotado); a Exame não cita problemas. Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): UP 1,63 (só 2022) — os especialistas colocam a UP um pouco à direita de PSTU, PCO e PCB; a nota aqui segue o texto do plano."
+ },
+ {
+  "numero": 21,
+  "nomeUrna": "EDMILSON COSTA",
+  "partido": "PCB",
+  "vice": "Cleusa Santos (PCB)",
+  "score": 0.3,
+  "score_economia": 0.3,
+  "score_costumes": 0.3,
+  "justificativa": "Quer passar bancos, transportes e escolas particulares para o Estado e jornada de 30 horas por semana. Defende legalizar o aborto e a maconha e tirar o caráter militar da polícia. Fica bem à esquerda.",
+  "propostas": [
+   {
+    "texto": "Estatizar o sistema financeiro, os transportes e o ensino privado",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf"
+   },
+   {
+    "texto": "Jornada de 30 horas semanais sem redução de salário e fim da escala 6x1",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf"
+   },
+   {
+    "texto": "Legalizar o aborto, com atendimento na rede pública",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf"
+   },
+   {
+    "texto": "Descriminalizar o uso de drogas e legalizar a maconha; desmilitarizar a segurança pública",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf"
+   },
+   {
+    "texto": "Convocar Assembleia Constituinte e acabar com o Senado",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/planos-de-candidatos-a-presidencia-tem-de-7-a-200-paginas/"
+   }
+  ],
+  "motivos": [],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "Nenhum processo, condenação ou investigação encontrado sobre Edmilson Costa (economista e professor; nunca exerceu mandato) nas fontes abertas (Exame, Wikipédia). A vice Cleusa Santos não foi pesquisada separadamente (orçamento de buscas esgotado). Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PCB 0,91 → 0,69."
+ },
+ {
+  "numero": 16,
+  "nomeUrna": "HERTZ DIAS",
+  "partido": "PSTU",
+  "vice": "Vanessa Portugal (PSTU)",
+  "score": 0.25,
+  "score_economia": 0.2,
+  "score_costumes": 0.3,
+  "justificativa": "Quer tomar para o Estado, sem pagar, grandes empresas como Petrobras, Vale e JBS e as fazendas do agronegócio, além de dobrar o salário mínimo. Defende aborto legal pelo SUS, descriminalizar as drogas e tirar o caráter militar da polícia. É o mais à esquerda da lista (bem à esquerda).",
+  "propostas": [
+   {
+    "texto": "Expropriar grandes empresas (como Petrobras, Vale e JBS) e o grande agronegócio",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf"
+   },
+   {
+    "texto": "Jornada de 36 horas semanais (escala 4x3) sem redução de salário",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf"
+   },
+   {
+    "texto": "Aumento de 100% no salário mínimo",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf"
+   },
+   {
+    "texto": "Aborto legal, seguro e gratuito pelo SUS",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf"
+   },
+   {
+    "texto": "Descriminalizar as drogas e desmilitarizar a Polícia Militar",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf"
+   }
+  ],
+  "motivos": [],
+  "vice_motivos": [],
+  "situacao_nota": null,
+  "notas": "Nenhum processo, condenação ou investigação encontrado sobre Hertz Dias (professor da rede pública; nunca exerceu mandato) nas fontes abertas (Exame, Wikipédia). A vice Vanessa Portugal não foi pesquisada separadamente (orçamento de buscas esgotado). Referência partidária (survey de especialistas de Bolognesi, Ribeiro, Codato e Silva, escala 0–10, rodadas 2018 → 2022; Opinião Pública, 2025, doi 10.1590/1807-0191202531120, lido em cópia local do artigo): PSTU 0,51 → 0,51."
+ }
+]

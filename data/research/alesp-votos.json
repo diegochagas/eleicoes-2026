@@ -1,0 +1,904 @@
+{
+ "votacoes": [
+  {
+   "chave": "aumento-salario-governador-2022",
+   "tipo": "beneficio_proprio",
+   "descricao": "Aumento de 50% no salário do governador, do vice-governador e dos secretários de Estado a partir de 2023 (governador: de R$ 23.048,59 para R$ 34.572,89 por mês). O salário do governador é o teto do funcionalismo estadual.",
+   "texto": "Votou a favor de aumentar em 50% o salário do governador, do vice e dos secretários de São Paulo (novembro de 2022).",
+   "data": "2022-11-29",
+   "projeto": "PL 592/2022",
+   "resultado": "Aprovado: 56 votos Sim e 6 votos Não. Virou a Lei nº 17.616, de 11/01/2023.",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20221129-172954-ID_SESSAO=15200-PDF.pdf",
+   "fonte_nome": "Assembleia Legislativa de SP, votação nominal do PL 592/2022",
+   "votaram_sim": [
+    {
+     "nome": "DIRCEU DALBEN",
+     "id": 250002540887
+    },
+    {
+     "nome": "RAFA ZIMBALDI",
+     "id": 250002533750
+    },
+    {
+     "nome": "JORGE CARUSO",
+     "id": 250002534242
+    },
+    {
+     "nome": "LÉO OLIVEIRA",
+     "id": 250002534220
+    },
+    {
+     "nome": "LECI BRANDÃO",
+     "id": 250002536264
+    },
+    {
+     "nome": "MARCIO NAKASHIMA",
+     "id": 250002540903
+    },
+    {
+     "nome": "AGENTE FEDERAL DANILO BALAS",
+     "id": 250002536429
+    },
+    {
+     "nome": "ALEX DE MADUREIRA",
+     "id": 250002536367
+    },
+    {
+     "nome": "ANDRÉ DO PRADO",
+     "id": 250002541308
+    },
+    {
+     "nome": "CARLOS CEZAR",
+     "id": null
+    },
+    {
+     "nome": "CASTELLO BRANCO",
+     "id": null
+    },
+    {
+     "nome": "CONTE LOPES",
+     "id": 250002536407
+    },
+    {
+     "nome": "CORONEL NISHIKAWA",
+     "id": 250002553810
+    },
+    {
+     "nome": "DELEGADA GRACIELA",
+     "id": 250002536366
+    },
+    {
+     "nome": "GIL DINIZ",
+     "id": 250002535936
+    },
+    {
+     "nome": "MAJOR MECCA",
+     "id": 250002535953
+    },
+    {
+     "nome": "MARCOS DAMASIO",
+     "id": 250002536406
+    },
+    {
+     "nome": "RICARDO MADALENA",
+     "id": 250002536389
+    },
+    {
+     "nome": "TENENTE COIMBRA",
+     "id": 250002536395
+    },
+    {
+     "nome": "THIAGO AURICCHIO",
+     "id": 250002536423
+    },
+    {
+     "nome": "VALERIA BOLSONARO",
+     "id": 250002536392
+    },
+    {
+     "nome": "BRUNO GANEM",
+     "id": 250002544346
+    },
+    {
+     "nome": "RODRIGO GAMBALE",
+     "id": 250002544355
+    },
+    {
+     "nome": "CORONEL TELHADA",
+     "id": 250002532353
+    },
+    {
+     "nome": "DELEGADO OLIM",
+     "id": 250002533776
+    },
+    {
+     "nome": "LETICIA AGUIAR",
+     "id": 250002536404
+    },
+    {
+     "nome": "CAIO FRANÇA",
+     "id": 250002539294
+    },
+    {
+     "nome": "MARTA COSTA",
+     "id": 250002540878
+    },
+    {
+     "nome": "PAULO CORREA JR.",
+     "id": 250002541851
+    },
+    {
+     "nome": "ADALBERTO FREITAS",
+     "id": 250002534214
+    },
+    {
+     "nome": "ANALICE FERNANDES",
+     "id": 250002540584
+    },
+    {
+     "nome": "BARROS MUNHOZ",
+     "id": 250002540580
+    },
+    {
+     "nome": "CARLA MORANDO",
+     "id": 250002540562
+    },
+    {
+     "nome": "DRA. DAMARIS MOURA",
+     "id": 250002548862
+    },
+    {
+     "nome": "MARCOS ZERBINI",
+     "id": 250002534267
+    },
+    {
+     "nome": "MARIA LÚCIA AMARY",
+     "id": 250002540901
+    },
+    {
+     "nome": "VINÍCIUS CAMARINHA",
+     "id": null
+    },
+    {
+     "nome": "DR. JORGE DO CARMO",
+     "id": 250002536239
+    },
+    {
+     "nome": "ENIO LULA TATTO",
+     "id": 250002536268
+    },
+    {
+     "nome": "JOSÉ AMÉRICO LULA",
+     "id": null
+    },
+    {
+     "nome": "MÁRCIA LULA LIA",
+     "id": null
+    },
+    {
+     "nome": "PAULO LULA FIORILO",
+     "id": 250002536273
+    },
+    {
+     "nome": "PROF BEBEL",
+     "id": 250002536260
+    },
+    {
+     "nome": "TEONILIO BARBA LULA",
+     "id": 250002536240
+    },
+    {
+     "nome": "ALTAIR MORAES",
+     "id": 250002537973
+    },
+    {
+     "nome": "DOUGLAS GARCIA",
+     "id": 250002533809
+    },
+    {
+     "nome": "EDNA MACEDO",
+     "id": 250002541885
+    },
+    {
+     "nome": "GILMACI SANTOS",
+     "id": 250002541902
+    },
+    {
+     "nome": "JORGE WILSON",
+     "id": 250002541847
+    },
+    {
+     "nome": "SEBASTIÃO SANTOS",
+     "id": 250002541873
+    },
+    {
+     "nome": "TENENTE NASCIMENTO",
+     "id": 250002535992
+    },
+    {
+     "nome": "ALDO DEMARCHI",
+     "id": null
+    },
+    {
+     "nome": "DANIEL SOARES",
+     "id": 250002533756
+    },
+    {
+     "nome": "EDSON GIRIBONI",
+     "id": 250002533735
+    },
+    {
+     "nome": "MILTON LEITE FILHO",
+     "id": 250002532378
+    },
+    {
+     "nome": "REINALDO ALGUZ",
+     "id": 250002534269
+    }
+   ]
+  },
+  {
+   "chave": "aumento-salario-deputados-2022",
+   "tipo": "beneficio_proprio",
+   "descricao": "Aumento do salário dos próprios deputados estaduais: de R$ 25.322,25 para R$ 29.469,99 em janeiro de 2023, subindo em etapas até R$ 34.774,64 em fevereiro de 2025 (cerca de 37% no total). A lei também prevê uma ajuda de custo igual a um salário no início e no fim do mandato.",
+   "texto": "Votou a favor de aumentar o salário dos próprios deputados estaduais, de R$ 25,3 mil para R$ 34,8 mil por mês, em etapas até 2025 (dezembro de 2022).",
+   "data": "2022-12-21",
+   "projeto": "PL 655/2022",
+   "resultado": "Aprovado: 49 votos Sim e 10 votos Não. Virou a Lei nº 17.617, de 16/01/2023.",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20221221-174440-ID_SESSAO=15228-PDF.pdf",
+   "fonte_nome": "Assembleia Legislativa de SP, votação nominal do PL 655/2022",
+   "votaram_sim": [
+    {
+     "nome": "DIRCEU DALBEN",
+     "id": 250002540887
+    },
+    {
+     "nome": "RAFA ZIMBALDI",
+     "id": 250002533750
+    },
+    {
+     "nome": "ROBERTO MORAIS",
+     "id": null
+    },
+    {
+     "nome": "ITAMAR BORGES",
+     "id": 250002534232
+    },
+    {
+     "nome": "JORGE CARUSO",
+     "id": 250002534242
+    },
+    {
+     "nome": "AGENTE FEDERAL DANILO BALAS",
+     "id": 250002536429
+    },
+    {
+     "nome": "ALEX DE MADUREIRA",
+     "id": 250002536367
+    },
+    {
+     "nome": "ANDRÉ DO PRADO",
+     "id": 250002541308
+    },
+    {
+     "nome": "CARLOS CEZAR",
+     "id": null
+    },
+    {
+     "nome": "CASTELLO BRANCO",
+     "id": null
+    },
+    {
+     "nome": "CONTE LOPES",
+     "id": 250002536407
+    },
+    {
+     "nome": "CORONEL NISHIKAWA",
+     "id": 250002553810
+    },
+    {
+     "nome": "FREDERICO D'AVILA",
+     "id": 250002530260
+    },
+    {
+     "nome": "MARCOS DAMASIO",
+     "id": 250002536406
+    },
+    {
+     "nome": "RICARDO MADALENA",
+     "id": 250002536389
+    },
+    {
+     "nome": "RODRIGO MORAES",
+     "id": 250002536352
+    },
+    {
+     "nome": "THIAGO AURICCHIO",
+     "id": 250002536423
+    },
+    {
+     "nome": "BRUNO GANEM",
+     "id": 250002544346
+    },
+    {
+     "nome": "MARCIO DA FARMÁCIA",
+     "id": 250002548890
+    },
+    {
+     "nome": "MURILO FELIX",
+     "id": null
+    },
+    {
+     "nome": "CORONEL TELHADA",
+     "id": 250002532353
+    },
+    {
+     "nome": "DELEGADO OLIM",
+     "id": 250002533776
+    },
+    {
+     "nome": "CAIO FRANÇA",
+     "id": 250002539294
+    },
+    {
+     "nome": "ADALBERTO FREITAS",
+     "id": 250002534214
+    },
+    {
+     "nome": "ANALICE FERNANDES",
+     "id": 250002540584
+    },
+    {
+     "nome": "BARROS MUNHOZ",
+     "id": 250002540580
+    },
+    {
+     "nome": "CARLA MORANDO",
+     "id": 250002540562
+    },
+    {
+     "nome": "MARIA LÚCIA AMARY",
+     "id": 250002540901
+    },
+    {
+     "nome": "MAURO BRAGATO",
+     "id": 250002540875
+    },
+    {
+     "nome": "ROGÉRIO NOGUEIRA",
+     "id": 250002540880
+    },
+    {
+     "nome": "VINÍCIUS CAMARINHA",
+     "id": null
+    },
+    {
+     "nome": "DR. JORGE DO CARMO",
+     "id": 250002536239
+    },
+    {
+     "nome": "EMIDIO LULA DE SOUZA",
+     "id": 250002536831
+    },
+    {
+     "nome": "ENIO LULA TATTO",
+     "id": 250002536268
+    },
+    {
+     "nome": "JOSÉ AMÉRICO LULA",
+     "id": null
+    },
+    {
+     "nome": "LUIZ FERNANDO",
+     "id": 250002536270
+    },
+    {
+     "nome": "MÁRCIA LULA LIA",
+     "id": null
+    },
+    {
+     "nome": "MAURICI",
+     "id": 250002536826
+    },
+    {
+     "nome": "PAULO LULA FIORILO",
+     "id": 250002536273
+    },
+    {
+     "nome": "TEONILIO BARBA LULA",
+     "id": 250002536240
+    },
+    {
+     "nome": "ALTAIR MORAES",
+     "id": 250002537973
+    },
+    {
+     "nome": "DOUGLAS GARCIA",
+     "id": 250002533809
+    },
+    {
+     "nome": "GILMACI SANTOS",
+     "id": 250002541902
+    },
+    {
+     "nome": "JORGE WILSON",
+     "id": 250002541847
+    },
+    {
+     "nome": "SEBASTIÃO SANTOS",
+     "id": 250002541873
+    },
+    {
+     "nome": "TENENTE NASCIMENTO",
+     "id": 250002535992
+    },
+    {
+     "nome": "WELLINGTON MOURA",
+     "id": null
+    },
+    {
+     "nome": "EDSON GIRIBONI",
+     "id": 250002533735
+    },
+    {
+     "nome": "MILTON LEITE FILHO",
+     "id": 250002532378
+    }
+   ]
+  },
+  {
+   "chave": "ajuste-fiscal-pl529-2020",
+   "tipo": "imposto",
+   "descricao": "Pacote de ajuste fiscal do governo Doria. Autorizou o governo a reduzir benefícios fiscais do ICMS e passou a tratar como \"benefício\" toda alíquota abaixo de 18%, o que permitiu aumentar o imposto de produtos que pagavam menos. Também restringiu a isenção de IPVA para pessoas com deficiência. O artigo do ICMS foi revogado em 2023 (Lei nº 17.627).",
+   "texto": "Votou a favor do pacote do governo Doria que permitiu cortar descontos de ICMS, o que aumentou o imposto de vários produtos, e que limitou a isenção de IPVA para pessoas com deficiência (outubro de 2020).",
+   "data": "2020-10-13",
+   "projeto": "PL 529/2020",
+   "resultado": "Aprovado: 48 votos Sim e 37 votos Não. Votação do texto principal (substitutivo). Virou a Lei nº 17.293, de 15/10/2020.",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20201014-001001-ID_SESSAO=14325-PDF.pdf",
+   "fonte_nome": "Assembleia Legislativa de SP, votação nominal do PL 529/2020",
+   "votaram_sim": [
+    {
+     "nome": "DANIEL SOARES",
+     "id": 250002533756
+    },
+    {
+     "nome": "EDMIR CHEDID",
+     "id": null
+    },
+    {
+     "nome": "ESTEVAM GALVÃO",
+     "id": null
+    },
+    {
+     "nome": "MILTON LEITE FILHO",
+     "id": 250002532378
+    },
+    {
+     "nome": "PAULO CORREA JR.",
+     "id": 250002541851
+    },
+    {
+     "nome": "RODRIGO MORAES",
+     "id": 250002536352
+    },
+    {
+     "nome": "ROGÉRIO NOGUEIRA",
+     "id": 250002540880
+    },
+    {
+     "nome": "ITAMAR BORGES",
+     "id": 250002534232
+    },
+    {
+     "nome": "JORGE CARUSO",
+     "id": 250002534242
+    },
+    {
+     "nome": "LÉO OLIVEIRA",
+     "id": 250002534220
+    },
+    {
+     "nome": "ANDRÉ DO PRADO",
+     "id": 250002541308
+    },
+    {
+     "nome": "DIRCEU DALBEN",
+     "id": 250002540887
+    },
+    {
+     "nome": "MARCOS DAMASIO",
+     "id": 250002536406
+    },
+    {
+     "nome": "RAFA ZIMBALDI",
+     "id": 250002533750
+    },
+    {
+     "nome": "RICARDO MADALENA",
+     "id": 250002536389
+    },
+    {
+     "nome": "THIAGO AURICCHIO",
+     "id": 250002536423
+    },
+    {
+     "nome": "ATAIDE TERUEL",
+     "id": 250002545154
+    },
+    {
+     "nome": "MARCIO DA FARMÁCIA",
+     "id": 250002548890
+    },
+    {
+     "nome": "DELEGADO OLIM",
+     "id": 250002533776
+    },
+    {
+     "nome": "PROFESSOR KENNY",
+     "id": null
+    },
+    {
+     "nome": "BARROS MUNHOZ",
+     "id": 250002540580
+    },
+    {
+     "nome": "CARLOS CEZAR",
+     "id": null
+    },
+    {
+     "nome": "RAFAEL SILVA",
+     "id": null
+    },
+    {
+     "nome": "VINÍCIUS CAMARINHA",
+     "id": null
+    },
+    {
+     "nome": "ALEX DE MADUREIRA",
+     "id": 250002536367
+    },
+    {
+     "nome": "ANALICE FERNANDES",
+     "id": 250002540584
+    },
+    {
+     "nome": "CARLA MORANDO",
+     "id": 250002540562
+    },
+    {
+     "nome": "CARLÃO PIGNATARI",
+     "id": null
+    },
+    {
+     "nome": "CEZAR",
+     "id": null
+    },
+    {
+     "nome": "DRA. DAMARIS MOURA",
+     "id": 250002548862
+    },
+    {
+     "nome": "MARCOS ZERBINI",
+     "id": 250002534267
+    },
+    {
+     "nome": "MARIA LÚCIA AMARY",
+     "id": 250002540901
+    },
+    {
+     "nome": "MAURO BRAGATO",
+     "id": 250002540875
+    },
+    {
+     "nome": "ROQUE BARBIERE",
+     "id": null
+    },
+    {
+     "nome": "REINALDO ALGUZ",
+     "id": 250002534269
+    },
+    {
+     "nome": "ALTAIR MORAES",
+     "id": 250002537973
+    },
+    {
+     "nome": "GILMACI SANTOS",
+     "id": 250002541902
+    },
+    {
+     "nome": "JORGE WILSON",
+     "id": 250002541847
+    },
+    {
+     "nome": "SEBASTIÃO SANTOS",
+     "id": 250002541873
+    },
+    {
+     "nome": "WELLINGTON MOURA",
+     "id": null
+    },
+    {
+     "nome": "ALEXANDRE PEREIRA",
+     "id": 250002534924
+    },
+    {
+     "nome": "FERNANDO CURY",
+     "id": null
+    },
+    {
+     "nome": "ROBERTO MORAIS",
+     "id": null
+    },
+    {
+     "nome": "ADALBERTO FREITAS",
+     "id": 250002534214
+    },
+    {
+     "nome": "CORONEL NISHIKAWA",
+     "id": 250002553810
+    },
+    {
+     "nome": "JANAINA PASCHOAL",
+     "id": 250002540691
+    },
+    {
+     "nome": "RODRIGO GAMBALE",
+     "id": 250002544355
+    },
+    {
+     "nome": "TENENTE COIMBRA",
+     "id": 250002536395
+    }
+   ]
+  },
+  {
+   "chave": "aumento-taxa-judiciaria-2023",
+   "tipo": "imposto",
+   "descricao": "Aumento da taxa judiciária (custas para entrar com processo na Justiça estadual): de 1% para 1,5% do valor da causa ao abrir a ação; nova cobrança de 2% na fase de cumprimento de sentença; taxa do agravo de instrumento de 10 para 15 UFESPs. Projeto do Tribunal de Justiça.",
+   "texto": "Votou a favor de aumentar a taxa para entrar com processo na Justiça de São Paulo, de 1% para 1,5% do valor da causa (setembro de 2023).",
+   "data": "2023-09-05",
+   "projeto": "PL 752/2021",
+   "resultado": "Aprovado: 51 votos Sim e 28 votos Não. Virou a Lei nº 17.785, de 03/10/2023.",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20230905-191417-ID_SESSAO=15562-PDF.pdf",
+   "fonte_nome": "Assembleia Legislativa de SP, votação nominal do PL 752/2021",
+   "votaram_sim": [
+    {
+     "nome": "ANA CAROLINA SERRA",
+     "id": 250002548910
+    },
+    {
+     "nome": "BARROS MUNHOZ",
+     "id": 250002540580
+    },
+    {
+     "nome": "BRUNA FURLAN",
+     "id": 250002541870
+    },
+    {
+     "nome": "CARLÃO PIGNATARI",
+     "id": null
+    },
+    {
+     "nome": "CARLA S. MORANDO",
+     "id": 250002540562
+    },
+    {
+     "nome": "DIRCEU DALBEN",
+     "id": 250002540887
+    },
+    {
+     "nome": "MAURO BRAGATO",
+     "id": 250002540875
+    },
+    {
+     "nome": "RAFA ZIMBALDI",
+     "id": 250002533750
+    },
+    {
+     "nome": "VINICIUS CAMARINHA",
+     "id": null
+    },
+    {
+     "nome": "ITAMAR BORGES",
+     "id": 250002534232
+    },
+    {
+     "nome": "LÉO OLIVEIRA",
+     "id": 250002534220
+    },
+    {
+     "nome": "AGENTE FEDERAL DANILO BALAS",
+     "id": 250002536429
+    },
+    {
+     "nome": "ALEX MADUREIRA",
+     "id": 250002536367
+    },
+    {
+     "nome": "BRUNO ZAMBELLI",
+     "id": 250002536419
+    },
+    {
+     "nome": "CARLOS CEZAR",
+     "id": null
+    },
+    {
+     "nome": "CONTE LOPES",
+     "id": 250002536407
+    },
+    {
+     "nome": "DANI ALONSO",
+     "id": 250002536358
+    },
+    {
+     "nome": "FABIANA BARROSO",
+     "id": 250002536380
+    },
+    {
+     "nome": "MAJOR MECCA",
+     "id": 250002535953
+    },
+    {
+     "nome": "MARCOS DAMASIO",
+     "id": 250002536406
+    },
+    {
+     "nome": "PAULO MANSUR",
+     "id": 250002536393
+    },
+    {
+     "nome": "RICARDO MADALENA",
+     "id": 250002536389
+    },
+    {
+     "nome": "TENENTE COIMBRA",
+     "id": 250002536395
+    },
+    {
+     "nome": "THIAGO AURICCHIO",
+     "id": 250002536423
+    },
+    {
+     "nome": "VALERIA BOLSONARO",
+     "id": 250002536392
+    },
+    {
+     "nome": "CLARICE GANEM",
+     "id": 250002545203
+    },
+    {
+     "nome": "GERSON PESSOA",
+     "id": null
+    },
+    {
+     "nome": "RICARDO FRANÇA",
+     "id": 250002545142
+    },
+    {
+     "nome": "DELEGADO OLIM",
+     "id": 250002533776
+    },
+    {
+     "nome": "LETICIA AGUIAR",
+     "id": 250002536404
+    },
+    {
+     "nome": "VALDOMIRO LOPES",
+     "id": 250002539298
+    },
+    {
+     "nome": "HELINHO ZANATTA",
+     "id": null
+    },
+    {
+     "nome": "OSEIAS DE MADUREIRA",
+     "id": 250002536397
+    },
+    {
+     "nome": "PAULO CORREA JR.",
+     "id": 250002541851
+    },
+    {
+     "nome": "RAFAEL SILVA",
+     "id": null
+    },
+    {
+     "nome": "ALTAIR MORAES",
+     "id": 250002537973
+    },
+    {
+     "nome": "EDNA MACEDO",
+     "id": 250002541885
+    },
+    {
+     "nome": "GILMACI SANTOS",
+     "id": 250002541902
+    },
+    {
+     "nome": "JORGE WILSON",
+     "id": 250002541847
+    },
+    {
+     "nome": "RUI ALVES",
+     "id": 250002541846
+    },
+    {
+     "nome": "SEBASTIÃO SANTOS",
+     "id": 250002541873
+    },
+    {
+     "nome": "TOMÉ ABDUCH",
+     "id": 250002537970
+    },
+    {
+     "nome": "ÁTILA JACOMUSSI",
+     "id": 250002534178
+    },
+    {
+     "nome": "DANIEL SOARES",
+     "id": 250002533756
+    },
+    {
+     "nome": "DR. ELTON",
+     "id": 250002532326
+    },
+    {
+     "nome": "EDMIR CHEDID",
+     "id": null
+    },
+    {
+     "nome": "FELIPE FRANCO",
+     "id": 250002533759
+    },
+    {
+     "nome": "GUTO ZACARIAS",
+     "id": 250002546631
+    },
+    {
+     "nome": "MILTON LEITE FILHO",
+     "id": 250002532378
+    },
+    {
+     "nome": "RAFAEL SARAIVA",
+     "id": 250002533758
+    },
+    {
+     "nome": "SOLANGE FREITAS",
+     "id": 250002533798
+    }
+   ]
+  }
+ ],
+ "votacoes_simbolicas": [
+  {
+   "descricao": "Aumento de 5% no salário do governador, do vice e dos secretários em 2025 (governador: de R$ 34.572,89 para R$ 36.301,53). PL 910/2024, aprovado em 13/05/2025; virou a Lei nº 18.152/2025. A página de votações nominais da ALESP não registra lista de votos por deputado para este projeto.",
+   "data": "2025-05-13",
+   "projeto": "PL 910/2024",
+   "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2025/lei-18152-02.06.2025.html"
+  },
+  {
+   "descricao": "Emenda Constitucional nº 54/2024 (PEC 5/2024): passou a permitir a reeleição dos membros da Mesa Diretora da ALESP (presidente e demais cargos), vedando apenas o terceiro mandato seguido no mesmo cargo. Aprovada em dois turnos em 29/10/2024. A página de votações nominais da ALESP não traz a lista de votos por deputado.",
+   "data": "2024-10-29",
+   "projeto": "PEC 5/2024",
+   "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/emenda.constitucional/2024/emenda.constitucional-54-29.10.2024.html"
+  },
+  {
+   "descricao": "Resolução nº 942/2024 (PR 2/2024): criou cargos no quadro de servidores da ALESP e mudou a estrutura administrativa da Casa. Aprovada em 20/02/2024, sem lista de votos por deputado publicada.",
+   "data": "2024-02-20",
+   "projeto": "PR 2/2024",
+   "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/resolucao.alesp/2024/resolucao.alesp-942-22.02.2024.html"
+  },
+  {
+   "descricao": "Resolução nº 930/2021 (PR 27/2021): criou 3 cargos em comissão (de livre nomeação) para os gabinetes de liderança dos partidos na ALESP. Aprovada em 17/11/2021, sem lista de votos por deputado publicada.",
+   "data": "2021-11-17",
+   "projeto": "PR 27/2021",
+   "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/resolucao.alesp/2021/resolucao.alesp-930-06.12.2021.html"
+  },
+  {
+   "descricao": "Resolução nº 919/2019 (PR 15/2019): criou 2 cargos em comissão de Assessor Chefe de Gabinete de Liderança na ALESP. Aprovada em 14/05/2019, sem lista de votos por deputado publicada.",
+   "data": "2019-05-14",
+   "projeto": "PR 15/2019",
+   "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/resolucao.alesp/2019/resolucao.alesp-919-15.05.2019.html"
+  }
+ ]
+}

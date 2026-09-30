@@ -1,0 +1,357 @@
+{
+ "geradoEm": "2026-09-30",
+ "cargos": [
+  {
+   "slug": "presidente",
+   "total": 13,
+   "comAlerta": 7
+  },
+  {
+   "slug": "governador",
+   "total": 6,
+   "comAlerta": 2
+  },
+  {
+   "slug": "senador",
+   "total": 15,
+   "comAlerta": 4
+  },
+  {
+   "slug": "deputado-federal",
+   "total": 1062,
+   "comAlerta": 89
+  },
+  {
+   "slug": "deputado-estadual",
+   "total": 1350,
+   "comAlerta": 76
+  }
+ ],
+ "pesquisados": {
+  "deputado-federal": 106,
+  "deputado-estadual": 70
+ },
+ "partidos": [
+  {
+   "sigla": "PL",
+   "nome": "Partido Liberal",
+   "nota": 8.8,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "NOVO",
+   "nome": "Partido Novo",
+   "nota": 8.67,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "UNIÃO",
+   "nome": "União Brasil",
+   "nota": 8.49,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "REPUBLICANOS",
+   "nome": "Republicanos",
+   "nota": 8.33,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "MISSÃO",
+   "nome": "Missão",
+   "nota": 8.25,
+   "origem": "estimativa",
+   "observacao": "Partido registrado no TSE em novembro de 2025, depois da pesquisa. A nota é uma estimativa deste site: é a mesma da análise do plano de governo do candidato do partido a presidente."
+  },
+  {
+   "sigla": "DC",
+   "nome": "Democracia Cristã",
+   "nota": 8.21,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PRD",
+   "nome": "Partido Renovação Democrática",
+   "nota": 8.16,
+   "origem": "fusao",
+   "observacao": "Partido criado em 2023 pela fusão de PTB (7,72) e Patriota (8,60). Usamos a média dos dois, que é a regra da própria pesquisa para fusões."
+  },
+  {
+   "sigla": "PP",
+   "nome": "Progressistas",
+   "nota": 8.15,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "AGIR",
+   "nome": "Agir",
+   "nota": 7.55,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PRTB",
+   "nome": "Partido Renovador Trabalhista Brasileiro",
+   "nota": 7.49,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PODE",
+   "nome": "Podemos",
+   "nota": 7.44,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "DEMOCRATA",
+   "nome": "Democrata",
+   "nota": 7.29,
+   "origem": "pesquisa",
+   "observacao": "Avaliado na pesquisa com o nome antigo, PMB (Partido da Mulher Brasileira)."
+  },
+  {
+   "sigla": "PSD",
+   "nome": "Partido Social Democrático",
+   "nota": 6.94,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PSDB",
+   "nome": "Partido da Social Democracia Brasileira",
+   "nota": 6.76,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "MOBILIZA",
+   "nome": "Mobilização Nacional",
+   "nota": 6.74,
+   "origem": "pesquisa",
+   "observacao": "Avaliado na pesquisa com o nome antigo, PMN."
+  },
+  {
+   "sigla": "MDB",
+   "nome": "Movimento Democrático Brasileiro",
+   "nota": 6.5,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "AVANTE",
+   "nome": "Avante",
+   "nota": 6.47,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "CIDADANIA",
+   "nome": "Cidadania",
+   "nota": 6.17,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "SOLIDARIEDADE",
+   "nome": "Solidariedade",
+   "nota": 6.01,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PV",
+   "nome": "Partido Verde",
+   "nota": 4.12,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PDT",
+   "nome": "Partido Democrático Trabalhista",
+   "nota": 3.86,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "REDE",
+   "nome": "Rede Sustentabilidade",
+   "nota": 3.69,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PSB",
+   "nome": "Partido Socialista Brasileiro",
+   "nota": 3.59,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PT",
+   "nome": "Partido dos Trabalhadores",
+   "nota": 2.68,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PCDOB",
+   "nome": "Partido Comunista do Brasil",
+   "nota": 1.78,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "UP",
+   "nome": "Unidade Popular",
+   "nota": 1.63,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PSOL",
+   "nome": "Partido Socialismo e Liberdade",
+   "nota": 1.41,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PCB",
+   "nome": "Partido Comunista Brasileiro",
+   "nota": 0.69,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PCO",
+   "nome": "Partido da Causa Operária",
+   "nota": 0.55,
+   "origem": "pesquisa"
+  },
+  {
+   "sigla": "PSTU",
+   "nome": "Partido Socialista dos Trabalhadores Unificado",
+   "nota": 0.51,
+   "origem": "pesquisa"
+  }
+ ],
+ "fontePartidos": {
+  "citacao": "Bolognesi, B.; Ribeiro, E.; Codato, A.; Silva, B. F. da. O desaparecimento do centro ideológico no sistema partidário brasileiro: a classificação mais atualizada dos experts. Opinião Pública, Campinas, v. 31, e31120, 2025.",
+  "url": "https://doi.org/10.1590/1807-0191202531120",
+  "nota": "Média da rodada de 2022 da pesquisa com cientistas políticos (escala de 0 = esquerda a 10 = direita)."
+ },
+ "votacoes": [
+  {
+   "chave": "salario-2022",
+   "tipo": "beneficio_proprio",
+   "projeto": "PDL 471/2022",
+   "data": "2022-12-20",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor da urgência do projeto que aumentou o salário dos próprios deputados, dos senadores, do presidente e dos ministros (dezembro de 2022).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2344711",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "ficha-limpa-2023",
+   "tipo": "beneficio_proprio",
+   "projeto": "PLP 192/2023",
+   "data": "2023-09-14",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor do projeto que encurta o tempo em que políticos condenados ficam proibidos de se candidatar (mudança na Lei da Ficha Limpa, setembro de 2023).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2387067",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "anistia-partidos-2024",
+   "tipo": "beneficio_proprio",
+   "projeto": "PEC 9/2023",
+   "data": "2024-07-11",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor da PEC que perdoou multas dos partidos que não cumpriram as cotas de dinheiro para candidaturas de mulheres e de pessoas negras (julho de 2024).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2352476",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "mais-deputados-2025",
+   "tipo": "beneficio_proprio",
+   "projeto": "PLP 177/2023",
+   "data": "2025-05-06",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor de aumentar o número de deputados federais de 513 para 531 (maio de 2025).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2383019",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "blindagem-2025",
+   "tipo": "beneficio_proprio",
+   "projeto": "PEC 3/2021",
+   "data": "2025-09-16",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor da “PEC da Blindagem”, que dificultava processar e prender deputados e senadores (setembro de 2025).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2270800",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "offshores-2023",
+   "tipo": "imposto",
+   "projeto": "PL 4173/2023",
+   "data": "2023-10-25",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor de criar a cobrança de imposto sobre fundos exclusivos e investimentos no exterior (offshores) (outubro de 2023).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2383287",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "iof-2025",
+   "tipo": "imposto",
+   "projeto": "PDL 214/2025",
+   "data": "2025-06-25",
+   "votoAlerta": "Não",
+   "texto": "Votou para manter o aumento do IOF (imposto sobre operações financeiras) decretado pelo governo — votou contra derrubar o aumento (junho de 2025).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2515648",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "mp-1303-2025",
+   "tipo": "imposto",
+   "projeto": "MPV 1303/2025",
+   "data": "2025-10-08",
+   "votoAlerta": "Não",
+   "texto": "Votou contra retirar de pauta a medida provisória que aumentava impostos sobre aplicações financeiras, apostas (bets) e fintechs — ou seja, quis que ela fosse votada (outubro de 2025).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2525180",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "plp-128-2025",
+   "tipo": "imposto",
+   "projeto": "PLP 128/2025",
+   "data": "2025-12-16",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor do projeto que cortou benefícios fiscais e aumentou impostos sobre apostas (bets), fintechs e juros sobre capital próprio (dezembro de 2025).",
+   "fonte": "https://www.camara.leg.br/propostas-legislativas/2520670",
+   "casa": "Câmara dos Deputados"
+  },
+  {
+   "chave": "aumento-salario-governador-2022",
+   "tipo": "beneficio_proprio",
+   "projeto": "PL 592/2022",
+   "data": "2022-11-29",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor de aumentar em 50% o salário do governador, do vice e dos secretários de São Paulo (novembro de 2022).",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20221129-172954-ID_SESSAO=15200-PDF.pdf",
+   "casa": "Assembleia Legislativa de SP"
+  },
+  {
+   "chave": "aumento-salario-deputados-2022",
+   "tipo": "beneficio_proprio",
+   "projeto": "PL 655/2022",
+   "data": "2022-12-21",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor de aumentar o salário dos próprios deputados estaduais, de R$ 25,3 mil para R$ 34,8 mil por mês, em etapas até 2025 (dezembro de 2022).",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20221221-174440-ID_SESSAO=15228-PDF.pdf",
+   "casa": "Assembleia Legislativa de SP"
+  },
+  {
+   "chave": "ajuste-fiscal-pl529-2020",
+   "tipo": "imposto",
+   "projeto": "PL 529/2020",
+   "data": "2020-10-13",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor do pacote do governo Doria que permitiu cortar descontos de ICMS, o que aumentou o imposto de vários produtos, e que limitou a isenção de IPVA para pessoas com deficiência (outubro de 2020).",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20201014-001001-ID_SESSAO=14325-PDF.pdf",
+   "casa": "Assembleia Legislativa de SP"
+  },
+  {
+   "chave": "aumento-taxa-judiciaria-2023",
+   "tipo": "imposto",
+   "projeto": "PL 752/2021",
+   "data": "2023-09-05",
+   "votoAlerta": "Sim",
+   "texto": "Votou a favor de aumentar a taxa para entrar com processo na Justiça de São Paulo, de 1% para 1,5% do valor da causa (setembro de 2023).",
+   "fonte": "https://www.al.sp.gov.br/repositorio/ementario/votacoes/20230905-191417-ID_SESSAO=15562-PDF.pdf",
+   "casa": "Assembleia Legislativa de SP"
+  }
+ ]
+}

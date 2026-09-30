@@ -1,0 +1,511 @@
+{
+ "candidatos": [
+  {
+   "id": 250002532381,
+   "numero": 4401,
+   "nomeUrna": "ADRILLES JORGE",
+   "partido": "UNIÃO",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi denunciado pelo Ministério Público de São Paulo em 2022 por um gesto considerado nazista feito na TV; a Justiça rejeitou a denúncia em 1ª instância e o Tribunal de Justiça de São Paulo manteve a rejeição em setembro de 2022, por entender que o gesto foi apenas uma despedida.",
+     "status": "arquivado",
+     "fonte": "https://www.migalhas.com.br/quentes/373263/tjsp-rejeita-denuncia-contra-ex-bbb-adrilles-por-saudacao-nazista",
+     "fonte_nome": "Migalhas"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Em outubro de 2025, o Ministério Público de São Paulo passou a investigar suspeita de 'rachadinha' no gabinete dele na Câmara Municipal, após depoimento de dois ex-assessores. Ele nega e diz que os ex-funcionários agem por vingança.",
+     "status": "investigado",
+     "fonte": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/vereador-adrilles-jorge-e-investigado-sob-suspeita-de-rachadinha-em-gabinete/",
+     "fonte_nome": "Jornal de Brasília / Folhapress"
+    }
+   ]
+  },
+  {
+   "id": 250002533647,
+   "numero": 1515,
+   "nomeUrna": "BALEIA ROSSI",
+   "partido": "MDB",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi investigado no STF no caso da 'máfia da merenda' em São Paulo; em outubro de 2018 o ministro Gilmar Mendes arquivou o inquérito a pedido da Procuradoria-Geral da República, por falta de provas.",
+     "status": "arquivado",
+     "fonte": "https://jovempan.com.br/brasil/por-falta-de-provas-gilmar-arquiva-inquerito-contra-baleia-rossi-e-marquezelli-na-mafia-da-merenda/",
+     "fonte_nome": "Jovem Pan"
+    }
+   ]
+  },
+  {
+   "id": 250002541147,
+   "numero": 5525,
+   "nomeUrna": "BARJAS NEGRI",
+   "partido": "PSD",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado por improbidade administrativa por ato praticado como prefeito de Piracicaba, com multa e suspensão dos direitos políticos por três anos; em março de 2024 o ministro André Mendonça, do STF, anulou a suspensão dos direitos políticos com base na nova Lei de Improbidade, mantendo-o elegível.",
+     "status": "condenado",
+     "fonte": "https://www.migalhas.com.br/quentes/403791/ex-prefeito-tem-direitos-politicos-restaurados-apos-retroacao-da-lia",
+     "fonte_nome": "Migalhas"
+    }
+   ]
+  },
+  {
+   "id": 250002544350,
+   "numero": 2090,
+   "nomeUrna": "CAIO CUNHA",
+   "partido": "PODE",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi condenado em maio de 2026 pelo Tribunal de Justiça de São Paulo por difamação contra o ex-prefeito Marco Bertaiolli, a três meses de detenção em regime aberto, pena substituída por serviços à comunidade (a 1ª instância o havia absolvido). Ele informou que vai recorrer.",
+     "status": "condenado",
+     "fonte": "https://www.metropoles.com/sao-paulo/ex-prefeito-condenado-conselheiro",
+     "fonte_nome": "Metrópoles"
+    }
+   ]
+  },
+  {
+   "id": 250002536737,
+   "numero": 1370,
+   "nomeUrna": "CARLOS ZARATTINI",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi investigado no STF por suposto caixa 2 e corrupção ligados a doações da Odebrecht nas eleições de 2010 e 2014; os inquéritos foram arquivados pelo STF. Em 2021, o ministro Dias Toffoli suspendeu um inquérito da Justiça Eleitoral de São Paulo que apurava os mesmos fatos.",
+     "status": "arquivado",
+     "fonte": "https://www.conjur.com.br/2021-out-01/toffoli-suspende-inquerito-zarattini-justica-eleitoral/",
+     "fonte_nome": "Consultor Jurídico"
+    }
+   ]
+  },
+  {
+   "id": 250002537969,
+   "numero": 1000,
+   "nomeUrna": "CELSO RUSSOMANNO",
+   "partido": "REPUBLICANOS",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado em 1ª instância pela Justiça Federal em 2014 por peculato (uso de funcionária paga pela Câmara em sua produtora de vídeo); em agosto de 2016 a 2ª Turma do STF o absolveu por 3 votos a 2.",
+     "status": "absolvido",
+     "fonte": "https://www.congressoemfoco.com.br/noticia/37208/stf-absolve-russomano-do-crime-de-peculato",
+     "fonte_nome": "Congresso em Foco"
+    }
+   ]
+  },
+  {
+   "id": 250002535957,
+   "numero": 2223,
+   "nomeUrna": "CEZINHA DE MADUREIRA",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "É investigado pela Polícia Federal por suspeita de exploração de prestígio, tráfico de influência, corrupção passiva e lavagem de dinheiro em negociações ligadas a processos em tribunais superiores; em 14 de setembro de 2026 a PF cumpriu mandados de busca contra ele, autorizados pelo ministro Flávio Dino, do STF.",
+     "status": "investigado",
+     "fonte": "https://www.jb.com.br/brasil/policia/2026/09/1060905-pf-mira-cezinha-de-madureira-em-operacao-sobre-tribunais-superiores.html",
+     "fonte_nome": "Jornal do Brasil"
+    }
+   ]
+  },
+  {
+   "id": 250002532368,
+   "numero": 4422,
+   "nomeUrna": "DELEGADO DA CUNHA",
+   "partido": "UNIÃO",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "É réu desde outubro de 2023 em processo por violência doméstica contra a ex-companheira (lesão corporal, ameaça e injúria), segundo reportagem de março de 2024; o caso aguardava julgamento. Ele nega.",
+     "status": "réu",
+     "fonte": "https://www.correiodamanha.com.br/politica/2024/03/121602-deputado-da-cunha-e-acusado-de-agressao-a-ex-mulher.html",
+     "fonte_nome": "Correio da Manhã"
+    },
+    {
+     "tipo": "justica",
+     "texto": "Em maio de 2024, o Conselho de Ética da Câmara arquivou por 13 votos a 5 o pedido de cassação ligado à acusação de violência doméstica e recomendou apenas censura verbal, a punição mais branda do Código de Ética.",
+     "status": "fato",
+     "fonte": "https://www.cartacapital.com.br/?p=426321",
+     "fonte_nome": "CartaCapital"
+    }
+   ]
+  },
+  {
+   "id": 250002536743,
+   "numero": 1316,
+   "nomeUrna": "EDINHO SILVA",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi investigado por oito anos em inquérito da Lava Jato sobre doações de empresas à campanha de Dilma Rousseff em 2014, da qual era coordenador financeiro; em junho de 2024 o Tribunal Regional Eleitoral do Distrito Federal confirmou o arquivamento, sem que as acusações fossem comprovadas.",
+     "status": "arquivado",
+     "fonte": "https://jovempan.com.br/politica/justica-eleitoral-confirma-trancamento-de-inquerito-contra-edinho-silva-apos-8-anos/",
+     "fonte_nome": "Jovem Pan"
+    }
+   ]
+  },
+  {
+   "id": 250002533638,
+   "numero": 1580,
+   "nomeUrna": "FABIO TERUEL",
+   "partido": "MDB",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Em julho de 2025, a Controladoria-Geral da União e o Ministério Público Federal apuravam o envio de R$ 2 milhões em emendas parlamentares dele para recapear ruas do condomínio onde mora, em Barueri. Ele nega ter destinado emenda ao condomínio e diz que o recurso foi para a prefeitura.",
+     "status": "investigado",
+     "fonte": "https://www.cnnbrasil.com.br/politica/cgu-e-mpf-apuram-envio-de-emendas-para-recapear-ruas-onde-mora-deputado/",
+     "fonte_nome": "CNN Brasil"
+    }
+   ]
+  },
+  {
+   "id": 250002532338,
+   "numero": 4411,
+   "nomeUrna": "FAUSTO PINATO",
+   "partido": "UNIÃO",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi réu no STF (Ação Penal 908) por denunciação caluniosa; em novembro de 2016 a 1ª Turma do STF o absolveu por falta de provas de dolo.",
+     "status": "absolvido",
+     "fonte": "https://www.conjur.com.br/2016-nov-09/falta-dolo-stf-absolve-deputado-denunciacao-caluniosa/",
+     "fonte_nome": "Consultor Jurídico"
+    }
+   ]
+  },
+  {
+   "id": 250002550349,
+   "numero": 4500,
+   "nomeUrna": "FELIPE AUGUSTO",
+   "partido": "PSDB",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Em julho de 2026 tornou-se réu no Tribunal de Justiça de São Paulo, acusado pelo Ministério Público de crime contra a administração pública pelo suposto desvio de 2.187 munições da Guarda Civil Municipal de São Sebastião, encontradas em imóvel dele. A defesa diz que ele desconhecia as munições.",
+     "status": "réu",
+     "fonte": "https://www.bnewssaopaulo.com.br/amp/noticias/policia/ex-prefeito-de-sao-sebastiao-vira-reu-por-suposto-desvio-de-municoes.html",
+     "fonte_nome": "BNews São Paulo"
+    }
+   ]
+  },
+  {
+   "id": 250002546631,
+   "numero": 1477,
+   "nomeUrna": "GUTO ZACARIAS",
+   "partido": "MISSÃO",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi denunciado pelo Ministério Público em julho de 2025, com base na Lei Maria da Penha, acusado de violência psicológica contra a ex-namorada, a quem teria pressionado a abortar. Ele atribui as acusações a perseguição política.",
+     "status": "denunciado",
+     "fonte": "https://www.poder360.com.br/poder-gente/deputado-diz-que-teve-pensamento-pecador-sobre-aborto-da-filha/",
+     "fonte_nome": "Poder360"
+    }
+   ]
+  },
+  {
+   "id": 250002535955,
+   "numero": 2274,
+   "nomeUrna": "JEFFERSON CAMPOS",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi denunciado por corrupção passiva, associação criminosa e fraude em licitação no caso da 'máfia dos sanguessugas' (compra de ambulâncias com emendas); em dezembro de 2014 a 1ª Turma do STF o absolveu por falta de provas.",
+     "status": "absolvido",
+     "fonte": "https://www.conjur.com.br/2014-dez-03/falta-provas-stf-absolve-deputado-federal-jefferson-campos/",
+     "fonte_nome": "Consultor Jurídico"
+    }
+   ]
+  },
+  {
+   "id": 250002536757,
+   "numero": 1380,
+   "nomeUrna": "JILMAR TATTO",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi alvo de ação de improbidade do Ministério Público de São Paulo, junto com Fernando Haddad, pela chamada 'indústria da multa' quando era secretário de Transportes; em fevereiro de 2021 a Justiça julgou a ação improcedente.",
+     "status": "absolvido",
+     "fonte": "https://diariodotransporte.com.br/2021/03/02/justica-inocenta-fernando-haddad-e-jilmar-tatto-de-acusacao-de-industria-da-multa/",
+     "fonte_nome": "Diário do Transporte"
+    }
+   ]
+  },
+  {
+   "id": 250002536733,
+   "numero": 1325,
+   "nomeUrna": "JOAO PAULO CUNHA",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado pelo STF no julgamento do mensalão (Ação Penal 470) e preso em 2014; em 2016 o STF declarou a pena extinta após indulto presidencial.",
+     "status": "condenado",
+     "fonte": "https://www.cartacapital.com.br/?p=531062",
+     "fonte_nome": "CartaCapital"
+    }
+   ]
+  },
+  {
+   "id": 250002535959,
+   "numero": 2208,
+   "nomeUrna": "MARIO FRIAS",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Em fevereiro de 2025 tornou-se réu na Justiça Eleitoral de São Paulo, acusado pelo Ministério Público Eleitoral de divulgar informação falsa sobre Lula na campanha de 2022 (caso do boné 'CPX'). Não foi localizada notícia de sentença.",
+     "status": "réu",
+     "fonte": "https://www.otempo.com.br/politica/judiciario/2025/2/24/mario-frias-vira-reu-na-justica-eleitoral-por-disseminar-fake-news-contra-lula",
+     "fonte_nome": "O Tempo"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "É investigado pela Polícia Federal na Operação Make Up, que apura suspeita de desvio de cerca de R$ 2 milhões em emendas parlamentares dele para financiar o filme 'Dark Horse'; em setembro de 2026 o ministro Flávio Dino, do STF, proibiu-o de sair do país e de ter contato com outros investigados.",
+     "status": "investigado",
+     "fonte": "https://www.jb.com.br/brasil/justica/2026/09/amp/1060872-flavio-dino-proibe-mario-frias-de-sair-do-pais-em-investigacao-da-pf.html",
+     "fonte_nome": "Jornal do Brasil / Agência Brasil"
+    }
+   ]
+  },
+  {
+   "id": 250002535943,
+   "numero": 2241,
+   "nomeUrna": "MISSIONÁRIO JOSÉ OLIMPIO",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi investigado na Operação Lava Jato, quando era do PP, sob suspeita de receber pagamentos mensais de empreiteiras do esquema da Petrobras; o inquérito foi arquivado pelo STF em 2017 por falta de provas.",
+     "status": "arquivado",
+     "fonte": "https://congressoemfoco.com.br/noticia/107140/suplente-de-eduardo-propos-lei-contra-nova-ordem-mundial-satanica",
+     "fonte_nome": "Congresso em Foco"
+    }
+   ]
+  },
+  {
+   "id": 250002537953,
+   "numero": 1023,
+   "nomeUrna": "NEY SANTOS",
+   "partido": "REPUBLICANOS",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi condenado em novembro de 2025 a 3 anos e 9 meses de prisão, em regime semiaberto, por porte de pistola com numeração raspada em 2019, quando era prefeito de Embu das Artes. A defesa informou que vai recorrer.",
+     "status": "condenado",
+     "fonte": "https://www.cartacapital.com.br/?p=562920",
+     "fonte_nome": "CartaCapital"
+    }
+   ]
+  },
+  {
+   "id": 250002536755,
+   "numero": 6565,
+   "nomeUrna": "ORLANDO SILVA",
+   "partido": "PCDOB",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Deixou o Ministério do Esporte em 2011 após denúncias de desvio de recursos do programa Segundo Tempo; em junho de 2012 a Comissão de Ética da Presidência arquivou o processo contra ele 'por absoluta falta de provas'.",
+     "status": "arquivado",
+     "fonte": "https://www.jb.com.br/pais/noticias/2012/06/12/amp/comissao-de-etica-arquiva-denuncia-contra-ex-ministro-orlando-silva.html",
+     "fonte_nome": "Jornal do Brasil"
+    }
+   ]
+  },
+  {
+   "id": 250002535951,
+   "numero": 2270,
+   "nomeUrna": "PASTOR MARCO FELICIANO",
+   "partido": "PL",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi réu no STF (Ação Penal 612) por estelionato, acusado de receber cachê por um evento religioso ao qual não compareceu; em maio de 2014 o STF o absolveu por unanimidade.",
+     "status": "absolvido",
+     "fonte": "https://congressoemfoco.com.br/noticia/54066/stf-livra-feliciano-de-estelionato-por-faltar-a-evento",
+     "fonte_nome": "Congresso em Foco"
+    }
+   ]
+  },
+  {
+   "id": 250002541120,
+   "numero": 5533,
+   "nomeUrna": "PAULO ALEXANDRE BARBOSA",
+   "partido": "PSD",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado por improbidade administrativa pelo Tribunal de Justiça de São Paulo por manter, sem nova licitação, a exploração de publicidade em relógios públicos quando era prefeito de Santos; em dezembro de 2025 o ministro Afrânio Vilela, do STJ, reformou a decisão e julgou a ação improcedente.",
+     "status": "absolvido",
+     "fonte": "https://jurinews.com.br/destaque-nacional/stj-derruba-condenacao-e-absolve-ex-prefeito-de-santos-em-acao-de-improbidade-sobre-publicidade-em-espacos-publicos/",
+     "fonte_nome": "JuriNews"
+    }
+   ]
+  },
+  {
+   "id": 250002544340,
+   "numero": 2020,
+   "nomeUrna": "RENATA ABREU",
+   "partido": "PODE",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "É investigada em inquérito eleitoral sobre supostas irregularidades na prestação de contas do Podemos na campanha de 2018; em 2026 o Ministério Público Eleitoral propôs a ela um acordo de não persecução penal. Não há denúncia.",
+     "status": "investigado",
+     "fonte": "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu",
+     "fonte_nome": "Metrópoles"
+    }
+   ]
+  },
+  {
+   "id": 250002532370,
+   "numero": 4455,
+   "nomeUrna": "RUBINHO NUNES",
+   "partido": "UNIÃO",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Em maio de 2025 a Justiça Eleitoral de 1ª instância cassou seu mandato de vereador e o declarou inelegível por oito anos por compartilhar, na eleição de 2024, um laudo falso contra Guilherme Boulos; em novembro de 2025 o TRE-SP reverteu a cassação e a inelegibilidade. Cabia recurso ao TSE.",
+     "status": "anulado",
+     "fonte": "https://www.portaltela.com/noticias/politica/2025/11/27/tre-sp-reverte-decisao-que-cassou-o-mandato-do-vereador-rubinho-nunes/",
+     "fonte_nome": "Portal Tela"
+    }
+   ]
+  },
+  {
+   "id": 250002537972,
+   "numero": 1070,
+   "nomeUrna": "SIKERA JR",
+   "partido": "REPUBLICANOS",
+   "motivos": [
+    {
+     "tipo": "justica",
+     "texto": "Foi condenado em 1ª instância pela Justiça Federal, em janeiro de 2026, a 3 anos e 6 meses de reclusão por discurso homotransfóbico (crime equiparado ao racismo) em programa de TV de 2021; a pena foi substituída por serviços à comunidade e pagamento de 50 salários mínimos. Cabe recurso.",
+     "status": "condenado",
+     "fonte": "https://www.mpf.mp.br/o-mpf/unidades/pr-am/noticias/apos-denuncia-do-mpf-justica-federal-condena-sikera-jr-por-discurso-homotransfobico",
+     "fonte_nome": "Ministério Público Federal"
+    }
+   ]
+  },
+  {
+   "id": 250002536762,
+   "numero": 1368,
+   "nomeUrna": "ZÉ DIRCEU",
+   "partido": "PT",
+   "motivos": [
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado duas vezes na Operação Lava Jato pelo então juiz Sergio Moro (2016 e 2017) por corrupção passiva e lavagem de dinheiro; em outubro de 2024 o ministro Gilmar Mendes, do STF, anulou todas essas condenações e ele recuperou os direitos políticos.",
+     "status": "anulado",
+     "fonte": "https://www.congressoemfoco.com.br/noticia/5825/gilmar-mendes-anula-condenacoes-de-jose-dirceu-na-lava-jato",
+     "fonte_nome": "Congresso em Foco"
+    },
+    {
+     "tipo": "corrupcao",
+     "texto": "Foi condenado pelo STF no mensalão (Ação Penal 470) por corrupção ativa, com pena de 7 anos e 11 meses; em outubro de 2016 o ministro Luís Roberto Barroso declarou a pena extinta por indulto.",
+     "status": "condenado",
+     "fonte": "https://emporiododireito.com.br/leitura/stf-concede-indulto-a-jose-dirceu-na-ap-470",
+     "fonte_nome": "Empório do Direito (notícia do STF)"
+    },
+    {
+     "tipo": "justica",
+     "texto": "Teve o mandato de deputado federal cassado pelo plenário da Câmara em 1º de dezembro de 2005, por 293 votos a 192, acusado de ser o mentor do esquema do mensalão.",
+     "status": "fato",
+     "fonte": "https://www.congressoemfoco.com.br/noticia/99047/dirceu-e-cassado-por-diferenca-de-37-votos",
+     "fonte_nome": "Congresso em Foco"
+    }
+   ]
+  }
+ ],
+ "verificados_sem_achados": [
+  "ABOU ANNI",
+  "ADILSON BARROSO BOLSONARISTA",
+  "ADRIANA VENTURA",
+  "ALENCAR SANTANA",
+  "ALEX MANENTE",
+  "ALEXIS FONTEYNE",
+  "ALFREDINHO",
+  "ALTAIR MORAES",
+  "BRUNO GANEM",
+  "CAPITÃO AUGUSTO",
+  "CARLOS BEZERRA JR.",
+  "CARLOS SAMPAIO",
+  "CORONEL TELHADA",
+  "CRIS MONTEIRO",
+  "DAVID RR SOARES",
+  "DELEGADO BRUNO LIMA",
+  "DELEGADO PALUMBO",
+  "DENIS ANDIA",
+  "DOUGLAS VIEGAS",
+  "DUARTE NOGUEIRA",
+  "EDUARDO CURY",
+  "ELEUSES PAIVA",
+  "ELI CORRÊA FILHO",
+  "ELÓI PIETÁ",
+  "EYMAEL",
+  "FRANK AGUIAR",
+  "GENERAL PETERNELLI",
+  "GUIGA PEIXOTO",
+  "GUILHERME CORTEZ",
+  "JANAINA PASCHOAL",
+  "JEAN WYLLYS",
+  "JULIANA CARDOSO",
+  "JULIANO MEDEIROS",
+  "KIM KATAGUIRI",
+  "LORENY",
+  "LUCAS PAVANATO",
+  "LUIZ DALBEN",
+  "LUIZ FERNANDO MACHADO",
+  "MAJOR MECCA",
+  "MARCIA LIA",
+  "MARCIO ALVINO",
+  "MARCO VINHOLI",
+  "MARCOS NEVES",
+  "MARIA ROSAS",
+  "MARINA HELENA",
+  "MAURICIO NEVES",
+  "MIGUEL LOMBARDI",
+  "MILTON LEITE FILHO",
+  "MILTON VIEIRA",
+  "MOISES SELERGES",
+  "MOTTA",
+  "NABIL BONDUKI",
+  "NILTO TATTO",
+  "PADRE KELMON",
+  "PAULO FREIRE",
+  "PAULO SERRA",
+  "PAULO SOARES",
+  "PAULO TEIXEIRA",
+  "PEDRO TOURINHO",
+  "POLICIAL KATIA SASTRE",
+  "PROFESSOR DOUGLAS IZZO",
+  "PROFESSORA LUCIENE CAVALCANTE",
+  "RACHEL SHEHERAZADE",
+  "RAUL MARCELO",
+  "RIBAMAR SILVA",
+  "RICARDO GALVÃO",
+  "RODRIGO AGOSTINHO",
+  "ROSANA VALLE",
+  "RUI FALCÃO",
+  "SILVIA ABRAVANEL",
+  "SILVINHO FILHO",
+  "SÂMIA BOMFIM",
+  "TABATA AMARAL",
+  "TOME ABDUCH",
+  "VAL MARCHIORI",
+  "VAZ DE LIMA",
+  "VICENTINHO",
+  "VINICIUS CARVALHO",
+  "VITOR LIPPI",
+  "WALTER IHOSHI"
+ ]
+}

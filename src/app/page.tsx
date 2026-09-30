@@ -1,69 +1,99 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Regua } from "@/components/Regua";
+import { CARGOS } from "@/lib/cargos";
+import { resumo } from "@/lib/dados";
 
-export default function Home() {
+const numero = (n: number) => n.toLocaleString("pt-BR");
+
+export default function Inicio() {
+  const naOrdemDaUrna = [...CARGOS].sort((a, b) => a.ordemNaUrna - b.ordemNaUrna);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="space-y-8">
+      <section className="rounded-3xl border-4 border-slate-900 bg-gradient-to-br from-yellow-300 via-orange-300 to-pink-400 p-6 shadow-[6px_6px_0_0_#0f172a] md:p-10">
+        <h1 className="font-display text-4xl font-extrabold leading-tight text-slate-900 md:text-6xl">
+          Quem são os candidatos de 2026?
+        </h1>
+        <p className="mt-3 max-w-3xl text-xl font-bold text-slate-900">
+          No domingo, 4 de outubro, quem mora no estado de São Paulo escolhe 6 pessoas em 5 cargos. Aqui estão todos os
+          candidatos, arrumados em uma régua e com os alertas de cada um.
+        </p>
+      </section>
+
+      <section aria-labelledby="como-ler" className="space-y-4">
+        <h2 id="como-ler" className="font-display text-3xl font-extrabold">
+          Como ler as listas
+        </h2>
+        <div className="grid gap-4 md:grid-cols-2">
+          <div className="rounded-3xl border-4 border-slate-900 bg-white p-5 shadow-[6px_6px_0_0_#0f172a]">
+            <h3 className="font-display text-2xl font-extrabold">📏 A régua</h3>
+            <p className="mt-1 text-lg">
+              Cada lista começa por quem está mais à <strong>direita</strong> e termina em quem está mais à{" "}
+              <strong>esquerda</strong>. O lugar na régua vem das propostas e de estudos técnicos, não do que as pessoas
+              falam na internet.
+            </p>
+          </div>
+          <div className="rounded-3xl border-4 border-slate-900 bg-white p-5 shadow-[6px_6px_0_0_#0f172a]">
+            <h3 className="font-display text-2xl font-extrabold">
+              <span className="text-red-700">🔴 Nome em vermelho</span>
+            </h3>
+            <p className="mt-1 text-lg">
+              O nome fica vermelho quando a pessoa votou para aumentar o próprio salário ou para se proteger, votou por
+              mais impostos, ou tem acusação ou condenação na Justiça. Ao lado você lê o motivo e abre a fonte.
+            </p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+        <Regua />
+      </section>
+
+      <section aria-labelledby="cargos" className="space-y-4">
+        <h2 id="cargos" className="font-display text-3xl font-extrabold">
+          Escolha um cargo
+        </h2>
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {CARGOS.map((c) => {
+            const r = resumo.cargos.find((x) => x.slug === c.slug);
+            return (
+              <li key={c.slug}>
+                <Link
+                  href={`/${c.slug}`}
+                  className={`block h-full rounded-3xl border-4 border-slate-900 bg-gradient-to-br ${c.cor} p-5 shadow-[6px_6px_0_0_#0f172a] transition-transform hover:-translate-y-1`}
+                >
+                  <span aria-hidden className="text-5xl">
+                    {c.emoji}
+                  </span>
+                  <h3 className="mt-2 font-display text-2xl font-extrabold text-slate-900">{c.titulo}</h3>
+                  <p className="font-bold text-slate-900">{c.oQueFaz}</p>
+                  {r && (
+                    <p className="mt-3 inline-block rounded-2xl border-2 border-slate-900 bg-white px-3 py-1 font-bold text-slate-900">
+                      {numero(r.total)} candidatos · <span className="text-red-700">{numero(r.comAlerta)} em vermelho</span>
+                    </p>
+                  )}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section aria-labelledby="ordem" className="space-y-4">
+        <h2 id="ordem" className="font-display text-3xl font-extrabold">
+          A ordem na urna
+        </h2>
+        <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+          {naOrdemDaUrna.map((c) => (
+            <li key={c.slug} className="rounded-2xl border-2 border-slate-900 bg-white p-3">
+              <p className="font-display text-xl font-extrabold">
+                {c.ordemNaUrna === 3 ? "3º e 4º" : `${c.ordemNaUrna}º`} <span aria-hidden>{c.emoji}</span>
+              </p>
+              <p className="font-bold">{c.tituloCurto}</p>
+              <p className="text-slate-700">
+                {c.digitos} dígitos{c.slug === "senador" ? ", duas vezes" : ""}
+              </p>
+            </li>
+          ))}
+        </ol>
+      </section>
     </div>
   );
 }

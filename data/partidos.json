@@ -1,0 +1,163 @@
+{
+  "fonte": {
+    "citacao": "Bolognesi, B.; Ribeiro, E.; Codato, A.; Silva, B. F. da. O desaparecimento do centro ideológico no sistema partidário brasileiro: a classificação mais atualizada dos experts. Opinião Pública, Campinas, v. 31, e31120, 2025.",
+    "url": "https://doi.org/10.1590/1807-0191202531120",
+    "nota": "Média da rodada de 2022 da pesquisa com cientistas políticos (escala de 0 = esquerda a 10 = direita)."
+  },
+  "partidos": {
+    "PSTU": {
+      "nome": "Partido Socialista dos Trabalhadores Unificado",
+      "nota": 0.51,
+      "origem": "pesquisa"
+    },
+    "PCO": {
+      "nome": "Partido da Causa Operária",
+      "nota": 0.55,
+      "origem": "pesquisa"
+    },
+    "PCB": {
+      "nome": "Partido Comunista Brasileiro",
+      "nota": 0.69,
+      "origem": "pesquisa"
+    },
+    "PSOL": {
+      "nome": "Partido Socialismo e Liberdade",
+      "nota": 1.41,
+      "origem": "pesquisa"
+    },
+    "UP": {
+      "nome": "Unidade Popular",
+      "nota": 1.63,
+      "origem": "pesquisa"
+    },
+    "PCDOB": {
+      "nome": "Partido Comunista do Brasil",
+      "nota": 1.78,
+      "origem": "pesquisa"
+    },
+    "PT": {
+      "nome": "Partido dos Trabalhadores",
+      "nota": 2.68,
+      "origem": "pesquisa"
+    },
+    "PSB": {
+      "nome": "Partido Socialista Brasileiro",
+      "nota": 3.59,
+      "origem": "pesquisa"
+    },
+    "REDE": {
+      "nome": "Rede Sustentabilidade",
+      "nota": 3.69,
+      "origem": "pesquisa"
+    },
+    "PDT": {
+      "nome": "Partido Democrático Trabalhista",
+      "nota": 3.86,
+      "origem": "pesquisa"
+    },
+    "PV": {
+      "nome": "Partido Verde",
+      "nota": 4.12,
+      "origem": "pesquisa"
+    },
+    "SOLIDARIEDADE": {
+      "nome": "Solidariedade",
+      "nota": 6.01,
+      "origem": "pesquisa"
+    },
+    "CIDADANIA": {
+      "nome": "Cidadania",
+      "nota": 6.17,
+      "origem": "pesquisa"
+    },
+    "AVANTE": {
+      "nome": "Avante",
+      "nota": 6.47,
+      "origem": "pesquisa"
+    },
+    "MDB": {
+      "nome": "Movimento Democrático Brasileiro",
+      "nota": 6.5,
+      "origem": "pesquisa"
+    },
+    "MOBILIZA": {
+      "nome": "Mobilização Nacional",
+      "nota": 6.74,
+      "origem": "pesquisa",
+      "observacao": "Avaliado na pesquisa com o nome antigo, PMN."
+    },
+    "PSDB": {
+      "nome": "Partido da Social Democracia Brasileira",
+      "nota": 6.76,
+      "origem": "pesquisa"
+    },
+    "PSD": {
+      "nome": "Partido Social Democrático",
+      "nota": 6.94,
+      "origem": "pesquisa"
+    },
+    "DEMOCRATA": {
+      "nome": "Democrata",
+      "nota": 7.29,
+      "origem": "pesquisa",
+      "observacao": "Avaliado na pesquisa com o nome antigo, PMB (Partido da Mulher Brasileira)."
+    },
+    "PODE": {
+      "nome": "Podemos",
+      "nota": 7.44,
+      "origem": "pesquisa"
+    },
+    "PRTB": {
+      "nome": "Partido Renovador Trabalhista Brasileiro",
+      "nota": 7.49,
+      "origem": "pesquisa"
+    },
+    "AGIR": {
+      "nome": "Agir",
+      "nota": 7.55,
+      "origem": "pesquisa"
+    },
+    "PP": {
+      "nome": "Progressistas",
+      "nota": 8.15,
+      "origem": "pesquisa"
+    },
+    "PRD": {
+      "nome": "Partido Renovação Democrática",
+      "nota": 8.16,
+      "origem": "fusao",
+      "observacao": "Partido criado em 2023 pela fusão de PTB (7,72) e Patriota (8,60). Usamos a média dos dois, que é a regra da própria pesquisa para fusões."
+    },
+    "DC": {
+      "nome": "Democracia Cristã",
+      "nota": 8.21,
+      "origem": "pesquisa"
+    },
+    "REPUBLICANOS": {
+      "nome": "Republicanos",
+      "nota": 8.33,
+      "origem": "pesquisa"
+    },
+    "UNIÃO": {
+      "nome": "União Brasil",
+      "nota": 8.49,
+      "origem": "pesquisa"
+    },
+    "MISSÃO": {
+      "nome": "Missão",
+      "nota": 8.25,
+      "origem": "estimativa",
+      "observacao": "Partido registrado no TSE em novembro de 2025, depois da pesquisa. A nota é uma estimativa deste site: é a mesma da análise do plano de governo do candidato do partido a presidente."
+    },
+    "NOVO": {
+      "nome": "Partido Novo",
+      "nota": 8.67,
+      "origem": "pesquisa"
+    },
+    "PL": {
+      "nome": "Partido Liberal",
+      "nota": 8.8,
+      "origem": "pesquisa"
+    }
+  }
+}
