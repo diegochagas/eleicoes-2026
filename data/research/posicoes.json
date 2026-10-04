@@ -1,0 +1,510 @@
+{
+ "candidatos": {
+  "280002539826": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "O plano de governo propõe reformar o Código Penal para garantir penas duras para crimes violentos e hediondos e substituir a progressão rápida de regime por cumprimento efetivo de prisão seguido de liberdade condicional monitorada.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf",
+    "fonte_nome": "Plano de governo Zema (TSE/Poder360)"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe construir presídios de segurança máxima, retomar territórios de facções com Forças Armadas e polícias e classificar facções como organizações terroristas.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf",
+    "fonte_nome": "Plano de governo Zema (TSE/Poder360)"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe acelerar a universalização do saneamento básico por meio de concessões e PPPs e estruturar projetos de rodovias, hidrovias e transporte de massa.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Zema_2026.pdf",
+    "fonte_nome": "Plano de governo Zema (TSE/Poder360)"
+   }
+  ],
+  "280002551932": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "O plano de governo propõe penas mínimas de 35 a 45 anos para integrantes de organizações terroristas domésticas, progressão de regime só após 90% da pena e forte restrição à saída temporária.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+    "fonte_nome": "Plano de governo Caiado (TSE/Poder360)"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe uma Rede Nacional de Presídios de Segurança Máxima, um Sistema Nacional de Inteligência Criminal e atuação federal contra facções e milícias.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+    "fonte_nome": "Plano de governo Caiado (TSE/Poder360)"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe acelerar a universalização de água e esgoto, regionalização do saneamento e urbanização e drenagem em periferias e pequenas cidades.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+    "fonte_nome": "Plano de governo Caiado (TSE/Poder360)"
+   },
+   {
+    "topico": "contra_saidinha",
+    "texto": "O plano de governo propõe forte restrição à saída temporária de presos.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+    "fonte_nome": "Plano de governo Caiado (TSE/Poder360)"
+   }
+  ],
+  "280002551544": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "O plano de governo propõe acabar com a progressão de regime para condenados por crimes hediondos, que cumpririam integralmente as penas.",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/em-plano-de-governo-flavio-defende-reduzir-maioridade-penal",
+    "fonte_nome": "SBT News"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "A campanha propõe criar 500 mil vagas em presídios, cinco presídios federais de segurança máxima, isolar líderes de facções e um sistema nacional de reconhecimento facial com 1 milhão de novas câmeras.",
+    "fonte": "https://www.moneytimes.com.br/flavio-bolsonaro-promete-criar-500-mil-vagas-em-presidios-em-4-anos-e-zerar-deficit-carcerario-gaep/",
+    "fonte_nome": "Money Times"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo prevê mobilizar R$ 900 bilhões em quatro anos para rodovias, ferrovias, portos, aeroportos e hidrovias.",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/121271/eua--tesouraco-e-presidios-o-que-preve-o-plano-de-governo-de-flavio",
+    "fonte_nome": "Congresso em Foco"
+   },
+   {
+    "topico": "contra_saidinha",
+    "origem": "voto",
+    "texto": "Foi o relator no Senado do projeto que extinguiu a saída temporária, deu parecer favorável e votou Sim na votação nominal de 20/02/2024, que virou a Lei 14.843/2024.",
+    "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/154451",
+    "fonte_nome": "Senado Federal, PL 2253/2022"
+   }
+  ],
+  "280002548139": [
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe ampliar o sistema penitenciário federal de segurança máxima, bloquear sinal de celular nas unidades, asfixiar o dinheiro das facções e vigiar fronteiras, portos e aeroportos.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe o programa Brasil nos Trilhos, com corredores ferroviários, integração com portos, e cobrança da meta de universalização do saneamento do marco legal de 2020.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Wilson_Grassi_2026.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   }
+  ],
+  "250002549705": [
+   {
+    "topico": "seguranca",
+    "texto": "A plataforma propõe uma Agência Estadual Antifacção, gravação contínua das câmeras corporais e delegacias da mulher 24 horas, além de segregar presos por perfil e facção.",
+    "fonte": "https://www.dgabc.com.br/Noticia/4342719/tarcisio-e-haddad-tem-visoes-distintas-sobre-como-governar-sao-paulo",
+    "fonte_nome": "DGABC"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "A plataforma propõe a universalização do saneamento básico, com papel ativo do governo na fiscalização do serviço concedido, na proteção de mananciais e no fornecimento seguro de água.",
+    "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-meio-ambiente",
+    "fonte_nome": "Metrópoles"
+   }
+  ],
+  "250002532794": [
+   {
+    "topico": "contra_drogas",
+    "texto": "Como relator da PEC das Drogas na CCJ da Câmara, defendeu que não deve haver tolerância com a maconha e se opôs à descriminalização decidida pelo STF.",
+    "fonte": "https://www.cnnbrasil.com.br/politica/sociedade-nao-pode-ter-tolerancia-com-a-maconha-diz-a-cnn-relator-da-pec-das-drogas-na-ccj-da-camara/",
+    "fonte_nome": "CNN Brasil"
+   }
+  ],
+  "280002540694": [
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe superpresídios de segurança máxima para lideranças de facções, drones, reconhecimento facial e uso da GLO e do Estado de Defesa contra o controle territorial das facções.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Renan_Missao_2026.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   },
+   {
+    "topico": "penas_mais_duras",
+    "texto": "O plano de governo prevê leis específicas para aumentar penas de reincidência e de roubo de eletrônicos e medidas penais mais severas contra integrantes de facções.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Renan_Missao_2026.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   }
+  ],
+  "280002552484": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo inclui rodovias com manutenção baseada em desempenho, além de ferrovias, hidrovias, portos e concessões e PPPs.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe policiamento baseado em evidências, combate ao narcotráfico, sufocamento financeiro das facções e inteligência penitenciária.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_DC_Clariana_Barao.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   }
+  ],
+  "280002551975": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe política de saneamento básico e tratamento de esgoto para todos, com federalização das empresas de água e esgoto.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf",
+    "fonte_nome": "Plano de governo (TSE)"
+   }
+  ],
+  "250002550913": [
+   {
+    "topico": "seguranca",
+    "texto": "O plano propõe enfrentar organizações criminosas com inteligência, investigação qualificada e ataque à estrutura econômica, além de ampliar as delegacias da mulher.",
+    "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca",
+    "fonte_nome": "Metrópoles"
+   }
+  ],
+  "250002541312": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "Como relator, defendeu endurecer o PL Antifacção, com penas de 20 a 40 anos e progressão de regime só após 70% a 85% da pena, e relatou o projeto que acaba com a saidinha.",
+    "fonte": "https://www.poder360.com.br/poder-congresso/derrite-diz-que-buscara-endurecer-pl-antifaccao-do-governo/",
+    "fonte_nome": "Poder360"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "Foi relator do PL Antifacção, que aumenta penas para participação em organizações criminosas e prevê o bloqueio prévio de bens de investigados.",
+    "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-guilherme-derrite-candidato-ao-senado-por-sp/",
+    "fonte_nome": "CNN Brasil"
+   },
+   {
+    "topico": "contra_saidinha",
+    "origem": "voto",
+    "texto": "Foi o relator na Câmara do projeto que extinguiu a saída temporária; assinou a redação final em 20/03/2024 (Lei 14.843/2024).",
+    "fonte": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=493361",
+    "fonte_nome": "Câmara dos Deputados, PL 2253/2022 (antigo PL 583/2011)"
+   }
+  ],
+  "250002551502": [
+   {
+    "topico": "seguranca",
+    "texto": "Defende maior foco no combate às organizações criminosas, como PCC e CV, e o fortalecimento de medidas contra seu financiamento, dizendo que bandido bom é bandido preso, trabalhando e estudando.",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/122125/simone-tebet--bandido-bom-e-bandido-preso-trabalhando-e-estudando",
+    "fonte_nome": "Congresso em Foco"
+   }
+  ],
+  "250002544516": [
+   {
+    "topico": "seguranca",
+    "texto": "Propõe transição da Polícia Militar para um modelo de policiamento comunitário e investigações voltadas à lavagem de dinheiro ligada ao crime organizado.",
+    "fonte": "https://www.brasildefato.com.br/2026/09/11/candidata-da-up-ao-senado-por-sp-defende-jornada-de-trabalho-de-30-horas-e-juizes-eleitos-pelo-povo/",
+    "fonte_nome": "Brasil de Fato"
+   }
+  ],
+  "280002551547": [
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe recriar o Ministério da Segurança Pública, integrar as polícias e órgãos de inteligência, combater as facções e reformar o sistema penitenciário contra a superlotação.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf",
+    "fonte_nome": "Plano de governo Augusto Cury"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe um programa nacional de integração logística (rodovias, ferrovias, portos), duplicação das principais rodovias e saneamento básico para todos.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Augusto_Cury_2026.pdf",
+    "fonte_nome": "Plano de governo Augusto Cury"
+   }
+  ],
+  "280002541457": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe a universalização do saneamento básico e a urbanização das periferias, com obras e infraestrutura por empresa pública de obras.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf",
+    "fonte_nome": "Plano de governo Hertz Dias"
+   }
+  ],
+  "250002544912": [
+   {
+    "topico": "seguranca",
+    "texto": "A candidata propõe desmilitarizar a PM com novo modelo baseado na prevenção, fortalecer a inteligência e integrar instituições no combate às organizações criminosas.",
+    "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca",
+    "fonte_nome": "Metrópoles"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "A candidata propõe desimpermeabilizar o solo urbano, trocando asfalto por superfícies permeáveis que absorvem água.",
+    "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-meio-ambiente",
+    "fonte_nome": "Metrópoles"
+   }
+  ],
+  "250002552369": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "A candidata defende o endurecimento de penas para crimes sexuais e agressões.",
+    "fonte": "https://www.brasildefato.com.br/2026/09/10/soninha-francine-defende-escala-flexivel-de-trabalho-integracao-na-seguranca-e-maior-rigor-ambiental/",
+    "fonte_nome": "Brasil de Fato"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "A candidata defende uma política nacional que obrigue e forneça ferramentas de integração de informações entre as polícias federal, estaduais e municipais.",
+    "fonte": "https://www.brasildefato.com.br/2026/09/10/soninha-francine-defende-escala-flexivel-de-trabalho-integracao-na-seguranca-e-maior-rigor-ambiental/",
+    "fonte_nome": "Brasil de Fato"
+   }
+  ],
+  "280002554479": [
+   {
+    "topico": "contra_aborto",
+    "texto": "Em entrevista, Leonardo Avalanche afirmou que todo aborto é ilegal e equivale a tirar a vida de uma criança, inclusive em casos de estupro.",
+    "fonte": "https://www.correiobraziliense.com.br/politica/2026/07/7469550-leonardo-avalanche-afirma-que-todo-tipo-de-aborto-e-um-assassinato.html",
+    "fonte_nome": "Correio Braziliense"
+   }
+  ],
+  "280002542548": [
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe fortalecer o combate ao crime organizado com asfixia financeira, ampliação do sistema penitenciário federal e das FICCOs, rastreabilidade de armas e criação do Ministério da Segurança Pública.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf",
+    "fonte_nome": "Programa de Governo Lula (PDF)"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O plano de governo propõe apoiar estados e municípios na universalização da água tratada e do esgotamento sanitário e investir na requalificação de espaços públicos e urbanização de periferias.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-governo-lula.pdf",
+    "fonte_nome": "Programa de Governo Lula (PDF)"
+   }
+  ],
+  "250002541303": [
+   {
+    "topico": "seguranca",
+    "texto": "O plano de governo propõe ampliar em 30% a Muralha Paulista com câmeras e reconhecimento facial e criar o SP CIN para integrar bases de dados e canais das forças de segurança.",
+    "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca",
+    "fonte_nome": "Metrópoles"
+   },
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa SP Pra Toda Obra 4.0 prevê mais de R$ 500 bilhões em projetos de rodovias, ferrovias, metrô, saneamento, escolas e hospitais.",
+    "fonte": "https://www.dgabc.com.br/Noticia/4342719/tarcisio-e-haddad-tem-visoes-distintas-sobre-como-governar-sao-paulo",
+    "fonte_nome": "DGABC"
+   },
+   {
+    "topico": "contra_aborto",
+    "texto": "Em entrevista à CNN em 2022, Tarcísio declarou ser cristão e contra o aborto.",
+    "fonte": "https://www.folhape.com.br/politica/tarcisio-diz-que-nunca-foi-bolsonarista-raiz-e-nao-cometera-o-erro/249370/",
+    "fonte_nome": "Folha de Pernambuco"
+   },
+   {
+    "topico": "contra_drogas",
+    "texto": "Em entrevista à CNN em 2022, Tarcísio declarou ser contra a liberação de drogas.",
+    "fonte": "https://www.folhape.com.br/politica/tarcisio-diz-que-nunca-foi-bolsonarista-raiz-e-nao-cometera-o-erro/249370/",
+    "fonte_nome": "Folha de Pernambuco"
+   }
+  ],
+  "250002541308": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "André do Prado defende o cumprimento integral da pena, dizendo que quem foi condenado a 30 anos deve ficar os 30 anos preso, e é favorável à redução da maioridade penal.",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf",
+    "fonte_nome": "SBT News"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "André do Prado defende classificar as facções criminosas como organizações terroristas e adotar todas as medidas possíveis contra a expansão delas.",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/andre-do-prado-defende-anistia-por-8-1-e-controle-do-stf",
+    "fonte_nome": "SBT News"
+   }
+  ],
+  "250002534944": [
+   {
+    "topico": "contra_saidinha",
+    "texto": "É autor do PL 454/2020, que propõe excluir a possibilidade de saída temporária de presos da Lei de Execução Penal.",
+    "fonte": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2238169",
+    "fonte_nome": "Câmara dos Deputados, PL 454/2020"
+   }
+  ],
+  "250002535976": [
+   {
+    "topico": "contra_saidinha",
+    "texto": "É autora do PL 3317/2020, que propõe excluir a possibilidade de saída temporária de presos da Lei de Execução Penal.",
+    "fonte": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2255189",
+    "fonte_nome": "Câmara dos Deputados, PL 3317/2020"
+   }
+  ],
+  "250002544834": [
+   {
+    "topico": "contra_saidinha",
+    "texto": "É autor do PL 6092/2025, que propõe vedar a saída temporária de presos prevista nos artigos 122 e 123 da Lei de Execução Penal.",
+    "fonte": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2591050",
+    "fonte_nome": "Câmara dos Deputados, PL 6092/2025"
+   }
+  ]
+ },
+ "partidos": {
+  "NOVO": [
+   {
+    "topico": "penas_mais_duras",
+    "texto": "O partido propõe ampliar penas para crimes violentos e hediondos, como homicídio, latrocínio e estupro, e viabilizar a prisão perpétua por mudança constitucional.",
+    "fonte": "https://novo.org.br/propostas/",
+    "fonte_nome": "Propostas do NOVO para segurança"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O partido propõe ampliar vagas no sistema prisional, construir presídios de segurança máxima e coordenar polícias estaduais, Federal e Forças Armadas para retomar territórios de facções.",
+    "fonte": "https://novo.org.br/propostas/",
+    "fonte_nome": "Propostas do NOVO para segurança"
+   }
+  ],
+  "PL": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa do partido defende obras de infraestrutura de integração, como portos, aeroportos, estradas rodoviárias vicinais, ferrovias e hidrovias.",
+    "fonte": "https://partidoliberal.org.br/wp-content/uploads/2023/02/programa_do_pl.pdf",
+    "fonte_nome": "Programa do PL"
+   }
+  ],
+  "PSB": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa do partido defende políticas públicas integradas de oferta de serviços de saneamento básico, acesso à água potável, limpeza urbana e manejo de resíduos sólidos.",
+    "fonte": "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+    "fonte_nome": "Manifesto e Programa do PSB"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O programa do partido propõe ampliar os investimentos em inteligência e investigação policial e fortalecer a governança, a análise criminal e a reforma do sistema penitenciário.",
+    "fonte": "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+    "fonte_nome": "Manifesto e Programa do PSB"
+   }
+  ],
+  "REPUBLICANOS": [
+   {
+    "topico": "seguranca",
+    "texto": "O manifesto e programa do partido defende o fortalecimento permanente do sistema e dos aparatos de repressão para proteger os cidadãos sem concessões a grupos criminosos.",
+    "fonte": "https://republicanos10.org.br/manifesto-e-programa",
+    "fonte_nome": "Manifesto e Programa do Republicanos, Eixo 9"
+   }
+  ],
+  "PCDOB": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa do partido defende reforma urbana que garanta moradia digna, infraestrutura, saneamento ambiental e mobilidade urbana.",
+    "fonte": "https://pcdob.org.br/wp-content/uploads/2019/10/Estatuto-e-Programa-revisado.pdf",
+    "fonte_nome": "Programa Socialista do PCdoB"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O programa do partido propõe um Sistema Único de Segurança Pública, com ações preventivas e de repressão à violência criminal e combate ao crime organizado e ao narcotráfico.",
+    "fonte": "https://pcdob.org.br/wp-content/uploads/2019/10/Estatuto-e-Programa-revisado.pdf",
+    "fonte_nome": "Programa Socialista do PCdoB"
+   }
+  ],
+  "PT": [
+   {
+    "topico": "infraestrutura",
+    "texto": "A resolução política do Diretório Nacional orienta que o programa eleitoral de 2026 contemple demandas como saneamento, moradia e mobilidade.",
+    "fonte": "https://static.poder360.com.br/2025/12/resolucao-politica-pt-6dez2025-final.pdf",
+    "fonte_nome": "Resolução Política do PT (6/12/2025)"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "A resolução política do partido defende uma política nacional de segurança pública baseada em inteligência, tecnologia, investigação e combate financeiro ao crime, com um Ministério da Segurança Pública.",
+    "fonte": "https://static.poder360.com.br/2025/12/resolucao-politica-pt-6dez2025-final.pdf",
+    "fonte_nome": "Resolução Política do PT (6/12/2025)"
+   }
+  ],
+  "SOLIDARIEDADE": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa partidário defende a universalização do acesso ao saneamento básico em todo o território brasileiro.",
+    "fonte": "https://solidariedade.org.br/media/2021/06/programa-partidario_paginas-duplas_web.pdf",
+    "fonte_nome": "Programa Partidário do Solidariedade"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O programa partidário prevê fortalecer o policiamento ostensivo, a inteligência policial e a valorização das polícias para combater a criminalidade e o narcotráfico.",
+    "fonte": "https://solidariedade.org.br/media/2021/06/programa-partidario_paginas-duplas_web.pdf",
+    "fonte_nome": "Programa Partidário do Solidariedade"
+   }
+  ],
+  "PCO": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa de luta do PCO para 2026 propõe um plano nacional de construção de milhões de moradias populares e destinar recursos do petróleo a obras de infraestrutura.",
+    "fonte": "https://candidatos.pco.org.br/wp-content/uploads/2026/08/PCO-programa-de-governo-2026.pdf",
+    "fonte_nome": "PCO - Programa de Luta, Eleições 2026"
+   }
+  ],
+  "PP": [
+   {
+    "topico": "infraestrutura",
+    "texto": "A Agenda Central do Progressistas assume compromisso com investimentos robustos em infraestrutura, como transportes e energia, e com o saneamento.",
+    "fonte": "https://static.congressoemfoco.com.br/2023/09/2023.09.19-Agenda-Central-PP-Projeto-11.docx",
+    "fonte_nome": "Agenda Central do Progressistas (2023)"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "A Agenda Central do Progressistas compromete-se a tornar a segurança pública uma realidade, investindo em tecnologia e capacitação profissional para combater a criminalidade.",
+    "fonte": "https://static.congressoemfoco.com.br/2023/09/2023.09.19-Agenda-Central-PP-Projeto-11.docx",
+    "fonte_nome": "Agenda Central do Progressistas (2023)"
+   },
+   {
+    "topico": "contra_aborto",
+    "texto": "A Agenda Central do Progressistas defende a valorização da vida desde a concepção, abrangendo expressamente os não nascidos.",
+    "fonte": "https://static.congressoemfoco.com.br/2023/09/2023.09.19-Agenda-Central-PP-Projeto-11.docx",
+    "fonte_nome": "Agenda Central do Progressistas (2023)"
+   },
+   {
+    "topico": "contra_drogas",
+    "texto": "A Agenda Central do Progressistas posiciona o partido contra a descriminalização das drogas, defendendo prevenção e educação.",
+    "fonte": "https://static.congressoemfoco.com.br/2023/09/2023.09.19-Agenda-Central-PP-Projeto-11.docx",
+    "fonte_nome": "Agenda Central do Progressistas (2023)"
+   }
+  ],
+  "PSDB": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O Programa Partidário do PSDB prevê reforçar a ação do Estado e do capital privado na recuperação de rodovias, portos, aeroportos e no saneamento.",
+    "fonte": "https://www.tse.jus.br/arquivos/programa-partidario-psdb-resolucao-tse-no-23-100.2009",
+    "fonte_nome": "Programa Partidário do PSDB (2007)"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O Programa Partidário do PSDB defende valorização do trabalho policial, investimentos em tecnologia e inteligência, e integração das forças de segurança contra o crime organizado.",
+    "fonte": "https://www.tse.jus.br/arquivos/programa-partidario-psdb-resolucao-tse-no-23-100.2009",
+    "fonte_nome": "Programa Partidário do PSDB (2007)"
+   }
+  ],
+  "UNIÃO": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O manifesto do União Brasil prevê políticas públicas integradas que incluem moradia e saneamento, e prioridade ao saneamento básico e à mobilidade urbana.",
+    "fonte": "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+    "fonte_nome": "Manifesto do União Brasil"
+   },
+   {
+    "topico": "seguranca",
+    "texto": "O manifesto do União Brasil propõe enfrentar a criminalidade com rigor, inteligência e integração das forças de segurança, para desmontar o crime organizado.",
+    "fonte": "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+    "fonte_nome": "Manifesto do União Brasil"
+   }
+  ],
+  "DC": [
+   {
+    "topico": "seguranca",
+    "texto": "O programa do partido prevê a promoção de um Plano Nacional de Segurança Pública para assegurar ao cidadão o direito de viver e trabalhar em paz e sem medo.",
+    "fonte": "https://www.democraciacrista.org.br/programa",
+    "fonte_nome": "Programa da Democracia Cristã"
+   },
+   {
+    "topico": "contra_drogas",
+    "texto": "O programa do partido defende o combate total ao tráfico de drogas, com punição severa dos traficantes.",
+    "fonte": "https://www.democraciacrista.org.br/programa",
+    "fonte_nome": "Programa da Democracia Cristã"
+   }
+  ],
+  "PSOL": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa do partido defende saneamento básico, universalização do acesso à água e infraestrutura verde nas cidades, como parques lineares e praças.",
+    "fonte": "https://psol50.org.br/partido/programa/",
+    "fonte_nome": "Programa do PSOL"
+   }
+  ],
+  "UP": [
+   {
+    "topico": "infraestrutura",
+    "texto": "O programa do partido prevê moradia digna, saneamento e coleta de lixo para todas as famílias e uma profunda reforma urbana.",
+    "fonte": "https://unidadepopular.org.br/programa",
+    "fonte_nome": "Programa Nacional da Unidade Popular"
+   }
+  ]
+ }
+}

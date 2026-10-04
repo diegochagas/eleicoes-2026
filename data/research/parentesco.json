@@ -1,0 +1,18 @@
+{
+  "pares": [
+    {
+      "pai": 250002532353,
+      "filho": 250002533757,
+      "relacao": "pai",
+      "fonte": "https://en.wikipedia.org/wiki/Capit%C3%A3o_Telhada",
+      "fonte_nome": "Wikipédia, Capitão Telhada"
+    },
+    {
+      "pai": 250002545203,
+      "filho": 250002544346,
+      "relacao": "mãe",
+      "fonte": "https://ofator.com.br/?p=16292",
+      "fonte_nome": "O Fator, matéria sobre Bruno Ganem"
+    }
+  ]
+}

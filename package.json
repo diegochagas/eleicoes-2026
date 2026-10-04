@@ -11,6 +11,7 @@
     "e2e": "playwright test",
     "check": "scripts/check",
     "data:camara": "tsx scripts/fetch-camara-votos.ts",
+    "data:elosys": "tsx --disable-warning=ExperimentalWarning scripts/elosys-extrair.ts",
     "data:build": "tsx scripts/build-data.ts",
     "deploy": "scripts/deploy-pages"
   },

@@ -1,9 +1,9 @@
 "use client";
 
 import { Fragment, useMemo, useState } from "react";
-import { FILTRO_INICIAL, filtrar, partidosDe, temAlerta, type Filtro, type FiltroAlerta } from "@/lib/candidatos";
+import { FILTRO_INICIAL, ROTULO_VERDE, TOPICOS_VERDES, filtrar, partidosDe, temAlerta, temIndicio, type Filtro, type FiltroAlerta } from "@/lib/candidatos";
 import { faixaDaNota } from "@/lib/espectro";
-import type { Candidato } from "@/lib/tipos";
+import type { Candidato, CargoSlug } from "@/lib/tipos";
 import { LinhaCandidato } from "./LinhaCandidato";
 
 const POR_PAGINA = 50;
@@ -11,16 +11,18 @@ const POR_PAGINA = 50;
 const OPCOES_ALERTA: { valor: FiltroAlerta; rotulo: string }[] = [
   { valor: "todos", rotulo: "Todos" },
   { valor: "com", rotulo: "🔴 Só em vermelho" },
-  { valor: "sem", rotulo: "Só sem vermelho" },
+  { valor: "indicio", rotulo: "🟡 Com indício" },
+  { valor: "sem", rotulo: "Só sem alerta" },
 ];
 
 interface Props {
+  cargo: CargoSlug;
   candidatos: Candidato[];
   /** Listas curtas (presidente, governador, senador) aparecem inteiras, sem filtros. */
   comFiltros: boolean;
 }
 
-export function ListaCandidatos({ candidatos, comFiltros }: Props) {
+export function ListaCandidatos({ cargo, candidatos, comFiltros }: Props) {
   const [filtro, setFiltro] = useState<Filtro>({ ...FILTRO_INICIAL, mostrarForaDaUrna: !comFiltros });
   const [limite, setLimite] = useState(POR_PAGINA);
 
@@ -28,6 +30,7 @@ export function ListaCandidatos({ candidatos, comFiltros }: Props) {
   const filtrados = useMemo(() => filtrar(candidatos, filtro), [candidatos, filtro]);
   const visiveis = comFiltros ? filtrados.slice(0, limite) : filtrados;
   const emVermelho = filtrados.filter(temAlerta).length;
+  const soAmarelo = filtrados.filter((c) => !temAlerta(c) && temIndicio(c)).length;
   const foraDaUrna = filtrados.filter((c) => !c.naUrna).length;
 
   function mudar(parte: Partial<Filtro>) {
@@ -68,6 +71,21 @@ export function ListaCandidatos({ candidatos, comFiltros }: Props) {
               ))}
             </select>
           </label>
+          <label className="block font-bold md:col-span-2">
+            🟢 Selo verde
+            <select
+              value={filtro.verde}
+              onChange={(e) => mudar({ verde: e.target.value as Filtro["verde"] })}
+              className="mt-1 w-full rounded-xl border-2 border-slate-900 bg-white px-3 py-2 text-lg font-normal"
+            >
+              <option value="">Qualquer assunto</option>
+              {TOPICOS_VERDES.map((t) => (
+                <option key={t} value={t}>
+                  {ROTULO_VERDE[t].rotulo}
+                </option>
+              ))}
+            </select>
+          </label>
           <fieldset className="flex flex-wrap items-center gap-2 md:col-span-2">
             <legend className="sr-only">Mostrar</legend>
             {OPCOES_ALERTA.map((o) => (
@@ -83,6 +101,15 @@ export function ListaCandidatos({ candidatos, comFiltros }: Props) {
                 {o.rotulo}
               </button>
             ))}
+            <label className="flex items-center gap-2 font-bold">
+              <input
+                type="checkbox"
+                checked={filtro.soEstreantes}
+                onChange={(e) => mudar({ soEstreantes: e.target.checked })}
+                className="h-5 w-5 accent-slate-900"
+              />
+              🌱 Só primeira candidatura
+            </label>
             <label className="ml-auto flex items-center gap-2 font-bold">
               <input
                 type="checkbox"
@@ -99,7 +126,7 @@ export function ListaCandidatos({ candidatos, comFiltros }: Props) {
       <p aria-live="polite" className="font-bold text-slate-800">
         {filtrados.length === 0
           ? "Nenhum candidato encontrado."
-          : `${filtrados.length} ${filtrados.length === 1 ? "candidato" : "candidatos"}, ${emVermelho} em vermelho${
+          : `${filtrados.length} ${filtrados.length === 1 ? "candidato" : "candidatos"}, ${emVermelho} em vermelho, ${soAmarelo} em amarelo${
               foraDaUrna > 0 ? `, ${foraDaUrna} fora da urna` : ""
             }.`}
       </p>
@@ -117,7 +144,7 @@ export function ListaCandidatos({ candidatos, comFiltros }: Props) {
                   Nome
                 </th>
                 <th scope="col" className="px-4 py-3">
-                  Por que está em vermelho
+                  Por que tem alerta
                 </th>
               </tr>
             </thead>
@@ -139,7 +166,7 @@ export function ListaCandidatos({ candidatos, comFiltros }: Props) {
                         </th>
                       </tr>
                     )}
-                    <LinhaCandidato candidato={c} />
+                    <LinhaCandidato candidato={c} cargo={cargo} />
                   </Fragment>
                 );
               })}

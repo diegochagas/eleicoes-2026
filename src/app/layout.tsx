@@ -33,6 +33,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/" className="text-slate-800 underline-offset-4 hover:underline">
                 Início
               </Link>
+              <Link href="/meus-candidatos" className="text-slate-800 underline-offset-4 hover:underline">
+                ⭐ Meus candidatos
+              </Link>
               <Link href="/como-funciona" className="text-slate-800 underline-offset-4 hover:underline">
                 Como funciona
               </Link>

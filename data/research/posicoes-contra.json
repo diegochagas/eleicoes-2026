@@ -1,0 +1,180 @@
+{
+ "candidatos": {
+  "280002552487": [
+   {
+    "topico": "favor_aborto",
+    "texto": "Em entrevista, Rui Costa Pimenta defende a legalização do aborto, dizendo que o Estado deve ser laico e que quem é religioso não pode proibir os outros de abortar.",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes/estado-nao-pode-ser-religioso-diz-rui-costa-pimenta-sobre-aborto/",
+    "fonte_nome": "Poder360"
+   },
+   {
+    "topico": "favor_drogas",
+    "texto": "Rui Costa Pimenta defende a legalização das drogas, argumentando que isso tiraria o combustível financeiro das facções e resolveria o problema da criminalidade.",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/rui-costa-pimenta-defende-fim-da-pm-e-legalizacao-de-drogas",
+    "fonte_nome": "SBT News"
+   }
+  ],
+  "250002536915": [
+   {
+    "topico": "favor_drogas",
+    "texto": "A proposta de segurança de Vera Lúcia prevê descriminalizar o consumo de drogas, tratando a adicção como questão de saúde pública.",
+    "fonte": "https://www.metropoles.com/sao-paulo/propostas-governo-sp-seguranca",
+    "fonte_nome": "Metrópoles"
+   },
+   {
+    "topico": "favor_aborto",
+    "texto": "Em entrevista de 2022 à CartaCapital, Vera Lúcia defendeu a legalização do aborto em qualquer estágio da gravidez, dizendo que as mulheres é que decidem.",
+    "fonte": "https://www.cartacapital.com.br/?p=267857",
+    "fonte_nome": "CartaCapital (2022)"
+   }
+  ],
+  "280002538811": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O programa de governo defende a descriminalização e a legalização do aborto, no capítulo sobre direitos reprodutivos e saúde da mulher.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf",
+    "fonte_nome": "Plano de governo de Samara (UP, TSE)"
+   },
+   {
+    "topico": "favor_drogas",
+    "texto": "O programa de governo propõe o fim da política de 'Guerra às Drogas', com transição do paradigma penal para o de saúde pública e prevenção.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf",
+    "fonte_nome": "Plano de governo de Samara (UP, TSE)"
+   },
+   {
+    "topico": "contra_penas_duras",
+    "texto": "O programa de governo declara 'Não à redução da maioridade penal' e propõe enfrentar o encarceramento em massa e o abuso da prisão provisória.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Samara_UP_2026.pdf.pdf",
+    "fonte_nome": "Plano de governo de Samara (UP, TSE)"
+   }
+  ],
+  "280002551975": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O plano de governo defende a legalização do aborto, com garantia de atendimento na rede pública de saúde.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf",
+    "fonte_nome": "Plano de governo Edmilson Costa (PCB)"
+   },
+   {
+    "topico": "favor_drogas",
+    "texto": "O plano de governo defende a descriminalização do uso de drogas, a legalização da maconha a curto prazo e o fim da política de guerra às drogas.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf",
+    "fonte_nome": "Plano de governo Edmilson Costa (PCB)"
+   },
+   {
+    "topico": "contra_penas_duras",
+    "texto": "O plano de governo se posiciona contra a redução da maioridade penal e propõe medidas contra o encarceramento em massa.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Edmilson_Costa_PCB_2026.pdf",
+    "fonte_nome": "Plano de governo Edmilson Costa (PCB)"
+   }
+  ],
+  "280002541457": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O plano de governo defende aborto legal, seguro e gratuito pelo SUS.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf",
+    "fonte_nome": "Plano de governo Hertz Dias (PSTU)"
+   },
+   {
+    "topico": "favor_drogas",
+    "texto": "O plano de governo defende a descriminalização das drogas e a revogação da Lei Antidrogas, com prevenção, tratamento e redução de danos.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf",
+    "fonte_nome": "Plano de governo Hertz Dias (PSTU)"
+   },
+   {
+    "topico": "contra_penas_duras",
+    "texto": "O plano de governo se declara contra a redução da maioridade penal e defende desencarceramento em massa.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/08/Plano_gov_Hertz_Dias_PSTU_2026.pdf",
+    "fonte_nome": "Plano de governo Hertz Dias (PSTU)"
+   }
+  ],
+  "250002551501": [
+   {
+    "topico": "contra_penas_duras",
+    "texto": "Marina Silva se posiciona contra a redução da maioridade penal, segundo levantamento do Terra com candidatos ao Senado por SP.",
+    "fonte": "https://www.terra.com.br/noticias/eleicoes/sao-paulo/o-que-pensam-os-candidatos-ao-senado-por-sp-confira-seus-posicionamentos-sobre-stf-prioridades-de-campanha-e-mais,b0f6bc89b396db30ad838ef102d4ca8fnt5cpjfs.html",
+    "fonte_nome": "Terra"
+   }
+  ]
+ },
+ "partidos": {
+  "PSTU": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O programa socialista do partido defende o aborto livre, público e gratuito, em defesa da mulher trabalhadora.",
+    "fonte": "https://www.pstu.org.br/16-pontos-de-um-programa-socialista-para-o-brasil-contra-a-crise-capitalista/",
+    "fonte_nome": "PSTU - 16 pontos de um programa socialista"
+   },
+   {
+    "topico": "favor_drogas",
+    "texto": "O programa do partido defende a descriminalização das drogas, com controle estatal da produção e distribuição e tratamento da dependência como questão de saúde.",
+    "fonte": "https://www.pstu.org.br/16-pontos-de-um-programa-socialista-para-o-brasil-contra-a-crise-capitalista/",
+    "fonte_nome": "PSTU - 16 pontos de um programa socialista"
+   }
+  ],
+  "PT": [
+   {
+    "topico": "favor_drogas",
+    "texto": "As resoluções do Encontro Nacional de Direitos Humanos do PT propõem cessar a guerra às drogas, com regulação, descriminalização, redução de danos, educação e saúde.",
+    "fonte": "https://web.archive.org/web/20221020030701/https://pt.org.br/blog-secretarias/resolucoes-do-encontro-nacional-de-direitos-humanos-do-pt/",
+    "fonte_nome": "PT, Resoluções do Encontro Nacional de Direitos Humanos (2021)"
+   },
+   {
+    "topico": "contra_penas_duras",
+    "texto": "As resoluções do Encontro Nacional de Direitos Humanos do PT propõem reverter o encarceramento em massa, começando por desencarcerar presos provisórios.",
+    "fonte": "https://web.archive.org/web/20221020030701/https://pt.org.br/blog-secretarias/resolucoes-do-encontro-nacional-de-direitos-humanos-do-pt/",
+    "fonte_nome": "PT, Resoluções do Encontro Nacional de Direitos Humanos (2021)"
+   }
+  ],
+  "PV": [
+   {
+    "topico": "favor_drogas",
+    "texto": "O Partido Verde afirma em comunicado oficial que seu programa partidário propõe a legalização do consumo da maconha para reduzir o narcotráfico e o crime organizado.",
+    "fonte": "https://web.archive.org/web/2024/https://pv.org.br/pv-da-o-primeiro-passo-para-a-legalizacao-da-maconha-no-brasil/",
+    "fonte_nome": "PV - site oficial (cópia arquivada)"
+   }
+  ],
+  "PCO": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O PCO defende a legalização do aborto realizado pela rede pública de saúde, como direito democrático das mulheres.",
+    "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+    "fonte_nome": "PCO - Textos políticos e sociais"
+   },
+   {
+    "topico": "favor_drogas",
+    "texto": "O PCO defende a legalização de todas as drogas, por considerar a proibição uma imposição autoritária do Estado e a guerra às drogas um reforço da repressão.",
+    "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+    "fonte_nome": "PCO - Textos políticos e sociais"
+   },
+   {
+    "topico": "contra_pena_de_morte",
+    "texto": "O PCO se posiciona contra a pena de morte, afirmando que um regime burguês jamais deveria ter autorização para matar.",
+    "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+    "fonte_nome": "PCO - Textos políticos e sociais"
+   },
+   {
+    "topico": "contra_penas_duras",
+    "texto": "O PCO se posiciona absolutamente contra o aumento da maioridade penal e contra qualquer tipo de endurecimento penal, além de ser contra a prisão perpétua.",
+    "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+    "fonte_nome": "PCO - Textos políticos e sociais"
+   }
+  ],
+  "PSOL": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O programa do partido defende a legalização do aborto assegurado pelo SUS, no âmbito dos direitos sexuais e reprodutivos das mulheres.",
+    "fonte": "https://psol50.org.br/partido/programa/",
+    "fonte_nome": "Programa do PSOL"
+   }
+  ],
+  "UP": [
+   {
+    "topico": "favor_aborto",
+    "texto": "O programa do partido defende a descriminalização e a legalização do aborto.",
+    "fonte": "https://unidadepopular.org.br/api/media/file/Res_Politica_UP-2.pdf",
+    "fonte_nome": "Resolução Política / Programa da UP"
+   }
+  ]
+ }
+}

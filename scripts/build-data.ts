@@ -3,8 +3,9 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { z } from "zod";
-import { normalizar, ordenarDireitaParaEsquerda, temAlerta } from "../src/lib/candidatos";
-import type { Candidato, CargoSlug, Motivo, Partido, Resumo, VotacaoResumo } from "../src/lib/tipos";
+import { normalizar, ordenarDireitaParaEsquerda, temAlerta, temIndicio, temVerde } from "../src/lib/candidatos";
+import type { Candidato, CargoSlug, Indicio, Motivo, Verde, Partido, Resumo, VotacaoResumo } from "../src/lib/tipos";
+import { CARGOS } from "../src/lib/cargos";
 import { VOTACOES_CAMARA, urlProposicao } from "./votacoes-camara";
 
 const raiz = resolve(import.meta.dirname, "..");
@@ -29,6 +30,7 @@ const TseDetalhes = z.record(
 );
 
 const TIPOS = ["beneficio_proprio", "imposto", "corrupcao", "justica"] as const;
+const TOPICOS_CONTRA = ["favor_aborto", "favor_drogas", "contra_pena_de_morte", "contra_penas_duras"] as const;
 
 const MotivoPesquisa = z.object({
   tipo: z.enum(TIPOS),
@@ -88,6 +90,58 @@ const Partidos = z.object({
   ),
 });
 
+const Elosys = z.object({
+  geradoEm: z.string(),
+  estreantes: z.array(z.number()),
+  trajetoria: z.record(
+    z.string(),
+    z.object({ desde: z.number(), eleicoes: z.number(), eleito: z.number(), cargosEleito: z.array(z.string()) }),
+  ),
+  candidatos: z.record(
+    z.string(),
+    z.object({
+      indicios: z.array(
+        z.object({
+          tipo: z.enum(["despesa_desproporcional", "doacao_circular", "socio_fornecedor"]),
+          severidade: z.enum(["low", "medium", "high"]),
+          texto: z.string().min(40),
+          fonte: z.string().url(),
+          fonteNome: z.string().min(2),
+        }),
+      ),
+      sancoes: z.array(z.object({ texto: z.string().min(40), status: z.string(), fonte: z.string().url(), fonteNome: z.string() })),
+    }),
+  ),
+});
+
+const TOPICOS_VERDES = ["pena_de_morte", "penas_mais_duras", "infraestrutura", "seguranca", "contra_aborto", "contra_drogas", "contra_saidinha"] as const;
+const PRIVILEGIOS = "contra_privilegios" as const;
+const PosicaoVerde = z.object({
+  topico: z.enum(TOPICOS_VERDES),
+  /** Padrão "candidato"; use "voto" quando a posição é um voto dado. */
+  origem: z.enum(["candidato", "voto"]).optional(),
+  texto: z.string().min(20),
+  fonte: z.string().url(),
+  fonte_nome: z.string().min(2),
+});
+const Posicoes = z.object({
+  /** Posição de cada candidato (id do TSE), tirada de plano de governo, projeto ou fala dele. */
+  candidatos: z.record(z.string(), z.array(PosicaoVerde)),
+  /** Posição oficial de cada partido (sigla), vale para os candidatos que não têm posição própria no assunto. */
+  partidos: z.record(z.string(), z.array(PosicaoVerde)),
+});
+
+const PosicaoContra = z.object({
+  topico: z.enum(TOPICOS_CONTRA),
+  texto: z.string().min(20),
+  fonte: z.string().url(),
+  fonte_nome: z.string().min(2),
+});
+const PosicoesContra = z.object({
+  candidatos: z.record(z.string(), z.array(PosicaoContra)),
+  partidos: z.record(z.string(), z.array(PosicaoContra)),
+});
+
 const VotosCamara = z.object({
   deputados: z.record(z.string(), z.object({ nome: z.string(), nomeCivil: z.string(), partido: z.string() })),
   votos: z.record(z.string(), z.record(z.string(), z.string())),
@@ -106,6 +160,21 @@ const spMajoritarios = z
 const alertasFederal = AlertasProporcionais.parse(ler("data/research/deputado-federal.json"));
 const alertasEstadual = AlertasProporcionais.parse(ler("data/research/deputado-estadual.json"));
 const alesp = VotosAlesp.parse(ler("data/research/alesp-votos.json"));
+const Parentesco = z.object({
+  pares: z.array(
+    z.object({
+      pai: z.number(),
+      filho: z.number(),
+      relacao: z.enum(["pai", "mãe"]),
+      fonte: z.string().url(),
+      fonte_nome: z.string().min(2),
+    }),
+  ),
+});
+const parentesco = Parentesco.parse(ler("data/research/parentesco.json"));
+const posicoesContra = PosicoesContra.parse(ler("data/research/posicoes-contra.json"));
+const posicoes = Posicoes.parse(ler("data/research/posicoes.json"));
+const elosys = Elosys.parse(ler("data/research/elosys.json"));
 // Deputados federais cujo nome civil na Câmara difere do registrado no TSE:
 // id na Câmara → id da candidatura no TSE.
 const apelidosCamara = z.record(z.string(), z.number()).parse(ler("data/camara-para-tse.json"));
@@ -145,6 +214,9 @@ for (const c of todos) {
   porNomeCompleto.set(chave, [...(porNomeCompleto.get(chave) ?? []), c]);
 }
 const naoCandidatos: string[] = [];
+// Quem votou "Não" nas votações de privilégio (aumento do próprio salário, blindagem...) e nunca "Sim".
+const votouContra = new Map<number, { texto: string; fonte: string; fonteNome: string }[]>();
+const votouAFavor = new Set<number>();
 for (const [idCamara, deputado] of Object.entries(camara.deputados)) {
   const alvo = apelidosCamara[idCamara]
     ? todos.filter((c) => c.id === apelidosCamara[idCamara])
@@ -152,6 +224,23 @@ for (const [idCamara, deputado] of Object.entries(camara.deputados)) {
   if (alvo.length === 0) {
     naoCandidatos.push(deputado.nome);
     continue;
+  }
+  for (const candidato of alvo) {
+    for (const votacao of VOTACOES_CAMARA.filter((v) => v.tipo === "beneficio_proprio")) {
+      const voto = camara.votos[votacao.chave]?.[idCamara];
+      if (voto === votacao.votoAlerta) votouAFavor.add(candidato.id);
+      else if (voto === "Não") {
+        if (!votacao.texto.startsWith("Votou a favor")) throw new Error(`${votacao.chave}: texto não começa com "Votou a favor"`);
+        votouContra.set(candidato.id, [
+          ...(votouContra.get(candidato.id) ?? []),
+          {
+            texto: votacao.texto.replace(/^Votou a favor (da|do|de) /, (_, art: string) => `Votou contra ${art === "da" ? "a " : art === "do" ? "o " : ""}`),
+            fonte: urlProposicao(votacao.idProposicao),
+            fonteNome: `Câmara dos Deputados, votação nominal do ${votacao.projeto}`,
+          },
+        ]);
+      }
+    }
   }
   for (const votacao of VOTACOES_CAMARA) {
     if (camara.votos[votacao.chave]?.[idCamara] !== votacao.votoAlerta) continue;
@@ -204,6 +293,78 @@ for (const [slug, cargo] of Object.entries(CARGOS_TSE)) {
       fonteNome: `TSE, DivulgaCand (${slug})`,
     });
   }
+}
+
+// 5. Sanções federais (CEIS/CNEP, via EloSys): dado oficial, entra em vermelho
+for (const [id, item] of Object.entries(elosys.candidatos)) {
+  if (!idsValidos.has(Number(id))) continue;
+  for (const s of item.sancoes) {
+    acrescentar(Number(id), { tipo: "justica", texto: s.texto, status: s.status, fonte: s.fonte, fonteNome: s.fonteNome });
+  }
+}
+const estreantes = new Set(elosys.estreantes);
+const indiciosPorId = new Map<number, Indicio[]>(
+  Object.entries(elosys.candidatos)
+    .filter(([, v]) => v.indicios.length > 0)
+    .map(([id, v]) => [Number(id), v.indicios]),
+);
+
+const deVerde = (origem: Verde["origem"]) => (p: z.infer<typeof PosicaoVerde>): Verde => ({
+  topico: p.topico,
+  origem: p.origem ?? origem,
+  texto: p.texto,
+  fonte: p.fonte,
+  fonteNome: p.fonte_nome,
+});
+for (const id of Object.keys(posicoes.candidatos)) {
+  if (!idsValidos.has(Number(id))) throw new Error(`Posições: id ${id} não é candidato`);
+}
+/** Cada posição contrária anula o selo verde do assunto oposto, e vice-versa. */
+const OPOSTOS: Record<(typeof TOPICOS_CONTRA)[number], string[]> = {
+  favor_aborto: ["contra_aborto"],
+  favor_drogas: ["contra_drogas"],
+  contra_pena_de_morte: ["pena_de_morte"],
+  contra_penas_duras: ["penas_mais_duras", "contra_saidinha"],
+};
+const contraDe = (verde: string) => TOPICOS_CONTRA.find((t) => OPOSTOS[t].includes(verde));
+
+/** Vermelho por posição contrária: a própria vale mais; a do partido só entra se a pessoa não disse o contrário. */
+function contrasDe(id: number, partido: string): Motivo[] {
+  const proprias = posicoesContra.candidatos[String(id)] ?? [];
+  const verdesProprios = new Set((posicoes.candidatos[String(id)] ?? []).map((v) => v.topico));
+  const temos = new Set(proprias.map((p) => p.topico));
+  const doPartido = (posicoesContra.partidos[partido] ?? []).filter(
+    (p) => !temos.has(p.topico) && !OPOSTOS[p.topico].some((v) => verdesProprios.has(v as never)),
+  );
+  const motivo = (status: string) => (p: z.infer<typeof PosicaoContra>): Motivo => ({
+    tipo: "posicao",
+    texto: p.texto,
+    status,
+    fonte: p.fonte,
+    fonteNome: p.fonte_nome,
+  });
+  return [...proprias.map(motivo("posição própria")), ...doPartido.map(motivo("posição do partido"))];
+}
+
+/** Posição própria vale mais que a do partido: o partido só entra nos assuntos em que o candidato não tem nada. */
+function verdesDe(id: number, partido: string): Verde[] {
+  const proprios = (posicoes.candidatos[String(id)] ?? []).map(deVerde("candidato"));
+  const contra = votouContra.get(id);
+  if (contra && !votouAFavor.has(id)) {
+    proprios.push({
+      topico: PRIVILEGIOS,
+      origem: "voto",
+      texto: `${contra.map((c) => c.texto).join(" ")} Nunca votou a favor de nenhuma das votações de privilégio que contamos.`,
+      fonte: contra[0].fonte,
+      fonteNome: contra[0].fonteNome,
+    });
+  }
+  const temos = new Set(proprios.map((v) => v.topico));
+  const contrariados = new Set((posicoesContra.candidatos[String(id)] ?? []).map((c) => c.topico));
+  const doPartido = (posicoes.partidos[partido] ?? [])
+    .filter((p) => !temos.has(p.topico) && !(contraDe(p.topico) && contrariados.has(contraDe(p.topico)!)))
+    .map(deVerde("partido"));
+  return [...proprios, ...doPartido];
 }
 
 // ---------- montagem por cargo ----------
@@ -259,7 +420,11 @@ function montar(slug: CargoSlug): Candidato[] {
         origemNota: analise ? "analise" : "partido",
         situacao: c.situacao,
         naUrna,
-        motivos: motivosPorId.get(c.id) ?? [],
+        motivos: [...(motivosPorId.get(c.id) ?? []), ...contrasDe(c.id, c.partido)],
+        ...(indiciosPorId.has(c.id) ? { indicios: indiciosPorId.get(c.id) } : {}),
+        ...(estreantes.has(c.id) ? { estreante: true } : {}),
+        ...(elosys.trajetoria[String(c.id)] ? { trajetoria: elosys.trajetoria[String(c.id)] } : {}),
+        ...(verdesDe(c.id, c.partido).length > 0 ? { verdes: verdesDe(c.id, c.partido) } : {}),
         ...(vice ? { vice: vice.nomeUrna } : {}),
         ...(vice && motivosVice.length > 0 ? { motivosVice } : {}),
         ...(analise
@@ -279,6 +444,29 @@ function montar(slug: CargoSlug): Candidato[] {
 
 const slugs = Object.keys(CARGOS_TSE) as CargoSlug[];
 const cargos = slugs.map((slug) => ({ slug, candidatos: montar(slug) }));
+
+// Pai ou mãe de candidato em vermelho ou amarelo fica amarelo. Só conta o alerta próprio do filho:
+// o amarelo de parentesco não passa de geração em geração.
+const porId = new Map(cargos.flatMap((c) => c.candidatos.map((x) => [x.id, { candidato: x, cargo: c.slug }] as const)));
+const alertaProprio = new Set([...porId.values()].filter(({ candidato }) => temAlerta(candidato) || temIndicio(candidato)).map(({ candidato }) => candidato.id));
+for (const par of parentesco.pares) {
+  const pai = porId.get(par.pai);
+  const filho = porId.get(par.filho);
+  if (!pai || !filho) throw new Error(`Parentesco: id ${par.pai} ou ${par.filho} não é candidato`);
+  if (!alertaProprio.has(par.filho)) continue;
+  const cor = temAlerta(filho.candidato) ? "vermelho" : "amarelo";
+  const cargoFilho = CARGOS.find((c) => c.slug === filho.cargo)?.tituloCurto.toLowerCase();
+  (pai.candidato.indicios ??= []).push({
+    tipo: "parentesco",
+    severidade: "low",
+    texto:
+      `${par.relacao === "mãe" ? "É mãe" : "É pai"} de ${filho.candidato.nome} (nº ${filho.candidato.numero}, ${filho.candidato.partido}), ` +
+      `também candidato(a) a ${cargoFilho}, que aparece em ${cor} neste site. O parentesco, por si só, não diz nada sobre ` +
+      `este candidato; fica como aviso para quem quer olhar a família toda.`,
+    fonte: par.fonte,
+    fonteNome: par.fonte_nome,
+  });
+}
 
 for (const cargo of cargos) {
   writeFileSync(resolve(raiz, `src/data/${cargo.slug}.json`), JSON.stringify(cargo) + "\n");
@@ -321,7 +509,13 @@ const resumo: Resumo = {
   geradoEm: new Date().toISOString().slice(0, 10),
   cargos: cargos.map((c) => {
     const naUrna = c.candidatos.filter((x) => x.naUrna);
-    return { slug: c.slug, total: naUrna.length, comAlerta: naUrna.filter(temAlerta).length };
+    return {
+      slug: c.slug,
+      total: naUrna.length,
+      comAlerta: naUrna.filter(temAlerta).length,
+      soIndicio: naUrna.filter((x) => !temAlerta(x) && temIndicio(x)).length,
+      comVerde: naUrna.filter(temVerde).length,
+    };
   }),
   pesquisados: {
     "deputado-federal": alertasFederal.candidatos.length + alertasFederal.verificados_sem_achados.length,
@@ -333,5 +527,5 @@ const resumo: Resumo = {
 };
 writeFileSync(resolve(raiz, "src/data/resumo.json"), JSON.stringify(resumo, null, 1) + "\n");
 
-for (const c of resumo.cargos) console.log(`${c.slug}: ${c.total} na urna, ${c.comAlerta} com alerta`);
+for (const c of resumo.cargos) console.log(`${c.slug}: ${c.total} na urna, ${c.comAlerta} com alerta, ${c.soIndicio} só com indício, ${c.comVerde} com verde`);
 console.log(`Deputados de SP nas votações que não são candidatos: ${naoCandidatos.sort().join(", ")}`);

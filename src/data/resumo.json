@@ -1,30 +1,40 @@
 {
- "geradoEm": "2026-09-30",
+ "geradoEm": "2026-10-04",
  "cargos": [
   {
    "slug": "presidente",
    "total": 13,
-   "comAlerta": 7
+   "comAlerta": 10,
+   "soIndicio": 1,
+   "comVerde": 13
   },
   {
    "slug": "governador",
    "total": 6,
-   "comAlerta": 2
+   "comAlerta": 5,
+   "soIndicio": 0,
+   "comVerde": 5
   },
   {
    "slug": "senador",
    "total": 15,
-   "comAlerta": 4
+   "comAlerta": 10,
+   "soIndicio": 1,
+   "comVerde": 8
   },
   {
    "slug": "deputado-federal",
    "total": 1062,
-   "comAlerta": 89
+   "comAlerta": 179,
+   "soIndicio": 160,
+   "comVerde": 579
   },
   {
    "slug": "deputado-estadual",
    "total": 1350,
-   "comAlerta": 76
+   "comAlerta": 217,
+   "soIndicio": 185,
+   "comVerde": 754
   }
  ],
  "pesquisados": {

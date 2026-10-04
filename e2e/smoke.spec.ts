@@ -3,7 +3,7 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 
-const routes = ["/", "/presidente", "/governador", "/senador", "/deputado-federal", "/deputado-estadual", "/como-funciona"];
+const routes = ["/", "/presidente", "/governador", "/senador", "/deputado-federal", "/deputado-estadual", "/meus-candidatos", "/como-funciona"];
 
 for (const route of routes) {
   test(`smoke ${route}`, async ({ page }, testInfo) => {
@@ -64,4 +64,28 @@ test("do início dá para chegar em cada cargo", async ({ page }) => {
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Governador de São Paulo");
   await page.getByRole("link", { name: /Senador/ }).first().click();
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Senador por São Paulo");
+});
+
+test("favoritar um candidato por cargo aparece em Meus candidatos e sobrevive ao recarregar", async ({ page }) => {
+  await page.goto("/presidente");
+  const botoes = page.getByRole("button", { name: /Favoritar/ });
+  await botoes.nth(0).click();
+  await botoes.nth(0).click(); // o 2º favoritar vira o 1º botão ainda desmarcado
+  await expect(page.getByRole("button", { pressed: true })).toHaveCount(1);
+
+  await page.goto("/governador");
+  await page.getByRole("button", { name: /Favoritar/ }).first().click();
+
+  await page.getByRole("link", { name: /Meus candidatos/ }).first().click();
+  await expect(page.getByText("2 de 6 votos escolhidos, faltam 4.")).toBeVisible();
+  await expect(page.locator('[data-cargo="presidente"][data-escolhido="true"]')).toBeVisible();
+  await expect(page.locator('[data-cargo="senador"][data-completo="false"]')).toBeVisible();
+
+  await page.getByRole("heading", { name: /Senador por São Paulo/ }).getByRole("link").click();
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Senador por São Paulo");
+  await page.goBack();
+
+  await page.reload();
+  await expect(page.getByText("2 de 6 votos escolhidos, faltam 4.")).toBeVisible();
+  await page.screenshot({ path: "e2e/screenshots/meus-candidatos-favoritos.png", fullPage: true });
 });

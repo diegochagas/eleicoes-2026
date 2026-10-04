@@ -6,8 +6,6 @@ import { resumo } from "@/lib/dados";
 const numero = (n: number) => n.toLocaleString("pt-BR");
 
 export default function Inicio() {
-  const naOrdemDaUrna = [...CARGOS].sort((a, b) => a.ordemNaUrna - b.ordemNaUrna);
-
   return (
     <div className="space-y-8">
       <section className="rounded-3xl border-4 border-slate-900 bg-gradient-to-br from-yellow-300 via-orange-300 to-pink-400 p-6 shadow-[6px_6px_0_0_#0f172a] md:p-10">
@@ -39,9 +37,33 @@ export default function Inicio() {
             </h3>
             <p className="mt-1 text-lg">
               O nome fica vermelho quando a pessoa votou para aumentar o próprio salário ou para se proteger, votou por
-              mais impostos, ou tem acusação ou condenação na Justiça. Ao lado você lê o motivo e abre a fonte.
+              mais impostos, tem acusação ou condenação na Justiça, ou defende o contrário de um selo verde (como legalizar
+              o aborto ou as drogas). Ao lado você lê o motivo e abre a fonte.
             </p>
           </div>
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+        <div className="rounded-3xl border-4 border-slate-900 bg-white p-5 shadow-[6px_6px_0_0_#0f172a]">
+          <h3 className="font-display text-2xl font-extrabold">
+            <span className="rounded bg-yellow-200 px-1">🟡 Nome em amarelo</span>
+          </h3>
+          <p className="mt-1 text-lg">
+            O nome fica amarelo quando um programa que cruza dados oficiais de campanha achou algo que merece
+            conferência, como um gasto muito acima do normal. É só um <strong>indício</strong>, não uma acusação, e
+            o motivo aparece escrito ao lado.
+          </p>
+        </div>
+        <div className="rounded-3xl border-4 border-slate-900 bg-white p-5 shadow-[6px_6px_0_0_#0f172a]">
+          <h3 className="font-display text-2xl font-extrabold">
+            <span className="rounded bg-green-200 px-1">🟢 Nome em verde</span>
+          </h3>
+          <p className="mt-1 text-lg">
+            O nome fica verde quando a pessoa tem pelo menos um <strong>selo verde</strong> (uma posição que o dono do
+            site procura, como mais segurança, obras ou ser contra o aborto) e <strong>nenhum</strong> alerta vermelho ou
+            amarelo. Se tiver alerta, o nome continua vermelho ou amarelo e os selos verdes aparecem logo abaixo. A fonte
+            de cada selo está escrita ao lado.
+          </p>
+        </div>
         </div>
         <Regua />
       </section>
@@ -66,7 +88,9 @@ export default function Inicio() {
                   <p className="font-bold text-slate-900">{c.oQueFaz}</p>
                   {r && (
                     <p className="mt-3 inline-block rounded-2xl border-2 border-slate-900 bg-white px-3 py-1 font-bold text-slate-900">
-                      {numero(r.total)} candidatos · <span className="text-red-700">{numero(r.comAlerta)} em vermelho</span>
+                      {numero(r.total)} candidatos · <span className="text-red-700">{numero(r.comAlerta)} em vermelho</span> ·{" "}
+                      <span className="text-yellow-800">{numero(r.soIndicio)} em amarelo</span> ·{" "}
+                      <span className="text-green-800">{numero(r.comVerde)} com selo verde</span>
                     </p>
                   )}
                 </Link>
@@ -81,7 +105,7 @@ export default function Inicio() {
           A ordem na urna
         </h2>
         <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-          {naOrdemDaUrna.map((c) => (
+          {CARGOS.map((c) => (
             <li key={c.slug} className="rounded-2xl border-2 border-slate-900 bg-white p-3">
               <p className="font-display text-xl font-extrabold">
                 {c.ordemNaUrna === 3 ? "3º e 4º" : `${c.ordemNaUrna}º`} <span aria-hidden>{c.emoji}</span>

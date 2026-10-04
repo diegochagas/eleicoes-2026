@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Regua } from "@/components/Regua";
-import { ROTULO_MOTIVO } from "@/lib/candidatos";
+import { ROTULO_INDICIO, ROTULO_MOTIVO, ROTULO_ORIGEM_VERDE, ROTULO_VERDE, TOPICOS_VERDES } from "@/lib/candidatos";
 import { dataPorExtenso, resumo } from "@/lib/dados";
 import { faixaDaNota } from "@/lib/espectro";
 import type { Partido } from "@/lib/tipos";
@@ -154,11 +154,124 @@ export default function ComoFunciona() {
             outras condenações, processos como réu, punições da Justiça Eleitoral ou registro negado por
             inelegibilidade.
           </li>
+          <li>
+            <strong>
+              {ROTULO_MOTIVO.posicao.emoji} {ROTULO_MOTIVO.posicao.rotulo}:
+            </strong>{" "}
+            posição contrária a um dos selos verdes: a favor de legalizar o aborto ou as drogas, contra a pena de morte ou
+            contra penas mais duras e o fim da saidinha. Vale a posição do próprio candidato, com fonte, ou, se ele não
+            disse nada, o programa oficial do partido (a tag mostra qual dos dois). É uma diferença de opinião com o que o
+            dono do site procura, não um problema com a Justiça.
+          </li>
         </ul>
         <p>
           A regra é a mesma para todos os partidos. Cada motivo mostra a <strong>situação</strong> do caso: investigado,
           denunciado, réu, condenado, e também quando o caso foi arquivado, anulado ou terminou em absolvição. Uma
           denúncia não é uma condenação.
+        </p>
+      </Cartao>
+
+      <Cartao id="amarelo" titulo="🟡 Quando o nome fica amarelo">
+        <p>
+          O amarelo vem do{" "}
+          <a className="font-bold text-blue-800 underline" href="https://github.com/YuriRDev/elosys">
+            EloSys
+          </a>
+          , um projeto aberto que cruza dados oficiais do TSE, da Receita Federal e do Portal da Transparência. Ele
+          procura padrões atípicos nas campanhas anteriores de cada pessoa. Um padrão atípico é um <strong>indício</strong>
+          para conferir, não uma acusação: quase sempre existe uma explicação possível, e o texto de cada indício diz qual.
+          Se o nome também tem um motivo vermelho, ele continua vermelho.
+        </p>
+        <ul className="space-y-2">
+          <li>
+            <strong>
+              {ROTULO_INDICIO.despesa_desproporcional.emoji} {ROTULO_INDICIO.despesa_desproporcional.rotulo}:
+            </strong>{" "}
+            despesa de campanha com item barato (caneta, adesivo, envelope) paga com valor muito acima da mediana da
+            categoria. Pode ser lote grande ou erro de digitação.
+          </li>
+          <li>
+            <strong>
+              {ROTULO_INDICIO.doacao_circular.emoji} {ROTULO_INDICIO.doacao_circular.rotulo}:
+            </strong>{" "}
+            doações e despesas entre campanhas que formam um ciclo e voltam ao ponto de partida. Pode ser coligação ou
+            ressarcimento.
+          </li>
+          <li>
+            <strong>
+              {ROTULO_INDICIO.socio_fornecedor.emoji} {ROTULO_INDICIO.socio_fornecedor.rotulo}:
+            </strong>{" "}
+            nome e 6 dígitos de CPF iguais aos de um sócio de empresa paga por campanhas. A identidade não está
+            confirmada.
+          </li>
+          <li>
+            <strong>
+              {ROTULO_INDICIO.parentesco.emoji} {ROTULO_INDICIO.parentesco.rotulo}:
+            </strong>{" "}
+            pai ou mãe de outro candidato que está em vermelho ou amarelo. O parentesco só entra quando uma fonte aberta
+            diz que a pessoa é mesmo filho ou filha, e não passa para avós ou netos. Ele não diz nada sobre a pessoa; é
+            um aviso para quem quer olhar a família toda.
+          </li>
+        </ul>
+        <p>
+          Cada indício mostra a força (fraco, médio ou forte), que mede o tamanho do desvio e não a gravidade de um
+          crime. Já as <strong>sanções federais</strong> (cadastros CEIS e CNEP, do governo federal) são fatos oficiais e
+          deixam o nome vermelho, com a situação da sanção. Os textos dos indícios são escritos aqui, sem citar CPF ou
+          nome de outras pessoas do ciclo.
+        </p>
+      </Cartao>
+
+      <Cartao id="verde" titulo="🟢 Quando aparece o selo verde">
+        <p>
+          O selo verde marca posições que o dono deste site procura. O <strong>nome só fica verde quando não há alerta</strong>:
+          se a pessoa tiver motivo vermelho ou indício amarelo, o nome continua vermelho ou amarelo e os selos verdes
+          aparecem mesmo assim, logo abaixo. Cada selo mostra de onde vem a posição e a fonte.
+        </p>
+        <ul className="space-y-2">
+          {TOPICOS_VERDES.map((t) => (
+            <li key={t}>
+              <strong>
+                {ROTULO_VERDE[t].emoji} {ROTULO_VERDE[t].rotulo}
+              </strong>
+            </li>
+          ))}
+        </ul>
+        <p>Há três origens, e a mais próxima do candidato vale mais:</p>
+        <ul className="list-disc space-y-1 pl-6">
+          <li>
+            <strong>{ROTULO_ORIGEM_VERDE.candidato}:</strong> plano de governo, projeto de lei de autoria dele ou fala dele
+            em reportagem que abrimos. Para presidente, governador e senador, e para quem é autor de projeto na Câmara.
+          </li>
+          <li>
+            <strong>{ROTULO_ORIGEM_VERDE.voto}:</strong> usado no selo “contra a saidinha” (relator do projeto que acabou com a saidinha) e no selo “votou contra privilégios”. Entra quem votou “não”
+            em alguma das votações de aumento do próprio salário, anistia a partidos, mais deputados ou “PEC da
+            Blindagem” e nunca votou “sim” em nenhuma delas.
+          </li>
+          <li>
+            <strong>{ROTULO_ORIGEM_VERDE.partido}:</strong> vale para todos os candidatos do partido, mesmo que a pessoa
+            pense diferente, e só quando o programa ou o estatuto do partido diz isso por escrito. Se o partido não diz,
+            não há selo. Alguns documentos de partido não puderam ser lidos (o site do TSE bloqueia a leitura
+            automática), e isso não quer dizer que o partido pense o contrário.
+          </li>
+        </ul>
+        <p>
+          Sem selo verde não quer dizer que a pessoa pense diferente: quer dizer só que não achamos uma fonte que diga
+          isso. O site não procurou a opinião de cada candidato a deputado.
+        </p>
+      </Cartao>
+
+      <Cartao id="estreante" titulo="🌱 Primeira candidatura e 🕰️ tempo de política">
+        <p>
+          O selo “Primeira candidatura (nos dados do TSE)” aparece para quem não tem nenhuma candidatura registrada de 2014 a 2024 na base
+          do EloSys, que reúne os dados do TSE. Não é garantia: quem concorreu só antes de 2014, ou teve a candidatura
+          ligada a outro cadastro, pode aparecer como estreante sem ser. Candidatos sem registro na base não ganham o
+          selo.
+        </p>
+        <p>
+          Quem já foi candidato ganha o selo “Candidato(a) desde…”, com quantas eleições disputou e em quantas foi eleito
+          (suplente não conta como eleito). A base começa em 2014, então “2014 ou antes” quer dizer que a pessoa já
+          concorria naquele ano e pode estar na política há mais tempo. O mesmo vale para quem aparece com um ano mais recente: o cadastro do TSE nem sempre liga uma candidatura antiga à mesma pessoa (por exemplo, um(a) vereador(a) de 2016 pode não aparecer). Cargos fora de candidaturas, como cargo de
+          confiança, secretaria ou assessoria, não entram.
         </p>
       </Cartao>
 

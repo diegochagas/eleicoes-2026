@@ -38,7 +38,7 @@ export default async function PaginaCargo({ params }: PageProps<"/[cargo]">) {
 
       <Regua />
 
-      <ListaCandidatos candidatos={candidatos} comFiltros={candidatos.length > 40} />
+      <ListaCandidatos cargo={info.slug} candidatos={candidatos} comFiltros={candidatos.length > 40} />
     </div>
   );
 }
